@@ -1,0 +1,102 @@
+.hero-login-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:2em;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    z-index:100;
+}
+.hero-shadow{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(74, 72, 68, 0.59)
+}
+.hero-login-title{
+    text-align: left;
+    font-size: 20px;
+    color:#ffffff;
+    margin:0!important;
+}
+.small-hero-info{
+    text-align: left;
+    font-size: 14px;
+    color:#ffffff;
+    margin-top:2rem;
+}
+
+.authForm__label{
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
+     font-family: 'Futura' !important;
+     position: absolute;
+     width:49%;
+     height: 100%;
+     left:0;
+     margin:0;
+     border-radius: 5px;
+     overflow: hidden;
+
+
+}
+.authForm__label > img{
+      width:100%;
+       height:100%;
+       object-fit: cover
+}
+.authForm__wrapper{
+    position: relative;
+    width:100%;
+    height: 600px;
+    max-width:900px;
+    padding: 0;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: end;
+}
+form{
+    padding: .5px 20px;
+    
+    font-family: "Futura"!important;
+    width:50%!important;
+}
+
+
+.authForm__title{
+    padding:.5em 20px;
+    width:50%!important;
+}
+.authForm__title span, .authForm__title h5{
+    font-size: 24px!important;
+    font-family: "Futura"!important
+}
+.authForm__title span{
+    display:none;
+}
+.authForm .form-group label{
+    font-size: 16px!important;
+    font-family: "Futura"!important
+}
+.authForm__submit{
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: black;
+    letter-spacing: .1rem;
+}
+form .oauth {
+    display:none!important;
+}
+/* .authForm__submit + .authForm__submit{
+    display:none;
+} */

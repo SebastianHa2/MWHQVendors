@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/groups",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 6
+  },
+  "inherited": true,
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "groups"
+  },
+  "tab": "-MAC6IUGynIkjaKi_P-G",
+  "type": "DataGrid"
+}

@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/months",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "months"
+  },
+  "tab": "-NM9Ds45n0ib5MPeVK4Z",
+  "type": "DataGrid"
+}

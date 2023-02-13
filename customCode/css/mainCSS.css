@@ -1,0 +1,45 @@
+.sidenav{
+    left:-2000px!important;
+}
+.showSideNav{
+    left:0!important;
+}
+
+/* .dashboard__wrapper > .appNav {
+    display: none !important;
+} */
+/* #panel{
+    margin: 0!important;
+} */
+.navInSideBarHide{
+    margin:0!important
+}
+.dashboard__wrapper._navInSideBar .dashboard__content{
+    padding: 0!important;
+}
+/* .workspaceWidget__actionsBtn{
+    display:none;
+} */
+  @media print{
+        h1, h5, .top-raport, h2, table, h3, .btn-mwhq {
+    font-family: 'Futura' !important;
+}
+    }
+.card-body, thead,h3 span, .data-grid__controls span{
+    font-size: 20px!important;
+    font-family: "Futura"!important
+}
+.d-flex .btn-success, .d-flex .btn-primary{
+    font-family: "Futura"!important;
+    background-color:black;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+td span{
+    font-family: "Futura"!important;
+    font-size: 18px;
+}
+.vue-grid-item{
+    height: auto!important;
+    margin-bottom: 2em;
+}

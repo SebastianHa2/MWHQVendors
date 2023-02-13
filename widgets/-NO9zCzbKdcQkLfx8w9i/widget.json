@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/reportTemplates",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "reportTemplates"
+  },
+  "subtab": "-NM9Dv67ZIP1tV2qjZZd",
+  "tab": "-NM9Ds45n0ib5MPeVK4Z",
+  "type": "DataGrid"
+}

@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/staticValues",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "staticValues"
+  },
+  "subtab": "-NNg2PDJ262vf7-u4tR7",
+  "tab": "-NM9Ds45n0ib5MPeVK4Z",
+  "type": "DataGrid"
+}

@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/users",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "users"
+  },
+  "tab": "-NO80E31RIEPMxYDTK1m",
+  "type": "DataGrid"
+}

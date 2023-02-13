@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/rentalsInvoices",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "rentalsInvoices"
+  },
+  "tab": "-NLvDkdLBe8rRSYGGnzy",
+  "type": "DataGrid"
+}

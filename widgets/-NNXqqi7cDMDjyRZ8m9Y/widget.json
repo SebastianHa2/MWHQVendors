@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/consolidatedReports",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "consolidatedReports"
+  },
+  "tab": "-NNXqqctoCCs9rgYFzrp",
+  "type": "DataGrid"
+}

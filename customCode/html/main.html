@@ -1,0 +1,14 @@
+<b-button v-if="window.fbUser.email==='nat@mywardrobehq.com' || window.fbUser.email==='sebastian@tangle.io' || window.fbUser.email==='pragmatron@gmail.com'|| window.fbUser.email==='dawidhaczela@gmail.com'|| window.fbUser.email === 'npawlak11@gmail.com'"  class="btn-mwhq nav-show-btn" @click="toggleNav()" variant="dark">Navigation</b-button>
+
+<style>
+    .btn-mwhq {
+        
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        font-family: 'Futura' !important;
+      }
+      .nav-show-btn{
+          top:-60px;
+          left:100px;
+      }
+</style>

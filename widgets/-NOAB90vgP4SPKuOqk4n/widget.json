@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/percentage",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "percentage"
+  },
+  "tab": "-NNgHVmsSPPMRhIijlZ7",
+  "type": "DataGrid"
+}

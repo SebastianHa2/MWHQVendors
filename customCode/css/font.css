@@ -1,0 +1,21 @@
+     @font-face {
+            font-family: 'Futura';
+            src: url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Book.woff2) format('woff2'),
+            url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Book.woff) format('woff'),
+            url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Book.ttf) format('truetype');
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Futura';
+            src: url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Medium.woff2) format('woff2'),
+            url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Medium.woff) format('woff'),
+            url(https://cdn.mywardrobehq.com/static/10856/mwhq/fonts/Futura-Medium.ttf) format('truetype');
+            font-style: normal;
+            font-weight: 500;
+        }
+
+.tCustomComponent * {
+    font-family: 'Futura' !important;
+}

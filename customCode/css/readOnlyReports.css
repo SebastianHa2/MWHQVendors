@@ -1,0 +1,17 @@
+.dataGrid_historicalReports .btn-success {
+    display: none !important;
+}
+.dataGrid_historicalReports .btn-primary {
+    display: none !important;
+}
+.dataGrid_historicalReports .btn-danger {
+    display: none !important;
+}
+
+.dataGrid_historicalReports .custom-checkbox {
+    display: none !important;
+}
+
+.dataGrid_historicalReports .displayColumn {
+    pointer-events: none !important;
+}

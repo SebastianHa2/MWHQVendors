@@ -1,0 +1,92 @@
+{
+  "-NMFiNvOz40owQy3mtqH": {
+    "_id": 1,
+    "createdDate": 1674244099884,
+    "group": "-NMFGJNUxR-aEiwG6jIZ",
+    "lastEditDate": 1674244168068,
+    "lastEditedBy": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "month": "March",
+    "name": "Manimekala",
+    "owner": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "reportPDF": [
+      {
+        "id": "86ceb3a0-98fb-11ed-8a39-1bc5cce21589_Example Vendor PDF Statement.pdf",
+        "name": "Example Vendor PDF Statement.pdf"
+      }
+    ],
+    "rowKey": "-NMFiNvOz40owQy3mtqH",
+    "vendorEmail": "info@manimekala.com",
+    "year": "2023"
+  },
+  "-NMFu4MHzYg6DT8gV85E": {
+    "_id": 2,
+    "createdDate": 1674247165503,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1674247186441,
+    "lastEditedBy": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "name": "dsdsa",
+    "owner": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "rowKey": "-NMFu4MHzYg6DT8gV85E",
+    "vendorEmail": "simran@hush-uk.com"
+  },
+  "-NMS5DhGYgv6l0ZgQqc-": {
+    "_id": 3,
+    "createdDate": 1674451676330,
+    "group": "-NMFGaxTThG1mkAx8ozJ",
+    "lastEditDate": 1674452395704,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "December",
+    "name": "Ariane \"AacaAcaa\"",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reportPDF": [
+      {
+        "id": "4ff7dff0-9ae0-11ed-8b80-57a013bc0b30_AACA AACA.pdf",
+        "name": "AACA AACA.pdf"
+      }
+    ],
+    "rowKey": "-NMS5DhGYgv6l0ZgQqc-",
+    "vendorEmail": "arianeank@gmail.com",
+    "year": "2022"
+  },
+  "-NMS7yPZfVLCr4oD4dwK": {
+    "_id": 4,
+    "createdDate": 1674452396029,
+    "lastEditDate": 1674452491301,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "All We Are",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NMS7yPZfVLCr4oD4dwK"
+  },
+  "-NMSM7xnhkFUUE-r2lyj": {
+    "_id": 5,
+    "createdDate": 1674456109361,
+    "lastEditDate": 1674456109362,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NMSM7xnhkFUUE-r2lyj"
+  },
+  "-NNDGSjleOmdf7My_RoD": {
+    "_id": 6,
+    "createdDate": 1675276704345,
+    "lastEditDate": 1675276704345,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "rowKey": "-NNDGSjleOmdf7My_RoD"
+  },
+  "-NNDHZXcar_LgrTJx8k8": {
+    "_id": 7,
+    "createdDate": 1675276994320,
+    "lastEditDate": 1675276994320,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "rowKey": "-NNDHZXcar_LgrTJx8k8"
+  },
+  "-NNbc3Uu5JTrDrCnrTAe": {
+    "_id": 8,
+    "createdDate": 1675702063559,
+    "lastEditDate": 1675702063559,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NNbc3Uu5JTrDrCnrTAe"
+  }
+}

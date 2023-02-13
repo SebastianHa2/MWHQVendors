@@ -1,0 +1,16 @@
+{
+  "gsOptions": {
+    "h": 20,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "salesInvoices"
+  },
+  "subtab": "-NNXrI6gw4rs6Yr6H3Yf",
+  "tab": "-NNXqqctoCCs9rgYFzrp",
+  "type": "DataGrid"
+}
