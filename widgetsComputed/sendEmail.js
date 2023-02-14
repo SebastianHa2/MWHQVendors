@@ -107,7 +107,7 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         earnSale:item.salesCommissionStructure*100 + "%",
         invoiceNum:1,
         paymentPeriod:"1-31 Dec 2022",
-        email: 'dawidhaczela@gmail.com', // put item.email here for live *** not in quotes, just item.email
+        email: item.email, // put item.email here for live *** not in quotes, just item.email
         total: parseFloat(vendorTotal).toFixed(2),
         month:'December',
         mwRental:mwRental.toFixed(2),

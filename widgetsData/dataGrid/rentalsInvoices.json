@@ -1,6 +1,7 @@
 {
   "displayColumn": "name",
   "isReactive": true,
+  "itemsPerPage": 50,
   "meta": {
     "acc": {
       "displayName": "acc",
@@ -14,6 +15,7 @@
     },
     "brand": {
       "displayName": "brand",
+      "invisible": true,
       "order": 10,
       "type": "string"
     },
@@ -29,12 +31,12 @@
     },
     "colour": {
       "displayName": "colour",
+      "invisible": true,
       "order": 13,
       "type": "string"
     },
     "createdDate": {
       "displayName": "Created Date",
-      "invisible": true,
       "order": 3,
       "type": "date"
     },
@@ -135,21 +137,25 @@
     },
     "paymMethod": {
       "displayName": "paymMethod",
+      "invisible": true,
       "order": 26,
       "type": "string"
     },
     "paymStatus": {
       "displayName": "paymStatus",
+      "invisible": true,
       "order": 27,
       "type": "string"
     },
     "paymentID": {
       "displayName": "paymentID",
+      "invisible": true,
       "order": 28,
       "type": "string"
     },
     "pointofSale": {
       "displayName": "pointofSale",
+      "invisible": true,
       "order": 29,
       "type": "string"
     },
@@ -246,11 +252,13 @@
     },
     "transactionDate": {
       "displayName": "transactionDate",
+      "invisible": true,
       "order": 47,
       "type": "number"
     },
     "transactionID": {
       "displayName": "transactionID",
+      "invisible": true,
       "order": 48,
       "type": "number"
     },
@@ -576,7 +584,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1236,7 +1244,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2116,7 +2124,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",

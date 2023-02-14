@@ -818,6 +818,14 @@
     "savePath": "widgets/-NOAB90vgP4SPKuOqk4n"
   },
   {
+    "filePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/widget.json",
+    "savePath": "widgets/-NOF4_dOJ5dDwtDln6Cr"
+  },
+  {
+    "filePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/template.html",
+    "savePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/template"
+  },
+  {
     "filePath": "widgetsComputed/addGroups.js",
     "savePath": "widgetsComputed/addGroups"
   },
@@ -828,6 +836,10 @@
   {
     "filePath": "widgetsComputed/backToReport.js",
     "savePath": "widgetsComputed/backToReport"
+  },
+  {
+    "filePath": "widgetsComputed/createNames.js",
+    "savePath": "widgetsComputed/createNames"
   },
   {
     "filePath": "widgetsComputed/dataForVendorsEmail.js",
