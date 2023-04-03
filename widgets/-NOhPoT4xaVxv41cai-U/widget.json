@@ -1,0 +1,20 @@
+{
+  "autoHeight": true,
+  "container": "-NOhPM3RWB_x9ObnXaf2",
+  "containerTabs": [
+    {
+      "key": "-NOhPoT5Fp4Max_wKH3c",
+      "title": "Page Name"
+    }
+  ],
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto;",
+  "tab": "-NLvDXkKXu-iz360AhQp",
+  "type": "container"
+}

@@ -235,9 +235,12 @@ th, td {
   </body>
 </html>`);
 
+setTimeout(() => {
 WinPrint.document.close();
 WinPrint.focus();
 WinPrint.print();
+ 
+}, "3000")
 //WinPrint.close();
 }
 

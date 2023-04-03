@@ -26,7 +26,7 @@
 }
     }
 .card-body, thead,h3 span, .data-grid__controls span{
-    font-size: 20px!important;
+    font-size: 18px!important;
     font-family: "Futura"!important
 }
 .d-flex .btn-success, .d-flex .btn-primary{
@@ -39,6 +39,9 @@ td span{
     font-family: "Futura"!important;
     font-size: 18px;
 }
+
+
+
 .vue-grid-item{
     height: auto!important;
     margin-bottom: 2em;

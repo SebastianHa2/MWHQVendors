@@ -342,9 +342,10 @@
     }
   ],
   "earnigRental": -60,
-  "email": "maryam@daskafashion.com",
-  "month": "December",
+  "email": "hetal.dave@insidejigsaw.com",
+  "month": "January",
   "navIsOn": true,
+  "paymentPeriod": "1-31 Dec 2022",
   "perrent": 60,
   "refresh": true,
   "showNav": true,

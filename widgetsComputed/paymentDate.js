@@ -1,4 +1,5 @@
-return function(month){
+return function(email){
+    month=this.recInv(email)
 let date = $getGrid('staticValues')
 let paymentDate
 date.filter(item => {

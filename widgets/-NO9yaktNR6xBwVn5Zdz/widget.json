@@ -1,10 +1,10 @@
 {
   "dependency": "dataGrid/vendors",
   "gsOptions": {
-    "h": 4,
+    "h": 44,
     "w": 24,
     "x": 0,
-    "y": 0
+    "y": 6
   },
   "layout": "b-card",
   "overflow": "height: auto",

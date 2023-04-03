@@ -1,0 +1,93 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NOR8LozTjjTsR2Hi9y_",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1676583597926",
+        "x": 865.7142857142858,
+        "y": 749.0178571428572,
+        "width": 191,
+        "height": 64,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1676583599413",
+        "x": 1312.857142857143,
+        "y": 800.4464285714287,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1676583648473",
+        "x": 1815.7142857142858,
+        "y": 789.0178571428572,
+        "width": 190,
+        "height": 64,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1676583597926-right",
+        "target": "node1676583599413",
+        "endSocket": "left",
+        "id": "line-1676629808512",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1676583599413-right",
+        "target": "node1676583648473",
+        "endSocket": "left",
+        "id": "line-1676629814599",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 220.73420354696077,
+      "y": 377.611131106141,
+      "scale": 0.22530501159857796
+    }
+  },
+  "name": "sendReportHistorical"
+}

@@ -1,13 +1,5 @@
 [
   {
-    "filePath": "components/u-getWidget/index.json",
-    "savePath": "components/-NNLwqQC0lK3aKIAi8Lj"
-  },
-  {
-    "filePath": "components/u-getWidget/compoenentCode.vue",
-    "savePath": "components/-NNLwqQC0lK3aKIAi8Lj/code"
-  },
-  {
     "filePath": "customCode/css/hideTable.css",
     "savePath": "customCode/css/-NMA3JGAAiGxFcnRb1Vk/code",
     "customCodeName": "hideTable",
@@ -84,6 +76,11 @@
     }
   },
   {
+    "filePath": "customCode/html/copyReportForVendors.html",
+    "savePath": "customCode/html/-NOsNfTMz34nvuwRGI46/code",
+    "customCodeName": "copyReportForVendors"
+  },
+  {
     "filePath": "customCode/js/pageLoad.js",
     "savePath": "customCode/js/-NLvL_w1uGU-XjCWjzUO/code",
     "customCodeName": "pageLoad",
@@ -136,96 +133,6 @@
     "customCodeLifecycle": "beforeMount"
   },
   {
-    "filePath": "tables/calculatedFieldRules.json",
-    "savePath": "models/calculatedFieldRules",
-    "isModel": true,
-    "modelKey": "calculatedFieldRules"
-  },
-  {
-    "filePath": "tables/coreSettings.json",
-    "savePath": "models/coreSettings",
-    "isModel": true,
-    "modelKey": "coreSettings"
-  },
-  {
-    "filePath": "tables/extensions.json",
-    "savePath": "models/extensions",
-    "isModel": true,
-    "modelKey": "extensions"
-  },
-  {
-    "filePath": "tables/groups.json",
-    "savePath": "models/groups",
-    "isModel": true,
-    "modelKey": "groups"
-  },
-  {
-    "filePath": "tables/historicalReports.json",
-    "savePath": "models/historicalReports",
-    "isModel": true,
-    "modelKey": "historicalReports"
-  },
-  {
-    "filePath": "tables/months.json",
-    "savePath": "models/months",
-    "isModel": true,
-    "modelKey": "months"
-  },
-  {
-    "filePath": "tables/pages.json",
-    "savePath": "models/pages",
-    "isModel": true,
-    "modelKey": "pages"
-  },
-  {
-    "filePath": "tables/percentage.json",
-    "savePath": "models/percentage",
-    "isModel": true,
-    "modelKey": "percentage"
-  },
-  {
-    "filePath": "tables/rentalsInvoices.json",
-    "savePath": "models/rentalsInvoices",
-    "isModel": true,
-    "modelKey": "rentalsInvoices"
-  },
-  {
-    "filePath": "tables/reportTemplates.json",
-    "savePath": "models/reportTemplates",
-    "isModel": true,
-    "modelKey": "reportTemplates"
-  },
-  {
-    "filePath": "tables/roles.json",
-    "savePath": "models/roles",
-    "isModel": true,
-    "modelKey": "roles"
-  },
-  {
-    "filePath": "tables/salesInvoices.json",
-    "savePath": "models/salesInvoices",
-    "isModel": true,
-    "modelKey": "salesInvoices"
-  },
-  {
-    "filePath": "tables/staticValues.json",
-    "savePath": "models/staticValues",
-    "isModel": true,
-    "modelKey": "staticValues"
-  },
-  {
-    "filePath": "tables/vendors.json",
-    "savePath": "models/vendors",
-    "isModel": true,
-    "modelKey": "vendors"
-  },
-  {
-    "filePath": "tables/workflows.json",
-    "savePath": "models/workflows",
-    "isModel": true,
-    "modelKey": "workflows"
-  },
-  {
     "filePath": "settings.json",
     "savePath": "settings"
   },
@@ -246,12 +153,32 @@
     "savePath": "subTabs/-NM9Ds45n0ib5MPeVK4Z/-NNg2Z7QWIaeG0e0enXD"
   },
   {
+    "filePath": "subPages/-NM9Ds45n0ib5MPeVK4Z/-NNgHVmsSPPMRhIijlZ7.json",
+    "savePath": "subTabs/-NM9Ds45n0ib5MPeVK4Z/-NNgHVmsSPPMRhIijlZ7"
+  },
+  {
+    "filePath": "subPages/-NM9Ds45n0ib5MPeVK4Z/-NOUOm0yLbh_W9RdZDOx.json",
+    "savePath": "subTabs/-NM9Ds45n0ib5MPeVK4Z/-NOUOm0yLbh_W9RdZDOx"
+  },
+  {
+    "filePath": "subPages/-NM9Ds45n0ib5MPeVK4Z/-NOeEpHdpyPncdwvUoEe.json",
+    "savePath": "subTabs/-NM9Ds45n0ib5MPeVK4Z/-NOeEpHdpyPncdwvUoEe"
+  },
+  {
+    "filePath": "subPages/-NM9Ds45n0ib5MPeVK4Z/-NOeXTx08M0m3DGJl_rj.json",
+    "savePath": "subTabs/-NM9Ds45n0ib5MPeVK4Z/-NOeXTx08M0m3DGJl_rj"
+  },
+  {
     "filePath": "subPages/-NNXqqctoCCs9rgYFzrp/-NNXr8mYibBWQ6LsFC0G.json",
     "savePath": "subTabs/-NNXqqctoCCs9rgYFzrp/-NNXr8mYibBWQ6LsFC0G"
   },
   {
     "filePath": "subPages/-NNXqqctoCCs9rgYFzrp/-NNXrI6gw4rs6Yr6H3Yf.json",
     "savePath": "subTabs/-NNXqqctoCCs9rgYFzrp/-NNXrI6gw4rs6Yr6H3Yf"
+  },
+  {
+    "filePath": "subPages/-NNXqqctoCCs9rgYFzrp/-NO81JCKfopvStv14hxw.json",
+    "savePath": "subTabs/-NNXqqctoCCs9rgYFzrp/-NO81JCKfopvStv14hxw"
   },
   {
     "filePath": "pages/-NLvDXkKXu-iz360AhQp.json",
@@ -274,24 +201,12 @@
     "savePath": "tabs/-NM9Ds45n0ib5MPeVK4Z"
   },
   {
-    "filePath": "pages/-NNXqqctoCCs9rgYFzrp.json",
-    "savePath": "tabs/-NNXqqctoCCs9rgYFzrp"
-  },
-  {
     "filePath": "pages/-NNb_xHhnIvh0v1Za58q.json",
     "savePath": "tabs/-NNb_xHhnIvh0v1Za58q"
   },
   {
-    "filePath": "pages/-NNgHVmsSPPMRhIijlZ7.json",
-    "savePath": "tabs/-NNgHVmsSPPMRhIijlZ7"
-  },
-  {
-    "filePath": "pages/-NO80E31RIEPMxYDTK1m.json",
-    "savePath": "tabs/-NO80E31RIEPMxYDTK1m"
-  },
-  {
-    "filePath": "pages/-NO81JCKfopvStv14hxw.json",
-    "savePath": "tabs/-NO81JCKfopvStv14hxw"
+    "filePath": "pages/-NS60w17upzHd4eo8tPF.json",
+    "savePath": "tabs/-NS60w17upzHd4eo8tPF"
   },
   {
     "filePath": "themeSettings.json",
@@ -310,12 +225,20 @@
     "savePath": "userWidgetsData/26BaWqf4E4SvpyBh9SuqkgugKW12"
   },
   {
+    "filePath": "userWidgetsData/2HbUKlvcCOVx2WmdeW8myIjRVjl2.json",
+    "savePath": "userWidgetsData/2HbUKlvcCOVx2WmdeW8myIjRVjl2"
+  },
+  {
     "filePath": "userWidgetsData/2OqC2mcTm5ePfu1YbUmJzHITc2Z2.json",
     "savePath": "userWidgetsData/2OqC2mcTm5ePfu1YbUmJzHITc2Z2"
   },
   {
     "filePath": "userWidgetsData/2TD2ColFeYNDSChFcIERDiSPlZZ2.json",
     "savePath": "userWidgetsData/2TD2ColFeYNDSChFcIERDiSPlZZ2"
+  },
+  {
+    "filePath": "userWidgetsData/3SfyLl9ZBxMsmZAT29irZeGGllQ2.json",
+    "savePath": "userWidgetsData/3SfyLl9ZBxMsmZAT29irZeGGllQ2"
   },
   {
     "filePath": "userWidgetsData/4NYasl858rYOcMI8PLX9uG5SR182.json",
@@ -358,8 +281,20 @@
     "savePath": "userWidgetsData/7cZd89RFpvh50zt9zoQN07o9nB43"
   },
   {
+    "filePath": "userWidgetsData/7gkMxnFUnxMTTlyhY6VByy0UpaV2.json",
+    "savePath": "userWidgetsData/7gkMxnFUnxMTTlyhY6VByy0UpaV2"
+  },
+  {
+    "filePath": "userWidgetsData/7w5FRmb2RAVps5KRn7NXcwYvQEF2.json",
+    "savePath": "userWidgetsData/7w5FRmb2RAVps5KRn7NXcwYvQEF2"
+  },
+  {
     "filePath": "userWidgetsData/8E7NOOa4ZrYmdc6LWEtVzpcQjpf1.json",
     "savePath": "userWidgetsData/8E7NOOa4ZrYmdc6LWEtVzpcQjpf1"
+  },
+  {
+    "filePath": "userWidgetsData/9LuZEnc5moU1dGNC29v6tgrqIhK2.json",
+    "savePath": "userWidgetsData/9LuZEnc5moU1dGNC29v6tgrqIhK2"
   },
   {
     "filePath": "userWidgetsData/9fHdx5VG56eoYWZ6pVwqDWk3mOn2.json",
@@ -402,8 +337,24 @@
     "savePath": "userWidgetsData/DWTRVRmdbSfjsmt4cyG1tKeB8nt1"
   },
   {
+    "filePath": "userWidgetsData/Da3Q3VZaCMUeSKuiyVOFQmFuKUf2.json",
+    "savePath": "userWidgetsData/Da3Q3VZaCMUeSKuiyVOFQmFuKUf2"
+  },
+  {
+    "filePath": "userWidgetsData/DlLAEvXuqXMM3wWpvOlCKSiX7k03.json",
+    "savePath": "userWidgetsData/DlLAEvXuqXMM3wWpvOlCKSiX7k03"
+  },
+  {
     "filePath": "userWidgetsData/EfSICGyhupUReH74sYQRPBA9jIl1.json",
     "savePath": "userWidgetsData/EfSICGyhupUReH74sYQRPBA9jIl1"
+  },
+  {
+    "filePath": "userWidgetsData/EzTQ1eYDU8gFeNQyZ1P2b2ihViw2.json",
+    "savePath": "userWidgetsData/EzTQ1eYDU8gFeNQyZ1P2b2ihViw2"
+  },
+  {
+    "filePath": "userWidgetsData/FAuWc4S9sAT0ZJFJYRdq5vjeZZD3.json",
+    "savePath": "userWidgetsData/FAuWc4S9sAT0ZJFJYRdq5vjeZZD3"
   },
   {
     "filePath": "userWidgetsData/FEq1gxizUgZdtZaa7ktwkQo25V02.json",
@@ -412,6 +363,10 @@
   {
     "filePath": "userWidgetsData/FiMlXaivgnSoKVdMhRWAhr4lKuh1.json",
     "savePath": "userWidgetsData/FiMlXaivgnSoKVdMhRWAhr4lKuh1"
+  },
+  {
+    "filePath": "userWidgetsData/FkVkR1BD4oXGg6czeEGxfdtQxbJ2.json",
+    "savePath": "userWidgetsData/FkVkR1BD4oXGg6czeEGxfdtQxbJ2"
   },
   {
     "filePath": "userWidgetsData/FqMbwPEJw8Nmaqqaby9ShXzxOKH3.json",
@@ -430,20 +385,64 @@
     "savePath": "userWidgetsData/HqplyTwWKedGOHTcS6X5oMz5Zcw1"
   },
   {
+    "filePath": "userWidgetsData/I3kcyKd6vXbI9KSNeNzC3jmM9993.json",
+    "savePath": "userWidgetsData/I3kcyKd6vXbI9KSNeNzC3jmM9993"
+  },
+  {
     "filePath": "userWidgetsData/IExbYiRgRLdw4BMqAJyB9omEhov1.json",
     "savePath": "userWidgetsData/IExbYiRgRLdw4BMqAJyB9omEhov1"
+  },
+  {
+    "filePath": "userWidgetsData/Iz0bS1WBcvQTnrAoCVHQM7v1F383.json",
+    "savePath": "userWidgetsData/Iz0bS1WBcvQTnrAoCVHQM7v1F383"
   },
   {
     "filePath": "userWidgetsData/K4yQvJt47Zbfx2l6VKzBGawY8bI3.json",
     "savePath": "userWidgetsData/K4yQvJt47Zbfx2l6VKzBGawY8bI3"
   },
   {
+    "filePath": "userWidgetsData/K7nKsecxW9f9R7CpNDI4erLYB873.json",
+    "savePath": "userWidgetsData/K7nKsecxW9f9R7CpNDI4erLYB873"
+  },
+  {
+    "filePath": "userWidgetsData/KlyZfUFlT3ac7VxkkwR8UUnWMmg2.json",
+    "savePath": "userWidgetsData/KlyZfUFlT3ac7VxkkwR8UUnWMmg2"
+  },
+  {
+    "filePath": "userWidgetsData/KzhsSowkdkQxP1EXkjlHyHAEi1h1.json",
+    "savePath": "userWidgetsData/KzhsSowkdkQxP1EXkjlHyHAEi1h1"
+  },
+  {
+    "filePath": "userWidgetsData/LgbJOMccTrOxGprYqhjj0tazsKl1.json",
+    "savePath": "userWidgetsData/LgbJOMccTrOxGprYqhjj0tazsKl1"
+  },
+  {
+    "filePath": "userWidgetsData/MIoINTvtKoPsjp8H6Z1XhCPh29S2.json",
+    "savePath": "userWidgetsData/MIoINTvtKoPsjp8H6Z1XhCPh29S2"
+  },
+  {
+    "filePath": "userWidgetsData/MJD5lYgmDdXYLpYbHIyDILlUqQB3.json",
+    "savePath": "userWidgetsData/MJD5lYgmDdXYLpYbHIyDILlUqQB3"
+  },
+  {
+    "filePath": "userWidgetsData/MyH9WOkdElYpBTekpmCOl5eo7sb2.json",
+    "savePath": "userWidgetsData/MyH9WOkdElYpBTekpmCOl5eo7sb2"
+  },
+  {
     "filePath": "userWidgetsData/N2IKMbXtVDew2obTm7U5Tudrt3l2.json",
     "savePath": "userWidgetsData/N2IKMbXtVDew2obTm7U5Tudrt3l2"
   },
   {
+    "filePath": "userWidgetsData/NJZ41fejzXaxHE3R7ldEHR3l34E3.json",
+    "savePath": "userWidgetsData/NJZ41fejzXaxHE3R7ldEHR3l34E3"
+  },
+  {
     "filePath": "userWidgetsData/NJxnbJUqsNeUn8E7z7wLKQuKyEk1.json",
     "savePath": "userWidgetsData/NJxnbJUqsNeUn8E7z7wLKQuKyEk1"
+  },
+  {
+    "filePath": "userWidgetsData/NKJvpnzrtwNTBpZKBh4gjidtPrQ2.json",
+    "savePath": "userWidgetsData/NKJvpnzrtwNTBpZKBh4gjidtPrQ2"
   },
   {
     "filePath": "userWidgetsData/NktkbEwMaXMpkXEKdAXDOVR3nDs1.json",
@@ -462,8 +461,20 @@
     "savePath": "userWidgetsData/OnwVaeFprcPPjoMf1wROetUTTyu1"
   },
   {
+    "filePath": "userWidgetsData/PJszkOaUhEeBzFYPDMF88hoGHkv2.json",
+    "savePath": "userWidgetsData/PJszkOaUhEeBzFYPDMF88hoGHkv2"
+  },
+  {
+    "filePath": "userWidgetsData/PM2gYhvNKkdcbnHUkjZ6o88NBpA2.json",
+    "savePath": "userWidgetsData/PM2gYhvNKkdcbnHUkjZ6o88NBpA2"
+  },
+  {
     "filePath": "userWidgetsData/PPbhw6faFqYWxkANZkbpA7LX3Rj1.json",
     "savePath": "userWidgetsData/PPbhw6faFqYWxkANZkbpA7LX3Rj1"
+  },
+  {
+    "filePath": "userWidgetsData/PWsJPMc9gHPHoGewOjFciPhAoBo1.json",
+    "savePath": "userWidgetsData/PWsJPMc9gHPHoGewOjFciPhAoBo1"
   },
   {
     "filePath": "userWidgetsData/QhkN9j67SuML7YxvOBhO5RYlEDr1.json",
@@ -486,6 +497,18 @@
     "savePath": "userWidgetsData/Sm9pULY15SYxO2AtNYUhHP7wlyg1"
   },
   {
+    "filePath": "userWidgetsData/SsDdU8tCglZdPRvRpeSW3HGDjPM2.json",
+    "savePath": "userWidgetsData/SsDdU8tCglZdPRvRpeSW3HGDjPM2"
+  },
+  {
+    "filePath": "userWidgetsData/SukClZtVSrPjV1CYQ0CHOxH0qub2.json",
+    "savePath": "userWidgetsData/SukClZtVSrPjV1CYQ0CHOxH0qub2"
+  },
+  {
+    "filePath": "userWidgetsData/SuuHqTta4uQRPkTSWkb4Yinpfez1.json",
+    "savePath": "userWidgetsData/SuuHqTta4uQRPkTSWkb4Yinpfez1"
+  },
+  {
     "filePath": "userWidgetsData/T1W7OKwNICWiu3ziYOXVCeCzCqN2.json",
     "savePath": "userWidgetsData/T1W7OKwNICWiu3ziYOXVCeCzCqN2"
   },
@@ -494,8 +517,16 @@
     "savePath": "userWidgetsData/T9BcQCQo9qOaulCRY5uidD4nIfv2"
   },
   {
+    "filePath": "userWidgetsData/TNlo8LTnfkWKzODz56bXYCgHpVe2.json",
+    "savePath": "userWidgetsData/TNlo8LTnfkWKzODz56bXYCgHpVe2"
+  },
+  {
     "filePath": "userWidgetsData/TNlupqWoR8VGImx60S3TZtUpzKA3.json",
     "savePath": "userWidgetsData/TNlupqWoR8VGImx60S3TZtUpzKA3"
+  },
+  {
+    "filePath": "userWidgetsData/Thsq2qLonFdqQ8smTFRzJSDhvT02.json",
+    "savePath": "userWidgetsData/Thsq2qLonFdqQ8smTFRzJSDhvT02"
   },
   {
     "filePath": "userWidgetsData/UWRk01aMkUU3931efxVTIFlZdAp1.json",
@@ -510,6 +541,10 @@
     "savePath": "userWidgetsData/UbrVYb3sieUc8zDd5UVLLmHf9XL2"
   },
   {
+    "filePath": "userWidgetsData/VLMSAwKlMYNGjV8LW3fQ43JYX5M2.json",
+    "savePath": "userWidgetsData/VLMSAwKlMYNGjV8LW3fQ43JYX5M2"
+  },
+  {
     "filePath": "userWidgetsData/VwFffDuqNgTnD2UsUOx5HTpRFBp2.json",
     "savePath": "userWidgetsData/VwFffDuqNgTnD2UsUOx5HTpRFBp2"
   },
@@ -522,6 +557,10 @@
     "savePath": "userWidgetsData/Y45C8djAxJhdUyJZlMafdtHyYHp2"
   },
   {
+    "filePath": "userWidgetsData/Y80q5P7WUNZ6TsIYMbdWoY6J4xk1.json",
+    "savePath": "userWidgetsData/Y80q5P7WUNZ6TsIYMbdWoY6J4xk1"
+  },
+  {
     "filePath": "userWidgetsData/YJhO86kwGDRaIqkLO7DIGEO1EZ13.json",
     "savePath": "userWidgetsData/YJhO86kwGDRaIqkLO7DIGEO1EZ13"
   },
@@ -530,12 +569,24 @@
     "savePath": "userWidgetsData/ZPyoHy0PJNdlhsFoqyYLCGb9wKP2"
   },
   {
+    "filePath": "userWidgetsData/Zg4gOlS3ohUndisQimhVvo9rktx1.json",
+    "savePath": "userWidgetsData/Zg4gOlS3ohUndisQimhVvo9rktx1"
+  },
+  {
+    "filePath": "userWidgetsData/ZisFzrTKtocQ1CGBNA4WWxgzcTw2.json",
+    "savePath": "userWidgetsData/ZisFzrTKtocQ1CGBNA4WWxgzcTw2"
+  },
+  {
     "filePath": "userWidgetsData/a4yfjlIIuOVLufzRaAZilwx9vzD2.json",
     "savePath": "userWidgetsData/a4yfjlIIuOVLufzRaAZilwx9vzD2"
   },
   {
     "filePath": "userWidgetsData/a786qeoSxBSmUx455ZtyRxajsVE2.json",
     "savePath": "userWidgetsData/a786qeoSxBSmUx455ZtyRxajsVE2"
+  },
+  {
+    "filePath": "userWidgetsData/a9zkODwYukfs83WD0SbHSeg2v1O2.json",
+    "savePath": "userWidgetsData/a9zkODwYukfs83WD0SbHSeg2v1O2"
   },
   {
     "filePath": "userWidgetsData/aTn3FHB59xSC7qfmmU0MNBD6Ixf1.json",
@@ -566,12 +617,28 @@
     "savePath": "userWidgetsData/bysxIgYjMMTdG7LE8uhUVXQ8WHt1"
   },
   {
+    "filePath": "userWidgetsData/cZlgaFnD6dWQHOvpK77Z6szZ9U32.json",
+    "savePath": "userWidgetsData/cZlgaFnD6dWQHOvpK77Z6szZ9U32"
+  },
+  {
+    "filePath": "userWidgetsData/cfHGC1cuXOWNjWm4W5UWViL6KXr1.json",
+    "savePath": "userWidgetsData/cfHGC1cuXOWNjWm4W5UWViL6KXr1"
+  },
+  {
     "filePath": "userWidgetsData/d0WkeUqZxxOXU5YxVDftPGNdvU52.json",
     "savePath": "userWidgetsData/d0WkeUqZxxOXU5YxVDftPGNdvU52"
   },
   {
     "filePath": "userWidgetsData/dbmm7lKUM9QooUpNh6rmsxurE8a2.json",
     "savePath": "userWidgetsData/dbmm7lKUM9QooUpNh6rmsxurE8a2"
+  },
+  {
+    "filePath": "userWidgetsData/djw0IcfJU4cNeO16jf7JHjJmWKP2.json",
+    "savePath": "userWidgetsData/djw0IcfJU4cNeO16jf7JHjJmWKP2"
+  },
+  {
+    "filePath": "userWidgetsData/dvTLOKe2yDWqvaLJ3qFP7sZKGFx2.json",
+    "savePath": "userWidgetsData/dvTLOKe2yDWqvaLJ3qFP7sZKGFx2"
   },
   {
     "filePath": "userWidgetsData/eE9UwsjQ5TasHMx4L1ve4QHwBpz1.json",
@@ -586,12 +653,44 @@
     "savePath": "userWidgetsData/fLKD7LmZ8VTTSD5Bk6voF1nb4u52"
   },
   {
+    "filePath": "userWidgetsData/gzy5zxTysYd9X69ix9HO0mnUpzB3.json",
+    "savePath": "userWidgetsData/gzy5zxTysYd9X69ix9HO0mnUpzB3"
+  },
+  {
+    "filePath": "userWidgetsData/hjd0aJ5lAffF5NTI09fOvuruX9i1.json",
+    "savePath": "userWidgetsData/hjd0aJ5lAffF5NTI09fOvuruX9i1"
+  },
+  {
+    "filePath": "userWidgetsData/iXUjZz1w55bgY3d17fbDuQQOhpy1.json",
+    "savePath": "userWidgetsData/iXUjZz1w55bgY3d17fbDuQQOhpy1"
+  },
+  {
     "filePath": "userWidgetsData/ijbBxn7RvegAnOfIB0AzFvhwdhH3.json",
     "savePath": "userWidgetsData/ijbBxn7RvegAnOfIB0AzFvhwdhH3"
   },
   {
     "filePath": "userWidgetsData/irFF6y9dZDhn8KjJtQUtR0Iku2x1.json",
     "savePath": "userWidgetsData/irFF6y9dZDhn8KjJtQUtR0Iku2x1"
+  },
+  {
+    "filePath": "userWidgetsData/jsXJYjeaTKZVmYJc7bMtVUKTNeG3.json",
+    "savePath": "userWidgetsData/jsXJYjeaTKZVmYJc7bMtVUKTNeG3"
+  },
+  {
+    "filePath": "userWidgetsData/jyD3P1JVKdNeie4CJ5R5s6fmse33.json",
+    "savePath": "userWidgetsData/jyD3P1JVKdNeie4CJ5R5s6fmse33"
+  },
+  {
+    "filePath": "userWidgetsData/kf7w5iADRPNL8wRZCIGixmkzXtC2.json",
+    "savePath": "userWidgetsData/kf7w5iADRPNL8wRZCIGixmkzXtC2"
+  },
+  {
+    "filePath": "userWidgetsData/kw7X5yg2C2fKv9TGu8cT8sizPe82.json",
+    "savePath": "userWidgetsData/kw7X5yg2C2fKv9TGu8cT8sizPe82"
+  },
+  {
+    "filePath": "userWidgetsData/lFrvbKfF2IY087Q4kT6SJqZA20j1.json",
+    "savePath": "userWidgetsData/lFrvbKfF2IY087Q4kT6SJqZA20j1"
   },
   {
     "filePath": "userWidgetsData/luCF70vPcIgheZgAO91j2NTfgUP2.json",
@@ -602,8 +701,32 @@
     "savePath": "userWidgetsData/nLdrZHIbh6N4KdsbPUGqYksqwMj2"
   },
   {
+    "filePath": "userWidgetsData/njCIWe390FTb90SB2LKMUXyEOjk2.json",
+    "savePath": "userWidgetsData/njCIWe390FTb90SB2LKMUXyEOjk2"
+  },
+  {
+    "filePath": "userWidgetsData/o4YJ6e1ZhhOFoDrWkrWIbS2FOJt1.json",
+    "savePath": "userWidgetsData/o4YJ6e1ZhhOFoDrWkrWIbS2FOJt1"
+  },
+  {
     "filePath": "userWidgetsData/ookhA3VPoPfIb8V29k5w5xu0QOE3.json",
     "savePath": "userWidgetsData/ookhA3VPoPfIb8V29k5w5xu0QOE3"
+  },
+  {
+    "filePath": "userWidgetsData/pOGlDys7SCXWlLOQtbZ9qhktUdJ2.json",
+    "savePath": "userWidgetsData/pOGlDys7SCXWlLOQtbZ9qhktUdJ2"
+  },
+  {
+    "filePath": "userWidgetsData/pVUqEtjG7NhnaJYOlYIZrRqj9TJ2.json",
+    "savePath": "userWidgetsData/pVUqEtjG7NhnaJYOlYIZrRqj9TJ2"
+  },
+  {
+    "filePath": "userWidgetsData/pXKIxpz638U6b0o25nsjrxceDvl2.json",
+    "savePath": "userWidgetsData/pXKIxpz638U6b0o25nsjrxceDvl2"
+  },
+  {
+    "filePath": "userWidgetsData/pfWs3NcMc4c4e14iiLZkHhlijEr2.json",
+    "savePath": "userWidgetsData/pfWs3NcMc4c4e14iiLZkHhlijEr2"
   },
   {
     "filePath": "userWidgetsData/qAE2DORa7xP19L3WvxIQvoKhSgh2.json",
@@ -626,8 +749,20 @@
     "savePath": "userWidgetsData/sgpQXk2iEJUKyLNSKzpjsQw1LT53"
   },
   {
+    "filePath": "userWidgetsData/t7hoBrUe8aYXbafqVOHs8D0bU063.json",
+    "savePath": "userWidgetsData/t7hoBrUe8aYXbafqVOHs8D0bU063"
+  },
+  {
     "filePath": "userWidgetsData/tFejQuHlN0gPKjX4HeWV2Wp1TWY2.json",
     "savePath": "userWidgetsData/tFejQuHlN0gPKjX4HeWV2Wp1TWY2"
+  },
+  {
+    "filePath": "userWidgetsData/tkgG1HADghNTikgbjn4Og7WHNQm1.json",
+    "savePath": "userWidgetsData/tkgG1HADghNTikgbjn4Og7WHNQm1"
+  },
+  {
+    "filePath": "userWidgetsData/u8nhPNudLxcXaZ0Hjv8Sl3C5s6x2.json",
+    "savePath": "userWidgetsData/u8nhPNudLxcXaZ0Hjv8Sl3C5s6x2"
   },
   {
     "filePath": "userWidgetsData/uAS7J0rp8gRUZxNEA0BoHyuKjfd2.json",
@@ -642,8 +777,32 @@
     "savePath": "userWidgetsData/uVQLMTM2DLhUoCZgZpOhaGGpKp02"
   },
   {
+    "filePath": "userWidgetsData/uXV2xCd0sdhiuPt1pVY3h8KnmiE2.json",
+    "savePath": "userWidgetsData/uXV2xCd0sdhiuPt1pVY3h8KnmiE2"
+  },
+  {
+    "filePath": "userWidgetsData/ud6rXtkLSJRX50mpc5BJhZidMRt1.json",
+    "savePath": "userWidgetsData/ud6rXtkLSJRX50mpc5BJhZidMRt1"
+  },
+  {
+    "filePath": "userWidgetsData/uf1rjSfb82OFbp8ZUYR4NqJMrbl2.json",
+    "savePath": "userWidgetsData/uf1rjSfb82OFbp8ZUYR4NqJMrbl2"
+  },
+  {
+    "filePath": "userWidgetsData/v3rWyFxJjJZFHZa7vjZeuUOPx7A2.json",
+    "savePath": "userWidgetsData/v3rWyFxJjJZFHZa7vjZeuUOPx7A2"
+  },
+  {
+    "filePath": "userWidgetsData/vVaNfFQEqpNXJSjnsw6S9MpHmSl2.json",
+    "savePath": "userWidgetsData/vVaNfFQEqpNXJSjnsw6S9MpHmSl2"
+  },
+  {
     "filePath": "userWidgetsData/vdUkYmm2LZZMtETx4jMZAKBjjyZ2.json",
     "savePath": "userWidgetsData/vdUkYmm2LZZMtETx4jMZAKBjjyZ2"
+  },
+  {
+    "filePath": "userWidgetsData/vl3pjFtF1bg67oLkBfUoGFXCqpt1.json",
+    "savePath": "userWidgetsData/vl3pjFtF1bg67oLkBfUoGFXCqpt1"
   },
   {
     "filePath": "userWidgetsData/w5vsrXo1EwRX0L0XLsf6vCTwI8b2.json",
@@ -678,12 +837,20 @@
     "savePath": "userWidgetsData/x5OijszDl2QMFQCBg3fFnrbAGWv1"
   },
   {
+    "filePath": "userWidgetsData/xJvZlBUJqfMlzuvRayHsKcB0mH73.json",
+    "savePath": "userWidgetsData/xJvZlBUJqfMlzuvRayHsKcB0mH73"
+  },
+  {
     "filePath": "userWidgetsData/xNxq2Vuws2RPWiGoEo58vmZFHnp2.json",
     "savePath": "userWidgetsData/xNxq2Vuws2RPWiGoEo58vmZFHnp2"
   },
   {
     "filePath": "userWidgetsData/xPq8ZicsmwaHmlnlyaPBNHzNy2f1.json",
     "savePath": "userWidgetsData/xPq8ZicsmwaHmlnlyaPBNHzNy2f1"
+  },
+  {
+    "filePath": "userWidgetsData/xh48AGxNTDXaxS15ZJWJTDvPGxv2.json",
+    "savePath": "userWidgetsData/xh48AGxNTDXaxS15ZJWJTDvPGxv2"
   },
   {
     "filePath": "userWidgetsData/xuTSVRW20mS00HV0ANw51A2ts862.json",
@@ -738,26 +905,6 @@
     "savePath": "widgets/-NMEcOS1hPk2MvKuJOzI/template"
   },
   {
-    "filePath": "widgets/-NNXqqi7cDMDjyRZ8m9Y/widget.json",
-    "savePath": "widgets/-NNXqqi7cDMDjyRZ8m9Y"
-  },
-  {
-    "filePath": "widgets/-NNXr8pnFQkYunROIt5x/widget.json",
-    "savePath": "widgets/-NNXr8pnFQkYunROIt5x"
-  },
-  {
-    "filePath": "widgets/-NNXrI9oJenbfEMe_Fr0/widget.json",
-    "savePath": "widgets/-NNXrI9oJenbfEMe_Fr0"
-  },
-  {
-    "filePath": "widgets/-NNXueNEwO7kuEJHLiq_/widget.json",
-    "savePath": "widgets/-NNXueNEwO7kuEJHLiq_"
-  },
-  {
-    "filePath": "widgets/-NNXugLgg0zqZLsJa82B/widget.json",
-    "savePath": "widgets/-NNXugLgg0zqZLsJa82B"
-  },
-  {
     "filePath": "widgets/-NNg2XniTQpT0ibqZ6BD/widget.json",
     "savePath": "widgets/-NNg2XniTQpT0ibqZ6BD"
   },
@@ -768,14 +915,6 @@
   {
     "filePath": "widgets/-NO79XQ2OdYfzb2HVUAx/template.html",
     "savePath": "widgets/-NO79XQ2OdYfzb2HVUAx/template"
-  },
-  {
-    "filePath": "widgets/-NO80E6TD42ZXGhBzuFc/widget.json",
-    "savePath": "widgets/-NO80E6TD42ZXGhBzuFc"
-  },
-  {
-    "filePath": "widgets/-NO81JFYFabhtsklmlQx/widget.json",
-    "savePath": "widgets/-NO81JFYFabhtsklmlQx"
   },
   {
     "filePath": "widgets/-NO8TgcPzGFU5mz0f124/widget.json",
@@ -818,16 +957,68 @@
     "savePath": "widgets/-NOAB90vgP4SPKuOqk4n"
   },
   {
-    "filePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/widget.json",
-    "savePath": "widgets/-NOF4_dOJ5dDwtDln6Cr"
+    "filePath": "widgets/-NOQjuMMHnWxTDDv-7sG/widget.json",
+    "savePath": "widgets/-NOQjuMMHnWxTDDv-7sG"
   },
   {
-    "filePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/template.html",
-    "savePath": "widgets/-NOF4_dOJ5dDwtDln6Cr/template"
+    "filePath": "widgets/-NOQjuMMHnWxTDDv-7sG/template.html",
+    "savePath": "widgets/-NOQjuMMHnWxTDDv-7sG/template"
+  },
+  {
+    "filePath": "widgets/-NOUOm3h3JyleH4texbn/widget.json",
+    "savePath": "widgets/-NOUOm3h3JyleH4texbn"
+  },
+  {
+    "filePath": "widgets/-NOeEpQtpaqgK2KsHQKT/widget.json",
+    "savePath": "widgets/-NOeEpQtpaqgK2KsHQKT"
+  },
+  {
+    "filePath": "widgets/-NOeXU49EVrJ6izo6TJj/widget.json",
+    "savePath": "widgets/-NOeXU49EVrJ6izo6TJj"
+  },
+  {
+    "filePath": "widgets/-NOhPoT4xaVxv41cai-U/widget.json",
+    "savePath": "widgets/-NOhPoT4xaVxv41cai-U"
+  },
+  {
+    "filePath": "widgets/-NOhPyQTbtf_xpR2Tj3O/widget.json",
+    "savePath": "widgets/-NOhPyQTbtf_xpR2Tj3O"
+  },
+  {
+    "filePath": "widgets/-NOhPyQTbtf_xpR2Tj3O/detailTemplate.html",
+    "savePath": "widgets/-NOhPyQTbtf_xpR2Tj3O/detailTemplate"
+  },
+  {
+    "filePath": "widgets/-NOhPyQTbtf_xpR2Tj3O/template.html",
+    "savePath": "widgets/-NOhPyQTbtf_xpR2Tj3O/template"
+  },
+  {
+    "filePath": "widgets/-NOjGvdoDXHaEWVFEBLS/widget.json",
+    "savePath": "widgets/-NOjGvdoDXHaEWVFEBLS"
+  },
+  {
+    "filePath": "widgets/-NOjGvdoDXHaEWVFEBLS/detailTemplate.html",
+    "savePath": "widgets/-NOjGvdoDXHaEWVFEBLS/detailTemplate"
+  },
+  {
+    "filePath": "widgets/-NOjGvdoDXHaEWVFEBLS/template.html",
+    "savePath": "widgets/-NOjGvdoDXHaEWVFEBLS/template"
+  },
+  {
+    "filePath": "widgets/-NS60w7Ad-1QVYloRTj_/widget.json",
+    "savePath": "widgets/-NS60w7Ad-1QVYloRTj_"
+  },
+  {
+    "filePath": "widgetsComputed/New property.js",
+    "savePath": "widgetsComputed/New property"
   },
   {
     "filePath": "widgetsComputed/addGroups.js",
     "savePath": "widgetsComputed/addGroups"
+  },
+  {
+    "filePath": "widgetsComputed/addHistoricalReports.js",
+    "savePath": "widgetsComputed/addHistoricalReports"
   },
   {
     "filePath": "widgetsComputed/addPercentage.js",
@@ -836,6 +1027,10 @@
   {
     "filePath": "widgetsComputed/backToReport.js",
     "savePath": "widgetsComputed/backToReport"
+  },
+  {
+    "filePath": "widgetsComputed/changeDate.js",
+    "savePath": "widgetsComputed/changeDate"
   },
   {
     "filePath": "widgetsComputed/createNames.js",
@@ -894,8 +1089,16 @@
     "savePath": "widgetsComputed/paymentDate"
   },
   {
+    "filePath": "widgetsComputed/paymentPeriod.js",
+    "savePath": "widgetsComputed/paymentPeriod"
+  },
+  {
     "filePath": "widgetsComputed/print.js",
     "savePath": "widgetsComputed/print"
+  },
+  {
+    "filePath": "widgetsComputed/recInv.js",
+    "savePath": "widgetsComputed/recInv"
   },
   {
     "filePath": "widgetsComputed/rentalTotal.js",
@@ -926,6 +1129,10 @@
     "savePath": "widgetsComputed/showVendorReport"
   },
   {
+    "filePath": "widgetsComputed/showVendors.js",
+    "savePath": "widgetsComputed/showVendors"
+  },
+  {
     "filePath": "widgetsComputed/textSubBtn.js",
     "savePath": "widgetsComputed/textSubBtn"
   },
@@ -940,6 +1147,21 @@
   {
     "filePath": "widgetsComputed/vendorsForEmail.js",
     "savePath": "widgetsComputed/vendorsForEmail"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/datesandAmountsPaid.json",
+    "savePath": "widgetsData/dataGrid/datesandAmountsPaid",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/emailsSent.json",
+    "savePath": "widgetsData/dataGrid/emailsSent",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/groups.json",
+    "savePath": "widgetsData/dataGrid/groups",
+    "conversion": "dataGrid"
   },
   {
     "filePath": "widgetsData/dataGrid/historicalReports.json",
@@ -982,6 +1204,11 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/subscriptionInvoices.json",
+    "savePath": "widgetsData/dataGrid/subscriptionInvoices",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/users.json",
     "savePath": "widgetsData/dataGrid/users",
     "conversion": "dataGrid"
@@ -995,6 +1222,10 @@
     "filePath": "widgetsData/dataGrid/years.json",
     "savePath": "widgetsData/dataGrid/years",
     "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/simpleWorkflows/-NOeb3d9qJWAOJ_BIDlw.json",
+    "savePath": "widgetsData/simpleWorkflows/-NOeb3d9qJWAOJ_BIDlw"
   },
   {
     "filePath": "widgetsData/sqlTables/-NO79YL_P8z4P5rgyvXk.json",
@@ -1037,6 +1268,19 @@
   {
     "filePath": "workflow/Workflow Name (-NO8ToN3c5JtyHVEYQSC).json",
     "savePath": "workflow/-NO8ToN3c5JtyHVEYQSC",
+    "conversion": "workflow"
+  },
+  {
+    "filePath": "workflow/scriptTasks/sendReportHistorical/Script Task (node1676583599413).js",
+    "savePath": "workflow/-NOR8LozTjjTsR2Hi9y_",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-NOR8LozTjjTsR2Hi9y_",
+    "workflowFile": "workflow/sendReportHistorical (-NOR8LozTjjTsR2Hi9y_).json",
+    "nodeId": "node1676583599413"
+  },
+  {
+    "filePath": "workflow/sendReportHistorical (-NOR8LozTjjTsR2Hi9y_).json",
+    "savePath": "workflow/-NOR8LozTjjTsR2Hi9y_",
     "conversion": "workflow"
   }
 ]

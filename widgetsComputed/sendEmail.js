@@ -1,11 +1,14 @@
 return async function(item){
  try {
-let paydate = this.paymentDate('December')
+     let payPeriod=this.paymentPeriod(item.email)
+     let mthI = this.recInv(item.email)
+let paydate = this.paymentDate(item.email)
      console.log(item)
 
      $setGlobalModel('sendingEmail', true)
  let items = await $getGrid('rentalsInvoices')
  let itemsS = await $getGrid('salesInvoices')
+ let users = $getGrid('users')
  let ts = []
  let totalItemsR = 0
  let netTotalR = 0
@@ -17,9 +20,26 @@ let paydate = this.paymentDate('December')
  let vendorName = item.name
  let earnRent = 0
  let earnSale = 0
+ let grpR = 0
+
+
+let vendorNameInv
+
+users.forEach(user => {
+    if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === item.email) {
+        console.log('user is, ', user)
+        vendorNameInv = user.$group$display
+    }
+})
+
+
+
+console.log('Mthi', mthI)
+
+
  items.filter(elem=>{
-    if(elem.vendorEmail === item.email) {
-console.log(elem)
+    if(elem.vendorName === vendorNameInv && elem.invoiceMonth ===mthI ) {
+console.log(elem.mWRent15)
     // item.mWHQCommission=item.netRentalPrice*item.mWHQCommissionRate
         elem.$transactionDate$display=new Date(elem.transactionDate).toLocaleDateString("en-GB")
       
@@ -30,24 +50,26 @@ console.log(elem)
             sku: elem.itemSKU,
             ssku: "",
             period: elem.rentalPeriod,
-            gross: elem.mWRent15.toFixed(2),
-            net: elem.netRentalPrice.toFixed(2),
-            comRate: (elem.mWHQCommissionRate*100).toFixed(2),
-            commission: elem.mWHQCommission?elem.mWHQCommission.toFixed(2):0,
+            gross: parseFloat(elem.mWRent15).toFixed(2),
+            net: parseFloat(elem.netRentalPrice).toFixed(2),
+            comRate: (parseFloat(elem.mWHQCommissionRate)*100).toFixed(2),
+            commission: parseFloat(elem.mWHQCommission)?parseFloat(elem.mWHQCommission).toFixed(2):0,
             comVat: parseFloat(elem.vATonMWHQCommission).toFixed(2),
             total: parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
-            netbal: elem.netBalanceDueToVendor.toFixed(2),
+            netbal: parseFloat(elem.netBalanceDueToVendor).toFixed(2),
             
         }
         ts.push(rentalData)
-        netTotalR +=elem.netRentalPrice
-        commissionTotalR += elem.mWHQCommission
-        comVatTotalR += elem.vATonMWHQCommission
-        totalTotalR += elem.totalMWHQDeductionsfromGrossSalesPrice
-        netbalTotalR += elem.netBalanceDueToVendor
-        commissionRateTotalR = (elem.mWHQCommissionRate?elem.mWHQCommissionRate*100:0*100)
+        netTotalR +=parseFloat(elem.netRentalPrice)
+        commissionTotalR += parseFloat(elem.mWHQCommission)
+        comVatTotalR += parseFloat(elem.vATonMWHQCommission)
+        totalTotalR += parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice)
+        netbalTotalR += parseFloat(elem.netBalanceDueToVendor)
+        grpR += parseFloat(elem.mWRent15)
+        commissionRateTotalR = (parseFloat(elem.mWHQCommissionRate)?parseFloat(elem.mWHQCommissionRate)*100:0*100)
         earnRent=(100-commissionRateTotalR)
     }
+    console.log(grpR)
 })
 totalItemsR=ts.length
 let ps = []
@@ -58,9 +80,10 @@ let commissionTotal =0
 let comVatTotal=0
 let totalTotal=0
 let netbalTotal=0
+let gspS=0
 itemsS.filter(element=>{
    
-    if(element.vendorEmail ===item.email) {
+    if(element.vendorName === vendorNameInv && element.invoiceMonth===mthI) {
        element.$transactionDate$display=new Date(element.transactionDate).toLocaleDateString("en-GB")
        console.log(element)
             let salesData = {
@@ -69,21 +92,22 @@ itemsS.filter(element=>{
             name: element.itemName,
             sku: element.itemSKU,
             ssku: "",
-            gross: element.grossSalesPrice.toFixed(2),
-            net: element.netSalesPrice.toFixed(2),
-            comRate: (element.mWHQCommissionRate*100).toFixed(2),
-            commission: element.mWHQCommission.toFixed(2),
+            gross: parseFloat(element.grossSalesPrice).toFixed(2),
+            net: parseFloat(element.netSalesPrice).toFixed(2),
+            comRate: (parseFloat(element.mWHQCommissionRate)*100).toFixed(2),
+            commission: parseFloat(element.mWHQCommission).toFixed(2),
             comVat: parseFloat(element.vATonMWHQCommission).toFixed(2),
             total: parseFloat(element.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
             netbal: parseFloat(element.netBalanceDueToVendor).toFixed(2)
         }
         ps.push(salesData)
-        netTotal +=element.netSalesPrice
-        commissionTotal += element.mWHQCommission
-        comVatTotal += element.vATonMWHQCommission
-        totalTotal += element.totalMWHQDeductionsfromGrossSalesPrice
-        netbalTotal += element.netBalanceDueToVendor
-        commissionRateTotal = (element.mWHQCommissionRate?element.mWHQCommissionRate*100:0*100)
+        netTotal +=parseFloat(element.netSalesPrice)
+        commissionTotal += parseFloat(element.mWHQCommission)
+        comVatTotal += parseFloat(element.vATonMWHQCommission)
+        totalTotal += parseFloat(element.totalMWHQDeductionsfromGrossSalesPrice)
+        netbalTotal += parseFloat(element.netBalanceDueToVendor)
+        gspS += parseFloat(element.grossSalesPrice)
+        commissionRateTotal = (parseFloat(element.mWHQCommissionRate)?parseFloat(element.mWHQCommissionRate)*100:0*100)
         earnSale=(100-commissionRateTotal)
     }
 })
@@ -100,16 +124,16 @@ let mwVat = parseFloat(comVatTotal) + parseFloat(comVatTotalR)
 let mwTotal = parseFloat(mwRental) + parseFloat(mwSale) + parseFloat(mwVat)
 let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
     let payload = {
-        mth:'December',
+        mth:mthI,
         vendorName: vendorName,
         paymentDate: paydate,
         earnRent:item.rentalcommissionstructure*100 + "%",
         earnSale:item.salesCommissionStructure*100 + "%",
         invoiceNum:1,
-        paymentPeriod:"1-31 Dec 2022",
-        email: item.email, // put item.email here for live *** not in quotes, just item.email
+        paymentPeriod:payPeriod,
+        email: item.email,//'nat@mywardrobehq.com', // put item.email here for live *** not in quotes, just item.email
         total: parseFloat(vendorTotal).toFixed(2),
-        month:'December',
+        month:mthI,
         mwRental:mwRental.toFixed(2),
         vendorRental:vendorRental.toFixed(2),
         mwSale:mwSale.toFixed(2),
@@ -135,20 +159,22 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         comVatTotalR:comVatTotalR.toFixed(2),
         totalTotalR:totalTotalR.toFixed(2),
         netbalTotalR:netbalTotalR.toFixed(2),
-        template: "-NNc4cGZvQZwQED3I54U"
+        template: "-NOjnq4bVNfjC-4Xaz8k",
+        grpRental:grpR.toFixed(2),
+        gspSale:gspS.toFixed(2),
     }
     if($getUser('showSub')){
         payload = {
-        mth:'December',
+        mth:mthI,
         vendorName: vendorName,
         paymentDate: paydate,
         earnRent:item.rentalcommissionstructure*100 + "%",
         earnSale:item.salesCommissionStructure*100 + "%",
         invoiceNum:1,
-        paymentPeriod:"1-31 Dec 2022",
-        email: 'dawidhaczela@gmail.com', // put item.email here for live *** not in quotes, just item.email
+        paymentPeriod:payPeriod,
+        email: 'NPAWLAK11@GMAIL.COM', // put item.email here for live *** not in quotes, just item.email
         total: parseFloat(vendorTotal).toFixed(2),
-        month:'December',
+        month:mthI,
         mwRental:mwRental.toFixed(2),
         vendorRental:vendorRental.toFixed(2),
         mwSale:mwSale.toFixed(2),
@@ -182,7 +208,10 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         comVatTotalRs:0.00,
         totalTotalRs:0.00,
         netbalTotalRs:0.00,
-        template:"-NNlLOWmA-HAgjbxy4pO"
+        template:"-NNlLOWmA-HAgjbxy4pO",
+        grpRental:grpR.toFixed(2),
+        gspSale:gspS.toFixed(2),
+        grpSub:0.00
     }
     }
    console.log(payload) 
@@ -198,6 +227,13 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
                 emailSent: true,
                 lastEmailSentOn: new Date().toLocaleDateString("en-GB")
             })
+
+            await $dgAddRow('emailsSent', {
+                name: vendorNameInv,
+                sentOn: moment.utc().format('DD/MM/YYYY hh:mm:ss')
+            })
+
+
         } else {
             alert('Something went wrong creating the pdf or sending the email...')
         }

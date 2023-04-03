@@ -1,0 +1,14 @@
+<div class="row">
+  <div style="margin-bottom: 20px;" class="col-lg-12 col-sm-12 column">
+    <div class="box-header">
+      <div class="btn-pdf">
+        <b-button class="btn-mwhq" @click="generateReportPDF()" variant="dark">PDF File</b-button>
+        <b-button class="btn-mwhq" @click="print()" variant="dark">Print</b-button>
+      </div>
+      <div class="select-box">
+        <b-button class="btn-mwhq" @click="setMonth()" variant="dark">Show Historical Reports</b-button>
+        <b-button v-if="this.fbUser.email==='nat@mywardrobehq.com' || this.fbUser.email==='sebastian@tangle.io' || this.fbUser.email==='pragmatron@gmail.com'|| this.fbUser.email==='dawidhaczela@gmail.com'" class="btn-mwhq" @click="showSubscription()" variant="dark">{{textSubBtn}} Subscription Table</b-button>
+      </div>
+    </div>
+  </div>
+</div>

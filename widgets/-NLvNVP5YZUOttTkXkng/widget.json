@@ -2,9 +2,9 @@
   "classes": "",
   "gsOptions": {
     "h": 18,
-    "w": 21,
-    "x": 1,
-    "y": 0
+    "w": 24,
+    "x": 0,
+    "y": 3
   },
   "layout": "b-card",
   "offSet": 0,

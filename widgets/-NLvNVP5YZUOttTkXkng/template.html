@@ -1,18 +1,6 @@
 
 <div class="row">
   <div class="col-lg-12 col-sm-12 column">
-    <div class="box-header">
-      <div class="btn-pdf">
-        <b-button class="btn-mwhq" @click="generateReportPDF()" variant="dark">PDF File</b-button>
-        <b-button class="btn-mwhq" @click="print()" variant="dark">Print</b-button>
-      </div>
-      <div class="select-box">
-        <!-- <b-form-select @change="selectedMonth($event)" v-model="month" :options="dateReport.options" size="sm" ></b-form-select>
- <b-form-select :options="dateReport.optionsYear" size="sm" class="ml-3"></b-form-select> -->
-        <b-button class="btn-mwhq" @click="setMonth()" variant="dark">Show Historical Reports</b-button>
-        <b-button v-if="window.fbUser.email==='nat@mywardrobehq.com' || window.fbUser.email==='sebastian@tangle.io' || window.fbUser.email==='pragmatron@gmail.com'|| window.fbUser.email==='dawidhaczela@gmail.com'" class="btn-mwhq" @click="showSubscription()" variant="dark">{{textSubBtn}} Subscription Table</b-button>
-      </div>
-    </div>
     <div id="print">
 
       <!-- <div class="logo"><img src="https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/-NLvDXaAsLMKE7dEZj5z%2Fmwhq_logo%20BLACK.png?alt=media&amp;token=3c704ff9-5bce-4b87-a4d0-9b12829ce983" alt="logo"></div> -->
@@ -20,7 +8,7 @@
         <div style="background-image:url(https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/-NLvDXaAsLMKE7dEZj5z%2Fmwhq_logo%20BLACK.png?alt=media&amp;token=3c704ff9-5bce-4b87-a4d0-9b12829ce983)" class="log-picture"></div>
       </div>
       <div class="top-raport">
-        <h2>December Earnings Report</h2>
+        <h2>{{recInv($getUser('email'))}} Earnings Report</h2>
         <div>
           <div>
             <p>Vendor Name:</p>
@@ -29,7 +17,7 @@
           </div>
           <div>
             <p>{{vendorName($getUser('email'))}}</p>
-            <p>{{paymentDate('December')}}
+            <p>{{paymentDate($getUser('email'))}}
             </p>
           </div>
           <div>
@@ -48,7 +36,7 @@
           </div>
           <div>
             <p>1</p>
-            <p>1-31 Dec 2022
+            <p>{{paymentPeriod($getUser('email'))}}
             </p>
           </div>
         </div>
@@ -61,7 +49,7 @@
             <th>Transaction ID</th>
             <th>Item Name</th>
             <th>Item SKU</th>
-            <th>Sec SKU</th>
+            <!-- <th>Sec SKU</th> -->
             <th>Rental Period</th>
             <th>Gross Rental Price</th>
             <th>Net Rental Price</th>
@@ -74,25 +62,26 @@
         </thead>
         <tbody>
           <tr v-for="item in monthlyRentals($getUser('email')).rental">
+
             <td>{{item.$transactionDate$display}}</td>
             <td>{{item.transactionID }}</td>
             <td class="th-name">{{item.itemName}}</td>
             <td>{{item.itemSKU}}</td>
-            <td></td>
             <td>{{item.rentalPeriod}}</td>
-            <td>£{{item.mWRent15.toFixed(2)}}</td>
-            <td>£{{item.netRentalPrice.toFixed(2)}}</td>
-            <td>{{(item.mWHQCommissionRate*100).toFixed(2) }}%</td>
-            <td>£{{item.mWHQCommission.toFixed(2) }}</td>
-            <td>£{{item.vATonMWHQCommission.toFixed(2)}}</td>
-            <td>£{{item.totalMWHQDeductionsfromGrossSalesPrice.toFixed(2)}}</td>
-            <td>£{{item.netBalanceDueToVendor.toFixed(2)}}</td>
+            <td>£{{parseFloat(item.mWRent15) ? parseFloat(item.mWRent15).toFixed(2):''}}</td>
+            <td>£{{parseFloat(item.netRentalPrice) ? parseFloat(item.netRentalPrice).toFixed(2):''}}</td>
+            <td>{{(parseFloat(item.mWHQCommissionRate)*100)?(parseFloat(item.mWHQCommissionRate)*100).toFixed(2):'' }}%</td>
+            <td>£{{parseFloat(item.mWHQCommission)?parseFloat(item.mWHQCommission).toFixed(2):'' }}</td>
+            <td>£{{parseFloat(item.vATonMWHQCommission)?parseFloat(item.vATonMWHQCommission).toFixed(2):''}}</td>
+            <td>£{{parseFloat(item.totalMWHQDeductionsfromGrossSalesPrice)?parseFloat(item.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2):''}}</td>
+            <td>£{{parseFloat(item.netBalanceDueToVendor)?parseFloat(item.netBalanceDueToVendor).toFixed(2):''}}</td>
           </tr>
           <tr class="bottom-row">
             <th colspan="3">Total</th>
             <td>{{rentalTotal($getUser('email')).total.totalItem}}</td>
-            <td colspan="3"></td>
-            <td>£{{rentalTotal($getUser('email')).total.totalNet.toFixed(2)}}</td>
+            <td></td>
+            <td>£{{rentalTotal($getUser('email')).total.totalGrossRentalPrice}}</td>
+            <td>£{{rentalTotal($getUser('email')).total.totalNet?rentalTotal($getUser('email')).total.totalNet.toFixed(2):0}}</td>
             <td>{{rentalTotal($getUser('email')).total.totalRate}}%</td>
             <td>£{{rentalTotal($getUser('email')).total.totalMWHQcom}}</td>
             <td>£{{rentalTotal($getUser('email')).total.totalVat}}</td>
@@ -157,7 +146,7 @@
             <th>Transaction ID</th>
             <th>Item Name</th>
             <th>Item SKU</th>
-            <th>Sec SKU</th>
+            <!-- <th></th> -->
             <th>Gross Sale Price</th>
             <th>Net Sales Price</th>
             <th>MWHQ Commission Rate</th>
@@ -173,19 +162,18 @@
             <td>{{item.transactionID }}</td>
             <td class="th-name">{{item.itemName}}</td>
             <td>{{item.itemSKU}}</td>
-            <td></td>
-            <td>£{{item.grossSalesPrice.toFixed(2) }}</td>
-            <td>£{{item.netSalesPrice.toFixed(2)}}</td>
-            <td>{{(item.mWHQCommissionRate*100).toFixed(2) }}%</td>
-            <td>£{{item.mWHQCommission.toFixed(2) }}</td>
-            <td>£{{item.vATonMWHQCommission.toFixed(2)}}</td>
-            <td>£{{item.totalMWHQDeductionsfromGrossSalesPrice.toFixed(2)}}</td>
-            <td>£{{item.netBalanceDueToVendor.toFixed(2)}}</td>
+            <td>£{{item.grossSalesPrice?item.grossSalesPrice.toFixed(2):'' }}</td>
+            <td>£{{item.netSalesPrice?item.netSalesPrice.toFixed(2):''}}</td>
+            <td>{{(item.mWHQCommissionRate*100)?(item.mWHQCommissionRate*100).toFixed(2):'' }}%</td>
+            <td>£{{item.mWHQCommission?item.mWHQCommission.toFixed(2):0 }}</td>
+            <td>£{{item.vATonMWHQCommission?item.vATonMWHQCommission.toFixed(2):''}}</td>
+            <td>£{{item.totalMWHQDeductionsfromGrossSalesPrice?item.totalMWHQDeductionsfromGrossSalesPrice.toFixed(2):''}}</td>
+            <td>£{{item.netBalanceDueToVendor?item.netBalanceDueToVendor.toFixed(2):''}}</td>
           </tr>
           <tr class="bottom-row">
             <th colspan="3">Total</th>
             <td>{{salesTotal($getUser('email')).total.totalItem}}</td>
-            <td colspan="2"></td>
+            <td colspan="1">£{{salesTotal($getUser('email')).total.totalGrossSalesPrice}}</td>
             <td>£{{salesTotal($getUser('email')).total.totalNet}}</td>
             <td>{{salesTotal($getUser('email')).total.totalRate}}%</td>
             <td>£{{salesTotal($getUser('email')).total.totalMWHQcom}}</td>

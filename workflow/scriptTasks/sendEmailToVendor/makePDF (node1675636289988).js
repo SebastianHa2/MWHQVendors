@@ -23,7 +23,7 @@ async function deleteFile() {
         $log('Not found a file to delete / maybe its first time')
     }
 }
-await deleteFile().catch(console.error);
+// await deleteFile().catch(console.error);
 // Retrieve the mapping file  
 const files = await getFilesDataFromRecord({
     workspaceId: '-NLvDXaAsLMKE7dEZj5z',

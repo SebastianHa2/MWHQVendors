@@ -1,4 +1,16 @@
 {
-  "data": "",
+  "data": {
+    "metaData": {
+      "id": "-NO8ToN3c5JtyHVEYQSC",
+      "statusField": ""
+    },
+    "nodes": [],
+    "edges": [],
+    "transform": {
+      "x": 164.44887700488903,
+      "y": 102.97725264193636,
+      "scale": 0.7899937629182399
+    }
+  },
   "name": "Workflow Name"
 }

@@ -1,15 +1,26 @@
 .hero-login-text{
+    -webkit-position:absolute;
     position:absolute;
+    -webkit-top:50%;
     top:50%;
+    -webkit-left:50%;
     left:50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%,-50%);
+    -webkit-padding:2em;
     padding:2em;
+    -webkit-background: rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+    -webkit-border-radius: 20px;
     border-radius: 20px;
+    -webkit-display:flex;
     display:flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-width:70%;
     width:70%;
+    -webkit-z-index:100;
     z-index:100;
 }
 .hero-shadow{
@@ -41,41 +52,71 @@
     
      font-family: 'Futura' !important;
      position: absolute;
+     -webkit-position: absolute;
      width:49%;
+     -webkit-width:49%;
      height: 100%;
+    -webkit-height: 100%;
      left:0;
+     -webkit-left:0;
      margin:0;
+     -webkit-border-radius: 5px;
      border-radius: 5px;
+     -webkit-overflow: hidden;
      overflow: hidden;
+     
 
 
 }
+
 .authForm__label > img{
       width:100%;
        height:100%;
-       object-fit: cover
+       min-height: 100%;
+       -webkit-min-height: 100%;
+       object-fit: cover;
+       -webkit-object-fit: cover
 }
 .authForm__wrapper{
+    display: flex;
     position: relative;
+    -webkit-position: relative;
     width:100%;
+    -webkit-width:100%;
     height: 600px;
+    -webkit-height: 600px;
     max-width:900px;
+    -webkit-max-width:900px;
     padding: 0;
+    -webkit-padding: 0;
     flex-wrap:wrap;
+    -webkit-flex-wrap:wrap;
     justify-content: center;
-    align-items: end;
+    -webkit-justify-content: center;
+    align-items: end!important;
+    -webkit-align-items: end!important;
+   
 }
 form{
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translate(0, -50%);
+    -webkit-padding: .5px 20px;
     padding: .5px 20px;
-    
     font-family: "Futura"!important;
     width:50%!important;
+    -webkit-width:50%!important;
 }
 
 
 .authForm__title{
+    position: absolute;
+    top:10%;
     padding:.5em 20px;
     width:50%!important;
+    
+    -webkit-width:50%!important;
 }
 .authForm__title span, .authForm__title h5{
     font-size: 24px!important;

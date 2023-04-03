@@ -1,0 +1,18 @@
+{
+  "autoHeight": true,
+  "container": "-NOhPoT5Fp4Max_wKH3c",
+  "dataSource": "showVendorReport",
+  "gsOptions": {
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto;",
+  "tab": "-NLvDXkKXu-iz360AhQp",
+  "title": "nAT",
+  "type": "card-list",
+  "useContainerForDetail": false,
+  "useContainerForList": false
+}

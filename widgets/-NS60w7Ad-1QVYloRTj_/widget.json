@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/subscriptionInvoices",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "subscriptionInvoices"
+  },
+  "tab": "-NS60w17upzHd4eo8tPF",
+  "type": "DataGrid"
+}

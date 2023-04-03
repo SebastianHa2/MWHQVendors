@@ -1,5 +1,5 @@
 return function(email){
-
+let recentInv = this.recInv(email)
 let items = $getGrid('salesInvoices')
 let rental = []
 let total 
@@ -10,12 +10,32 @@ let vatRental = 0
 let grossRental = 0
 let netBalance = 0
 let comRate= 0
+let grp = 0
 
-console.log('sales are', items)
+let users = $getGrid('users')
+
+// console.log(email)
+
+let vendorName
+
+users.forEach(user => {
+    if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
+        console.log('user is, ', user)
+        vendorName = user.$group$display
+    }
+})
+
+if(!vendorName) {
+    vendorName = 'none'
+}
+
 items.filter(item=>{
-    if(item.vendorEmail === email
+    
+    if(item.vendorName === vendorName && item.invoiceMonth===recentInv
 ){
-    comRate = (item.mWHQCommissionRate*100).toFixed(2)
+    console.log('found item', vendorName)
+    console.log(item.grossSalesPrice)
+    comRate = (item.mWHQCommissionRate*100) ? (item.mWHQCommissionRate*100).toFixed(2) : ''
 if(item.vATonMWHQCommission){
     vatRental += item.vATonMWHQCommission
 }
@@ -26,6 +46,11 @@ if(item.totalMWHQDeductionsfromGrossSalesPrice
 if(item.netBalanceDueToVendor
 ){
     netBalance += item.netBalanceDueToVendor
+
+}
+if(item.grossSalesPrice
+){
+    grp +=item.grossSalesPrice
 
 }
 
@@ -44,7 +69,9 @@ total={
     totalMWHQcom: MWHQcom.toFixed(2),
     totalVat: vatRental.toFixed(2),
     totalGross: grossRental.toFixed(2),
-    totalBalance: netBalance.toFixed(2)
+    totalBalance: netBalance.toFixed(2),
+    totalGrossSalesPrice:grp.toFixed(2)
+
 }
 pdfTotal={
     totalItems:total.totalItem,

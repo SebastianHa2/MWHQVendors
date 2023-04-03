@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/datesandAmountsPaid",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "datesandAmountsPaid"
+  },
+  "styles": "",
+  "subtab": "-NOeEpHdpyPncdwvUoEe",
+  "tab": "-NM9Ds45n0ib5MPeVK4Z",
+  "title": "",
+  "type": "DataGrid"
+}
