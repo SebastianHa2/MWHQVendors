@@ -9,8 +9,8 @@
         "id": "node1675427086475",
         "x": -95.51,
         "y": 328.28,
-        "width": 190,
-        "height": 64,
+        "width": 191,
+        "height": 65,
         "attachment": {},
         "name": "start-event",
         "clazz": "startEvent",
@@ -24,8 +24,8 @@
         "id": "node1675427088695",
         "x": 467.79,
         "y": 339.67,
-        "width": 190,
-        "height": 64,
+        "width": 191,
+        "height": 65,
         "attachment": {},
         "name": "script-task",
         "clazz": "scriptTask",
@@ -39,8 +39,8 @@
         "id": "node1675636289988",
         "x": 208.29,
         "y": 480.18,
-        "width": 190,
-        "height": 64,
+        "width": 191,
+        "height": 65,
         "attachment": {},
         "name": "script-task",
         "clazz": "scriptTask",
@@ -54,8 +54,8 @@
         "id": "node1675669317885",
         "x": 820.9572624315529,
         "y": 353.19614400977184,
-        "width": 190,
-        "height": 64,
+        "width": 191,
+        "height": 65,
         "attachment": {},
         "name": "end-event",
         "clazz": "endEvent",
@@ -114,9 +114,9 @@
       }
     ],
     "transform": {
-      "x": -189.50701095886097,
-      "y": -228.63592281233122,
-      "scale": 1.0025484627429389
+      "x": 737.0313310945844,
+      "y": 193.78610948560947,
+      "scale": 0.6225037179172678
     }
   },
   "name": "sendEmailToVendor"

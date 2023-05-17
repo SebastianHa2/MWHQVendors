@@ -1,0 +1,2197 @@
+{
+  "-NMFu4MHzYg6DT8gV85E": {
+    "_id": 2,
+    "amount": 699.6,
+    "createdDate": 1674247165503,
+    "datePaid": 1680562800000,
+    "group": "-NMFGKarX6SAtBYmk_ej",
+    "lastEditDate": 1680647539174,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement",
+    "owner": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "reports": [
+      {
+        "id": "07a6c0a0-b66e-11ed-b132-935832d63212_OCTOBER 2022 - 699.60.pdf",
+        "name": "OCTOBER 2022 - 699.60.pdf"
+      }
+    ],
+    "rowKey": "-NMFu4MHzYg6DT8gV85E",
+    "user": "-NMFCcykSShIUTV6Jlri",
+    "vendorEmail": "simran@hush-uk.com",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NMS5DhGYgv6l0ZgQqc-": {
+    "_id": 3,
+    "amount": 90,
+    "createdDate": 1674451676330,
+    "datePaid": 1680562800000,
+    "group": "-NMFGKarX6SAtBYmk_ej",
+    "lastEditDate": 1680647544462,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reportPDF": [
+      {
+        "id": "4ff7dff0-9ae0-11ed-8b80-57a013bc0b30_AACA AACA.pdf",
+        "name": "AACA AACA.pdf"
+      }
+    ],
+    "reports": [
+      {
+        "id": "4b531fb0-b66e-11ed-b132-935832d63212_DECEMBER 2022 - 90.00.pdf",
+        "name": "DECEMBER 2022 - 90.00.pdf"
+      }
+    ],
+    "rowKey": "-NMS5DhGYgv6l0ZgQqc-",
+    "user": "-NMFCcykSShIUTV6Jlri",
+    "vendorEmail": "arianeank@gmail.com",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NMS7yPZfVLCr4oD4dwK": {
+    "_id": 4,
+    "amount": 239.4,
+    "createdDate": 1674452396029,
+    "datePaid": 1680562800000,
+    "group": "-NMFGKarX6SAtBYmk_ej",
+    "lastEditDate": 1680647550718,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "165d45f0-b66f-11ed-b132-935832d63212_NOVEMBER 2022 - 239.40.pdf",
+        "name": "NOVEMBER 2022 - 239.40.pdf"
+      }
+    ],
+    "rowKey": "-NMS7yPZfVLCr4oD4dwK",
+    "user": "-NMFCcykSShIUTV6Jlri",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOEJ0ykVRnzXmJZ6mvJ": {
+    "_id": 11,
+    "amount": 270,
+    "createdDate": 1676367897604,
+    "datePaid": 1680562800000,
+    "group": "-NMFGJNUxR-aEiwG6jIZ",
+    "lastEditDate": 1680647572632,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "dfe97ec0-b66f-11ed-b132-935832d63212_SEPTEMBER 2022 - 270.00.pdf",
+        "name": "SEPTEMBER 2022 - 270.00.pdf"
+      }
+    ],
+    "rowKey": "-NOEJ0ykVRnzXmJZ6mvJ",
+    "user": "-NMFCcykSShIUTV6Jlri",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPSsOYP4GQ3gxO1zKp": {
+    "_id": 13,
+    "amount": 198,
+    "createdDate": 1676555028228,
+    "datePaid": 1666137600000,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1677227807132,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ MONTHLY STATEMENT",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "0dce2480-ae00-11ed-aebe-29639da105ce_SEP 2022 - 198.pdf",
+        "name": "SEP 2022 - 198.pdf"
+      }
+    ],
+    "rowKey": "-NOPSsOYP4GQ3gxO1zKp",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPUb_gLBW8ZDcJZj_g": {
+    "_id": 14,
+    "amount": 591.6,
+    "createdDate": 1676555483645,
+    "datePaid": 1669075200000,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1677227820750,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ MONTHLY STATEMENT",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "33dfd1e0-ae01-11ed-bf05-87c7ba9185fd_OCT 2022 - 591.60.pdf",
+        "name": "OCT 2022 - 591.60.pdf"
+      }
+    ],
+    "rowKey": "-NOPUb_gLBW8ZDcJZj_g",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPV17Q3Lw4wJtWHlgu": {
+    "_id": 15,
+    "amount": 414.36,
+    "createdDate": 1676555592363,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1677227714954,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ MONTHLY STATEMENT",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "539b2430-ae01-11ed-bf05-87c7ba9185fd_AUG 2022 - 414.36.pdf",
+        "name": "AUG 2022 - 414.36.pdf"
+      }
+    ],
+    "rowKey": "-NOPV17Q3Lw4wJtWHlgu",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPVCRuek02WkES3MR1": {
+    "_id": 16,
+    "amount": 182.4,
+    "createdDate": 1676555638735,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1677227718812,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ MONTHLY STATEMENT",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "6de57cf0-ae01-11ed-bf05-87c7ba9185fd_JULY 2022 - 182.40.pdf",
+        "name": "JULY 2022 - 182.40.pdf"
+      }
+    ],
+    "rowKey": "-NOPVCRuek02WkES3MR1",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPVMiqPQYB3O6PKkQi": {
+    "_id": 17,
+    "amount": 401.1,
+    "createdDate": 1676555680839,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1677227721803,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2astc4dC33Bhy76b",
+    "name": "MWHQ MONTHLY STATEMENT",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8c017720-ae01-11ed-bf05-87c7ba9185fd_MAY 2022 - 401.10.pdf",
+        "name": "MAY 2022 - 401.10.pdf"
+      }
+    ],
+    "rowKey": "-NOPVMiqPQYB3O6PKkQi",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPV_S0fY3o6RnCJ4qB": {
+    "_id": 18,
+    "amount": 158.4,
+    "createdDate": 1676555737042,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1676903618934,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "name": "TRUE DEC",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a6d04220-ae01-11ed-bf05-87c7ba9185fd_MARCH 2022 - 158.40.pdf",
+        "name": "MARCH 2022 - 158.40.pdf"
+      }
+    ],
+    "rowKey": "-NOPV_S0fY3o6RnCJ4qB",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPVkFCGSTLw-qLWjbO": {
+    "_id": 19,
+    "amount": 67.8,
+    "createdDate": 1676555781278,
+    "group": "-NOUyphBZr46SlfHtAT7",
+    "lastEditDate": 1676903614566,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "TRUE DEC",
+    "nameUser": "-NMFb6XQSvT0mP05dSPI",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "c20ebee0-ae01-11ed-bf05-87c7ba9185fd_FEB 2022 - 67.80.pdf",
+        "name": "FEB 2022 - 67.80.pdf"
+      }
+    ],
+    "rowKey": "-NOPVkFCGSTLw-qLWjbO",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPglM2hx2-IUfq2wZR": {
+    "_id": 20,
+    "amount": 325.78,
+    "createdDate": 1676558931460,
+    "datePaid": 1676851200000,
+    "group": "-NMFGaRGWZeMfs9wl_Kk",
+    "lastEditDate": 1676560000892,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "January 2023 Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "df36a600-ae0a-11ed-85de-012d95c31369_Statement.pdf",
+        "name": "Statement.pdf"
+      }
+    ],
+    "rowKey": "-NOPglM2hx2-IUfq2wZR",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOPiscESTMeqL1Kytux": {
+    "_id": 21,
+    "amount": 540,
+    "createdDate": 1676559485520,
+    "datePaid": 1674172800000,
+    "lastEditDate": 1677469284860,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "December 2022 Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a0eee470-ae0a-11ed-85de-012d95c31369_Statement.pdf",
+        "name": "Statement.pdf"
+      }
+    ],
+    "rowKey": "-NOPiscESTMeqL1Kytux",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPj-E4gOrCZyrVPfRP": {
+    "_id": 23,
+    "amount": 200.6,
+    "createdDate": 1676559516678,
+    "datePaid": 1671494400000,
+    "lastEditDate": 1676559924440,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "November 2022 Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a6e2f0b0-ae0a-11ed-85de-012d95c31369_Statement.pdf",
+        "name": "Statement.pdf"
+      }
+    ],
+    "rowKey": "-NOPj-E4gOrCZyrVPfRP",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOPjBZRWIEdZKpfEUo-": {
+    "_id": 24,
+    "amount": 67.9,
+    "createdDate": 1676559567197,
+    "datePaid": 1668902400000,
+    "lastEditDate": 1676559949575,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "October 2022 Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "ac358cd0-ae0a-11ed-85de-012d95c31369_Statement.pdf",
+        "name": "Statement.pdf"
+      }
+    ],
+    "rowKey": "-NOPjBZRWIEdZKpfEUo-",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOQuVdr-bxQxQUI0JxN": {
+    "_id": 26,
+    "amount": 156,
+    "createdDate": 1676579309741,
+    "datePaid": 1675814400000,
+    "lastEditDate": 1676579540478,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "d2c1c7f0-ae38-11ed-b420-a538a124ae8b_Sian December - error testing file.pdf",
+        "name": "Sian December - error testing file.pdf"
+      }
+    ],
+    "rowKey": "-NOQuVdr-bxQxQUI0JxN",
+    "statementPaid": true
+  },
+  "-NOS0s06s2RWxqZwcYkb": {
+    "_id": 27,
+    "amount": 208.8,
+    "createdDate": 1676598017113,
+    "datePaid": 1675296000000,
+    "group": "-NMFGVKYPRCRgiE275RL",
+    "lastEditDate": 1676598683614,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "38e92700-ae64-11ed-b458-1d8d43788c22_MWHQ Monthly Statement - Andrea D - December 2022.pdf",
+        "name": "MWHQ Monthly Statement - Andrea D - December 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOS0s06s2RWxqZwcYkb",
+    "statementPaid": true
+  },
+  "-NOSt0spcZnKj0uf-7PM": {
+    "_id": 28,
+    "createdDate": 1676612474923,
+    "lastEditDate": 1676612496478,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Monthly Statement - December 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "bcdb3780-ae85-11ed-80f9-f11d79674b7f_elizabeth kincaid 2.pdf",
+        "name": "elizabeth kincaid 2.pdf"
+      }
+    ],
+    "rowKey": "-NOSt0spcZnKj0uf-7PM"
+  },
+  "-NOSyJqY9qoz1fCYhm09": {
+    "_id": 29,
+    "amount": 87.36,
+    "createdDate": 1676613863252,
+    "datePaid": 1675728000000,
+    "group": "-NMFGX2eGM1ULj98d4zE",
+    "lastEditDate": 1676614634304,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement",
+    "nameUser": "-NMFfGBU0usMjN3YgsGE",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "1fd0e5d0-ae89-11ed-bdd4-3d235fe5eea1_NOVEMBER 2022 - 87.36.pdf",
+        "name": "NOVEMBER 2022 - 87.36.pdf"
+      }
+    ],
+    "rowKey": "-NOSyJqY9qoz1fCYhm09",
+    "user": "-NMFfGBU0usMjN3YgsGE",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOSyl3FJO7PAcHioL-o": {
+    "_id": 30,
+    "amount": 360.32,
+    "createdDate": 1676613978813,
+    "datePaid": 1675728000000,
+    "group": "-NMFGX2eGM1ULj98d4zE",
+    "lastEditDate": 1676614636028,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "nameUser": "-NMFfGBU0usMjN3YgsGE",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "37fb6bd0-ae89-11ed-bdd4-3d235fe5eea1_DECEMBER 2022 - 360.32.pdf",
+        "name": "DECEMBER 2022 - 360.32.pdf"
+      }
+    ],
+    "rowKey": "-NOSyl3FJO7PAcHioL-o",
+    "user": "-NMFfGBU0usMjN3YgsGE",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOT0xIgWvcAivwR3dEo": {
+    "_id": 31,
+    "amount": 881.7,
+    "createdDate": 1676614815385,
+    "datePaid": 1675728000000,
+    "lastEditDate": 1676615288311,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "3de86bd0-ae8c-11ed-bdd4-3d235fe5eea1_ELIZABETH KINCAID-GREENE - BACKDATES.pdf",
+        "name": "ELIZABETH KINCAID-GREENE - BACKDATES.pdf"
+      }
+    ],
+    "rowKey": "-NOT0xIgWvcAivwR3dEo",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOT2p5L5M8Ymdmzv6hJ": {
+    "_id": 32,
+    "createdDate": 1676615306052,
+    "lastEditDate": 1676615310152,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOT2p5L5M8Ymdmzv6hJ"
+  },
+  "-NOT3NSWKHeGcKsanyYo": {
+    "_id": 33,
+    "amount": 321,
+    "createdDate": 1676615451041,
+    "datePaid": 1675296000000,
+    "group": "-NMFGX2eGM1ULj98d4zE",
+    "lastEditDate": 1676615505841,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "abe7c0e0-ae8c-11ed-80f5-9f4ce9a641df_February 2023 - 321.00.pdf",
+        "name": "February 2023 - 321.00.pdf"
+      }
+    ],
+    "rowKey": "-NOT3NSWKHeGcKsanyYo",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOT4JG890jLfoZ6enp6": {
+    "_id": 34,
+    "amount": 945.7,
+    "createdDate": 1676615696008,
+    "group": "-NMFGX2eGM1ULj98d4zE",
+    "lastEditDate": 1676615736320,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "3933a0e0-ae8d-11ed-80f5-9f4ce9a641df_JANUARY 2023 - 945.70.pdf",
+        "name": "JANUARY 2023 - 945.70.pdf"
+      }
+    ],
+    "rowKey": "-NOT4JG890jLfoZ6enp6",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOURe0X-CpJLXgVXRvd": {
+    "_id": 36,
+    "amount": 182.4,
+    "createdDate": 1676638590943,
+    "datePaid": 1663632000000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639323377,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8f7aedc0-aec2-11ed-a109-afbe6de8efc6_JULY 2022.pdf",
+        "name": "JULY 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOURe0X-CpJLXgVXRvd",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOURqjnLiNC5hwAXluV": {
+    "_id": 37,
+    "amount": 414.36,
+    "createdDate": 1676638643056,
+    "datePaid": 1664755200000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676640023770,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "aacdb5d0-aec2-11ed-a109-afbe6de8efc6_AUG 2022.pdf",
+        "name": "AUG 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOURqjnLiNC5hwAXluV",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOURzeXyqbaqQJCpBJJ": {
+    "_id": 38,
+    "amount": 198,
+    "createdDate": 1676638679583,
+    "datePaid": 1666656000000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639998046,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "bf914310-aec2-11ed-a109-afbe6de8efc6_SEP 2022.pdf",
+        "name": "SEP 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOURzeXyqbaqQJCpBJJ",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUS6kUt7opl_SbKhVW": {
+    "_id": 39,
+    "amount": 591.6,
+    "createdDate": 1676638712732,
+    "datePaid": 1669075200000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639249865,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "d7682ad0-aec2-11ed-a109-afbe6de8efc6_OCT 2022.pdf",
+        "name": "OCT 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUS6kUt7opl_SbKhVW",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUSEqIDzzlqPao2o2u": {
+    "_id": 40,
+    "amount": 456.52,
+    "createdDate": 1676638745872,
+    "datePaid": 1673913600000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676644897570,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOUSEqIDzzlqPao2o2u",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUS_I2_bGKWILAnFi0": {
+    "_id": 41,
+    "amount": 298.8,
+    "createdDate": 1676638833728,
+    "datePaid": 1675296000000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676640688864,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "539f57f0-aec7-11ed-a109-afbe6de8efc6_DEC 2022.pdf",
+        "name": "DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUS_I2_bGKWILAnFi0",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUSnciOLIJa60ybN7L": {
+    "_id": 42,
+    "amount": 67.8,
+    "createdDate": 1676638892460,
+    "datePaid": 1647993600000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639033138,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "3fe4ac00-aec3-11ed-a109-afbe6de8efc6_FEB 2022.pdf",
+        "name": "FEB 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUSnciOLIJa60ybN7L",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUT640dAaPabT0cJkE": {
+    "_id": 43,
+    "amount": 158.4,
+    "createdDate": 1676638972095,
+    "datePaid": 1651536000000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639032508,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "71759360-aec3-11ed-a109-afbe6de8efc6_MARCH 2022.pdf",
+        "name": "MARCH 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUT640dAaPabT0cJkE",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUTN1diV3xCvS-Znsp": {
+    "_id": 44,
+    "amount": 374.16,
+    "createdDate": 1676639041575,
+    "datePaid": 1653523200000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639187403,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ae_sQ-HBDA4-8A9",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "9be204d0-aec3-11ed-a109-afbe6de8efc6_APRIL 2022.pdf",
+        "name": "APRIL 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUTN1diV3xCvS-Znsp",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOUTc9PAn6QqpndWfTB": {
+    "_id": 45,
+    "amount": 401.1,
+    "createdDate": 1676639107607,
+    "datePaid": 1656374400000,
+    "group": "-NMFGQCTa0Owldlh2lgs",
+    "lastEditDate": 1676639189345,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2astc4dC33Bhy76b",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "cbe4ab10-aec3-11ed-a109-afbe6de8efc6_MAY 2022.pdf",
+        "name": "MAY 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOUTc9PAn6QqpndWfTB",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOY9E9YoasrxEHpf5JN": {
+    "_id": 46,
+    "amount": 407.4,
+    "createdDate": 1676700872862,
+    "datePaid": 1675296000000,
+    "group": "-NMFGag1R5JMu4snkntc",
+    "lastEditDate": 1676700942374,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a483c980-af53-11ed-ab77-db83f5cacba3_DECEBER 2022.pdf",
+        "name": "DECEBER 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOY9E9YoasrxEHpf5JN",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOYAV3Bl1XI1V-442Dr": {
+    "_id": 47,
+    "amount": 168,
+    "createdDate": 1676701204229,
+    "datePaid": 1676851200000,
+    "group": "-NMFGVKYPRCRgiE275RL",
+    "lastEditDate": 1676701252424,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "5c4ae800-af54-11ed-ab77-db83f5cacba3_JAN 2023.pdf",
+        "name": "JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NOYAV3Bl1XI1V-442Dr",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOYDPdS63q_AIk5YrV0": {
+    "_id": 48,
+    "amount": 48,
+    "createdDate": 1676701968470,
+    "datePaid": 1676851200000,
+    "group": "-NMFGcci9lzbyOntQWrf",
+    "lastEditDate": 1676702082091,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "5202b1f0-af56-11ed-ab77-db83f5cacba3_ANKE CROSSLEY - JAN 2023.pdf",
+        "name": "ANKE CROSSLEY - JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NOYDPdS63q_AIk5YrV0",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOYDr4j3tKh47JFIODM": {
+    "_id": 49,
+    "amount": 20.4,
+    "createdDate": 1676702084968,
+    "datePaid": 1675296000000,
+    "group": "-NMFGcci9lzbyOntQWrf",
+    "lastEditDate": 1676702281427,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "6b80ba00-af56-11ed-ab77-db83f5cacba3_ANKE CROSSLEY - DEC 2022.pdf",
+        "name": "ANKE CROSSLEY - DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NOYDr4j3tKh47JFIODM",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOdWNbFNc1FJt2C43JI": {
+    "_id": 50,
+    "amount": 4544,
+    "createdDate": 1676807604203,
+    "datePaid": 1676419200000,
+    "group": "-NMFGTsTILy0cOchhEQD",
+    "lastEditDate": 1676807635419,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOdWNbFNc1FJt2C43JI",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOdXNphDnZ6CI6imTKy": {
+    "_id": 51,
+    "amount": 120,
+    "datePaid": 1597881600000,
+    "group": "-NMFGL4TS531nMqr9i07",
+    "lastEditDate": 1677512551785,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ Monthly Statement",
+    "nameUser": "-NMFdklZBEGVEj20yebL",
+    "rowKey": "-NOdXNphDnZ6CI6imTKy",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOdXNpj5Hm6ckliZ-IK": {
+    "_id": 52,
+    "amount": 140,
+    "datePaid": 1600646400000,
+    "group": "-NMFGL4TS531nMqr9i07",
+    "lastEditDate": 1677512549507,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ Monthly Statement",
+    "nameUser": "-NMFdklZBEGVEj20yebL",
+    "rowKey": "-NOdXNpj5Hm6ckliZ-IK",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOdYY1an71PJYqDQqRF": {
+    "_id": 53,
+    "createdDate": 1676808171180,
+    "lastEditDate": 1676808171305,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOdYY1an71PJYqDQqRF",
+    "vendorEmail": "-NMFctA-8bYKCoaURNTR"
+  },
+  "-NOeL5yFO87ba6K4MPkh": {
+    "_id": 54,
+    "createdDate": 1676821425036,
+    "lastEditDate": 1676821425037,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOeL5yFO87ba6K4MPkh"
+  },
+  "-NOeN-2iEyvWlCux3e3_": {
+    "_id": 55,
+    "createdDate": 1676821921601,
+    "lastEditDate": 1676821921602,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOeN-2iEyvWlCux3e3_"
+  },
+  "-NOeV2-HyPlx44MOCZDg": {
+    "_id": 56,
+    "createdDate": 1676824030348,
+    "lastEditDate": 1676824030349,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOeV2-HyPlx44MOCZDg"
+  },
+  "-NOeXfNZdqSmMtdR92w2": {
+    "_id": 57,
+    "createdDate": 1676824719760,
+    "lastEditDate": 1676824719760,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOeXfNZdqSmMtdR92w2"
+  },
+  "-NOeXiK3a4iaaxAJAFz1": {
+    "_id": 59,
+    "amount": 800,
+    "createdDate": 1676824731826,
+    "datePaid": 1676332800000,
+    "lastEditDate": 1676824774917,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "f3c9ce10-b073-11ed-b11f-f36c98393d8b_HUSH (4).pdf",
+        "name": "HUSH (4).pdf"
+      }
+    ],
+    "rowKey": "-NOeXiK3a4iaaxAJAFz1",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOfFlEz8Zb7dfUTEj2e": {
+    "_id": 60,
+    "createdDate": 1676836804153,
+    "lastEditDate": 1676836814259,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOfFlEz8Zb7dfUTEj2e"
+  },
+  "-NOfGXRJ0o_f-VdLG6rx": {
+    "_id": 61,
+    "amount": 510,
+    "createdDate": 1676837005640,
+    "datePaid": 1676851200000,
+    "lastEditDate": 1676837050633,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "87efc3d0-b090-11ed-bd4e-9de6ccf3beea_sian sales upload to tangle.xlsx",
+        "name": "sian sales upload to tangle.xlsx"
+      }
+    ],
+    "rowKey": "-NOfGXRJ0o_f-VdLG6rx",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOj9dCDTfjg000eBoT3": {
+    "_id": 62,
+    "createdDate": 1676902306105,
+    "lastEditDate": 1676902321410,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "Sian Westerman - MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOj9dCDTfjg000eBoT3"
+  },
+  "-NOjZ3vTT33NH_f-9nxr": {
+    "_id": 63,
+    "createdDate": 1676908973085,
+    "lastEditDate": 1676908997867,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Monthly Statement",
+    "nameUser": "[object Object]",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOjZ3vTT33NH_f-9nxr"
+  },
+  "-NOjZYidbnfayZqtZE9K": {
+    "_id": 64,
+    "createdDate": 1676909099240,
+    "lastEditDate": 1676909099241,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOjZYidbnfayZqtZE9K"
+  },
+  "-NOjZacM96nHxmVJB85V": {
+    "_id": 65,
+    "amount": 156,
+    "createdDate": 1676909111125,
+    "datePaid": 1675296000000,
+    "lastEditDate": 1676909166360,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "7452c5e0-b138-11ed-ad5f-153c9038828f_DECEMBER 2022 - SIAN WESTERMAN.pdf",
+        "name": "DECEMBER 2022 - SIAN WESTERMAN.pdf"
+      }
+    ],
+    "rowKey": "-NOjZacM96nHxmVJB85V",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOjaYX0-RD--S9YlJ78": {
+    "_id": 66,
+    "amount": 156,
+    "createdDate": 1676909622566,
+    "datePaid": 1675296000000,
+    "group": "-NOQIwAB85Xbn9a-eKp1",
+    "lastEditDate": 1676909746462,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a5611a50-b139-11ed-82a1-a5e15ea37a03_DECEMBER 2022 - SIAN WESTERMAN.pdf",
+        "name": "DECEMBER 2022 - SIAN WESTERMAN.pdf"
+      }
+    ],
+    "rowKey": "-NOjaYX0-RD--S9YlJ78",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NOpUsOIdbM2-iPTaI9Q": {
+    "_id": 67,
+    "createdDate": 1677008540089,
+    "lastEditDate": 1677008540090,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOpUsOIdbM2-iPTaI9Q"
+  },
+  "-NOpUwPAFRRm42pbWnv_": {
+    "_id": 68,
+    "createdDate": 1677008556531,
+    "lastEditDate": 1677008556531,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOpUwPAFRRm42pbWnv_"
+  },
+  "-NOpV-XLHxXBwwSKMnFH": {
+    "_id": 69,
+    "amount": 510,
+    "createdDate": 1677008573436,
+    "datePaid": 1676851200000,
+    "group": "-NOQIwAB85Xbn9a-eKp1",
+    "lastEditDate": 1677008782006,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "ff165f60-b21f-11ed-9bb0-47a990666297_MWHQ Monthly Statement - Sian Westerman - January 2023.pdf",
+        "name": "MWHQ Monthly Statement - Sian Westerman - January 2023.pdf"
+      }
+    ],
+    "rowKey": "-NOpV-XLHxXBwwSKMnFH",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NOwpyJWm9HCV62vn9W2": {
+    "_id": 70,
+    "createdDate": 1677131768106,
+    "lastEditDate": 1677131768106,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOwpyJWm9HCV62vn9W2"
+  },
+  "-NOz3xkexJ0s_0Me97qB": {
+    "_id": 71,
+    "createdDate": 1677169253486,
+    "lastEditDate": 1677169253493,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NOz3xkexJ0s_0Me97qB"
+  },
+  "-NP1_8W0pXhmg0h_S6Nc": {
+    "_id": 72,
+    "createdDate": 1677228021488,
+    "lastEditDate": 1677228021489,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NP1_8W0pXhmg0h_S6Nc"
+  },
+  "-NP1sYHFq_oOhwwUyEjf": {
+    "_id": 74,
+    "amount": 1861.8,
+    "createdDate": 1677233107586,
+    "datePaid": 1665964800000,
+    "group": "-NMFGPxyIdXyo5bHOcJv",
+    "lastEditDate": 1677233231417,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "0007d4a0-b42b-11ed-9535-4f2bd0cee723_DASKA JULY 2022.pdf",
+        "name": "DASKA JULY 2022.pdf"
+      }
+    ],
+    "rowKey": "-NP1sYHFq_oOhwwUyEjf",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NP1tKMqIxYL1m2dJ_H2": {
+    "_id": 75,
+    "amount": 1118.4,
+    "createdDate": 1677233312781,
+    "datePaid": 1664755200000,
+    "group": "-NMFGPxyIdXyo5bHOcJv",
+    "lastEditDate": 1677233362638,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "406752a0-b42b-11ed-9382-97de8b880fac_DASKA AUGUST 2022.pdf",
+        "name": "DASKA AUGUST 2022.pdf"
+      }
+    ],
+    "rowKey": "-NP1tKMqIxYL1m2dJ_H2",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NP1u3T9dpSWUQWM5COH": {
+    "_id": 76,
+    "amount": 2924.4,
+    "createdDate": 1677233505696,
+    "datePaid": 1675296000000,
+    "group": "-NMFGPxyIdXyo5bHOcJv",
+    "lastEditDate": 1677234564007,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "195bdf20-b42e-11ed-add0-531c5e928278_DASKA DEC 2022.pdf",
+        "name": "DASKA DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NP1u3T9dpSWUQWM5COH",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NP1uW9exk0LfNqD1Qp7": {
+    "_id": 77,
+    "amount": 563.4,
+    "createdDate": 1677233623044,
+    "datePaid": 1677110400000,
+    "group": "-NMFGPxyIdXyo5bHOcJv",
+    "lastEditDate": 1677233693469,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "00852580-b42c-11ed-add0-531c5e928278_DASKA JAN 2023.pdf",
+        "name": "DASKA JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NP1uW9exk0LfNqD1Qp7",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NP1yvYzXezX7v8PjvXI": {
+    "_id": 78,
+    "amount": 54,
+    "createdDate": 1677234779678,
+    "group": "-NMFGPxyIdXyo5bHOcJv",
+    "lastEditDate": 1677234907979,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "cb1a57f0-b42e-11ed-963f-b38f14d2a259_DASKA OCT 2022.pdf",
+        "name": "DASKA OCT 2022.pdf"
+      }
+    ],
+    "rowKey": "-NP1yvYzXezX7v8PjvXI",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPFsQIXUcYCSzU2wJMG": {
+    "_id": 79,
+    "amount": 457.2,
+    "createdDate": 1677467955534,
+    "datePaid": 1662940800000,
+    "group": "-NMFGL4TS531nMqr9i07",
+    "lastEditDate": 1677468054402,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "bd678ad0-b64d-11ed-8c99-bb49fb2d1074_BAG BUTLER JULY 2022 - 457.20.pdf",
+        "name": "BAG BUTLER JULY 2022 - 457.20.pdf"
+      }
+    ],
+    "rowKey": "-NPFsQIXUcYCSzU2wJMG",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPFvkCwThc7iXxUf2un": {
+    "_id": 80,
+    "createdDate": 1677468827622,
+    "lastEditDate": 1677468827622,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NPFvkCwThc7iXxUf2un"
+  },
+  "-NPGhDekWRekbjzLl0-8": {
+    "_id": 81,
+    "amount": 270,
+    "createdDate": 1677481797596,
+    "group": "-NMFGKarX6SAtBYmk_ej",
+    "lastEditDate": 1677481879769,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "da55cce0-b66d-11ed-b132-935832d63212_SEPTEMBER 2022 - 270.00.pdf",
+        "name": "SEPTEMBER 2022 - 270.00.pdf"
+      }
+    ],
+    "rowKey": "-NPGhDekWRekbjzLl0-8",
+    "user": "-NMFCcykSShIUTV6Jlri",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPGyvngSorQsxJqNIj1": {
+    "_id": 82,
+    "amount": 505.2,
+    "createdDate": 1677486438797,
+    "group": "-NOsJLl7NirI55K3DB8s",
+    "lastEditDate": 1677486506272,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a2f88480-b678-11ed-b132-935832d63212_GALVAN JAN 2023.pdf",
+        "name": "GALVAN JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NPGyvngSorQsxJqNIj1",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NPH1kWr4AqfYM5AWAsn": {
+    "_id": 83,
+    "amount": 199.8,
+    "createdDate": 1677487441163,
+    "datePaid": 1667260800000,
+    "group": "-NMFGPiyi0yMdqpDL560",
+    "lastEditDate": 1677487502543,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "f17ed580-b67a-11ed-b132-935832d63212_HOUSE OF SHELDONHALL - SEP 2022.pdf",
+        "name": "HOUSE OF SHELDONHALL - SEP 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPH1kWr4AqfYM5AWAsn",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH22HFzhEUBy1mmXQR": {
+    "_id": 84,
+    "amount": 129.6,
+    "createdDate": 1677487517955,
+    "datePaid": 1669075200000,
+    "group": "-NMFGPiyi0yMdqpDL560",
+    "lastEditDate": 1677487571677,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "19d908c0-b67b-11ed-b132-935832d63212_HOUSE OF SHELDONHALL - OCT 2022.pdf",
+        "name": "HOUSE OF SHELDONHALL - OCT 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPH22HFzhEUBy1mmXQR",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH2f54PYqA2231mSxN": {
+    "_id": 85,
+    "amount": 467.1,
+    "createdDate": 1677487681020,
+    "datePaid": 1664409600000,
+    "group": "-NMFGPiyi0yMdqpDL560",
+    "lastEditDate": 1677487746234,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8535ed90-b67b-11ed-b132-935832d63212_HOUSE OF SHELDONHALL AUGUST 2022.pdf",
+        "name": "HOUSE OF SHELDONHALL AUGUST 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPH2f54PYqA2231mSxN",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH3eZw6lTOUAthOS7C": {
+    "_id": 86,
+    "amount": 407.4,
+    "createdDate": 1677487941040,
+    "datePaid": 1666656000000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677661844074,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NPH3eZw6lTOUAthOS7C",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH51DJ8WL5no0PJ2Ww": {
+    "_id": 87,
+    "amount": 33,
+    "createdDate": 1677488300044,
+    "datePaid": 1677196800000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677488324601,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "e7daceb0-b67c-11ed-b132-935832d63212_HUSH JANUARY 2023.pdf",
+        "name": "HUSH JANUARY 2023.pdf"
+      }
+    ],
+    "rowKey": "-NPH51DJ8WL5no0PJ2Ww",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NPH5J1-PRLVd8l71x0l": {
+    "_id": 88,
+    "amount": 1254.6,
+    "createdDate": 1677488372979,
+    "datePaid": 1662336000000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677489972343,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "12b01410-b67d-11ed-b132-935832d63212_HUSH - AUGUST 2022 - 1177.20.pdf",
+        "name": "HUSH - AUGUST 2022 - 1177.20.pdf"
+      }
+    ],
+    "rowKey": "-NPH5J1-PRLVd8l71x0l",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH5Udj-38kkuEx7oQF": {
+    "_id": 89,
+    "amount": 1861.8,
+    "createdDate": 1677488420579,
+    "datePaid": 1662336000000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677664922920,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "39d2d8c0-b67d-11ed-b132-935832d63212_HUSH- JULY - 1861.80.pdf",
+        "name": "HUSH- JULY - 1861.80.pdf"
+      }
+    ],
+    "rowKey": "-NPH5Udj-38kkuEx7oQF",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPH5oIl--t4BpMT6gyS": {
+    "_id": 90,
+    "amount": 1293.8,
+    "createdDate": 1677488505189,
+    "datePaid": 1675814400000,
+    "group": "-NMFGbPpsBMpUnhkKYmG",
+    "lastEditDate": 1677548734639,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8932a620-b709-11ed-8183-51c95a34f1d6_Amanda Wakeley Statement - Oct + Nov 2022.pdf",
+        "name": "Amanda Wakeley Statement - Oct + Nov 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPH5oIl--t4BpMT6gyS",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPHAYwTbzCjDzo3hBD1": {
+    "_id": 91,
+    "amount": 196.2,
+    "createdDate": 1677489748747,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677664924426,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2b0uvJz1YngB5oeW",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "541a43f0-b680-11ed-b92f-554bf97b1f84_HUSH - JUNE 2022.pdf",
+        "name": "HUSH - JUNE 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPHAYwTbzCjDzo3hBD1",
+    "statementPaid": true,
+    "user": "-NMDSnLMDIpYR50JEM37",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPID-7nG224hT4N1adh": {
+    "_id": 92,
+    "amount": 48,
+    "createdDate": 1677507165268,
+    "datePaid": 1675296000000,
+    "group": "-NMFGSdgirtwbQGCaGWj",
+    "lastEditDate": 1677507243842,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "e4613450-b6a8-11ed-a021-d1a2a64f1aa0_DAVID KOMA - DEC 2022.pdf",
+        "name": "DAVID KOMA - DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPID-7nG224hT4N1adh",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPIDMSlWPQe1x9zJOjR": {
+    "_id": 93,
+    "amount": 150.4,
+    "createdDate": 1677507260819,
+    "datePaid": 1670803200000,
+    "group": "-NMFGSdgirtwbQGCaGWj",
+    "lastEditDate": 1677507341851,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement - Partial - 1 of 2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "1781e370-b6a9-11ed-a021-d1a2a64f1aa0_DAVID KOMA - NOV 2022.pdf",
+        "name": "DAVID KOMA - NOV 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPIDMSlWPQe1x9zJOjR",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPIDhpWVZSq-BEZk6Z3": {
+    "_id": 94,
+    "amount": 141.3,
+    "createdDate": 1677507352454,
+    "datePaid": 1673481600000,
+    "group": "-NMFGSdgirtwbQGCaGWj",
+    "lastEditDate": 1677507412106,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement - Partial - 2 of 2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "553701f0-b6a9-11ed-a021-d1a2a64f1aa0_DAVID KOMA - NOV 2022.pdf",
+        "name": "DAVID KOMA - NOV 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPIDhpWVZSq-BEZk6Z3",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPIXZOmeaW6G1SsfJNz": {
+    "_id": 95,
+    "amount": 91.8,
+    "createdDate": 1677512556554,
+    "datePaid": 1666656000000,
+    "group": "-NMFGSdgirtwbQGCaGWj",
+    "lastEditDate": 1677513083014,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NPIXZOmeaW6G1SsfJNz",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPJbOgqmblKnMkyvDJ1": {
+    "_id": 96,
+    "amount": 328,
+    "createdDate": 1677530606542,
+    "datePaid": 1679961600000,
+    "group": "-NOsVHVfLX_V2iCEFnVT",
+    "lastEditDate": 1679984697369,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8bbc5050-b6df-11ed-992d-4dd538abb647_LOAN THE LOOK DEC 2022.pdf",
+        "name": "LOAN THE LOOK DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPJbOgqmblKnMkyvDJ1",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPKjDcFCp0Ecyd1-VwE": {
+    "_id": 98,
+    "amount": 540,
+    "createdDate": 1677549429643,
+    "datePaid": 1675296000000,
+    "group": "-NMFGbPpsBMpUnhkKYmG",
+    "lastEditDate": 1677551319322,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "409fc850-b70b-11ed-958f-3f02f99530d9_Amanda Wakeley Statement - December 2022 -1.pdf",
+        "name": "Amanda Wakeley Statement - December 2022 -1.pdf"
+      }
+    ],
+    "rowKey": "-NPKjDcFCp0Ecyd1-VwE",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPLZ9o_rUg2iH-vQaPq": {
+    "_id": 99,
+    "amount": 108.5,
+    "createdDate": 1677563309356,
+    "datePaid": 1679270400000,
+    "group": "-NMFGX2eGM1ULj98d4zE",
+    "lastEditDate": 1677672884440,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Statement - Balance for 11105731",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "acff90a0-b72b-11ed-98e3-63c1683025bb_ELIZABETH KINCAID - 11105731 balance.pdf",
+        "name": "ELIZABETH KINCAID - 11105731 balance.pdf"
+      }
+    ],
+    "rowKey": "-NPLZ9o_rUg2iH-vQaPq",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NPQx1G3nWmS78udagCR": {
+    "_id": 100,
+    "amount": 118.8,
+    "createdDate": 1677653713238,
+    "datePaid": 1673913600000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677661797098,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "0e3c9160-b7fe-11ed-a80d-e39677c38db7_HUSH OCT 118.80.pdf",
+        "name": "HUSH OCT 118.80.pdf"
+      }
+    ],
+    "rowKey": "-NPQx1G3nWmS78udagCR",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPRcyBjTDEQBJWv3Oxe": {
+    "_id": 101,
+    "amount": 516.6,
+    "createdDate": 1677665231668,
+    "datePaid": 1675296000000,
+    "group": "-NMFGK7SvLcPYF_belYQ",
+    "lastEditDate": 1677665266332,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "dc98a2f0-b818-11ed-98f4-95739b60bb90_HUSH DEC 2022 516.60.pdf",
+        "name": "HUSH DEC 2022 516.60.pdf"
+      }
+    ],
+    "rowKey": "-NPRcyBjTDEQBJWv3Oxe",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPRorYqnt3WZZcA2NEU": {
+    "_id": 102,
+    "amount": 220.2,
+    "createdDate": 1677668350078,
+    "datePaid": 1675900800000,
+    "group": "-NMFGJrRVubqI9amn4Le",
+    "lastEditDate": 1677669968870,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2gsZESX9voi-dHGd",
+    "name": "Tommy Hilfiger - August 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "2516f840-b820-11ed-8fa5-9ddcb164020e_Tommy H Aug transactions .pdf",
+        "name": "Tommy H Aug transactions .pdf"
+      }
+    ],
+    "rowKey": "-NPRorYqnt3WZZcA2NEU",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPRpDxJyDYYiqyvNKl5": {
+    "_id": 103,
+    "amount": 348,
+    "createdDate": 1677668445915,
+    "datePaid": 1675900800000,
+    "group": "-NMFGJrRVubqI9amn4Le",
+    "lastEditDate": 1677669975230,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2h4sgmefIshdlJBn",
+    "name": "Tommy Hilfiger - September 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "7f7953d0-b822-11ed-8fa5-9ddcb164020e_Tommy H sept transactions .pdf",
+        "name": "Tommy H sept transactions .pdf"
+      }
+    ],
+    "rowKey": "-NPRpDxJyDYYiqyvNKl5",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPRsv6SZGGcUq-z1Ma-": {
+    "_id": 104,
+    "amount": 225.6,
+    "createdDate": 1677669413221,
+    "datePaid": 1675900800000,
+    "group": "-NMFGJrRVubqI9amn4Le",
+    "lastEditDate": 1677669979550,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "Tommy Hilfiger - October 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a1f5c1f0-b822-11ed-8fa5-9ddcb164020e_Tommy H october transactions.pdf",
+        "name": "Tommy H october transactions.pdf"
+      }
+    ],
+    "rowKey": "-NPRsv6SZGGcUq-z1Ma-",
+    "statementPaid": true,
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NPRtBE9nCdSKGf9_3U4": {
+    "_id": 105,
+    "amount": 23.4,
+    "createdDate": 1677669483346,
+    "datePaid": 1677456000000,
+    "group": "-NMFGJrRVubqI9amn4Le",
+    "lastEditDate": 1677669988325,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "Tommy Hilfiger - January 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "e0f317e0-b822-11ed-8fa5-9ddcb164020e_Tommy Hilfiger.pdf",
+        "name": "Tommy Hilfiger.pdf"
+      }
+    ],
+    "rowKey": "-NPRtBE9nCdSKGf9_3U4",
+    "statementPaid": true,
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NPuQPBWzNJOP_5IEEI_": {
+    "_id": 106,
+    "amount": 644,
+    "createdDate": 1678164992704,
+    "datePaid": 1675296000000,
+    "group": "-NMFG_DlmrYI2fALbKqf",
+    "lastEditDate": 1678165041126,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement - December 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "7bedbdb0-bca4-11ed-a236-13bc39cf2e26_ROXIE NAFOUSI - DEC 2022.pdf",
+        "name": "ROXIE NAFOUSI - DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NPuQPBWzNJOP_5IEEI_",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NQ3061TYCoZSVhaADa9": {
+    "_id": 107,
+    "amount": 288.9,
+    "createdDate": 1678325871153,
+    "datePaid": 1678060800000,
+    "group": "-NPFTZUNbQuV8Z-wx5Zy",
+    "lastEditDate": 1678326140829,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "72a53ee0-be1b-11ed-a308-b1bed8ffafc0_MWHQ Statement - January 2023 - Hayley Gibson.pdf",
+        "name": "MWHQ Statement - January 2023 - Hayley Gibson.pdf"
+      }
+    ],
+    "rowKey": "-NQ3061TYCoZSVhaADa9",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NQ318bZrBu9VrY1FvcN": {
+    "_id": 108,
+    "amount": 105,
+    "createdDate": 1678326143861,
+    "datePaid": 1678233600000,
+    "group": "-NPFTZUNbQuV8Z-wx5Zy",
+    "lastEditDate": 1678357553910,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "paid": "-NQ3061TYCoZSVhaADa9",
+    "reports": [
+      {
+        "id": "c3ff7820-be64-11ed-a308-b1bed8ffafc0_MWHQ Statement - December 2022 - Hayley Gibson.pdf",
+        "name": "MWHQ Statement - December 2022 - Hayley Gibson.pdf"
+      }
+    ],
+    "rowKey": "-NQ318bZrBu9VrY1FvcN",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NQ4QgDVoqwwbL-q8dPt": {
+    "_id": 109,
+    "createdDate": 1678349616226,
+    "lastEditDate": 1678349616227,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NQ4QgDVoqwwbL-q8dPt"
+  },
+  "-NQ4Qgrw7DfcTO8huFJ6": {
+    "_id": 110,
+    "amount": 90,
+    "createdDate": 1678349618879,
+    "datePaid": 1678233600000,
+    "group": "-NPFTZUNbQuV8Z-wx5Zy",
+    "lastEditDate": 1678350736594,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "9a943d50-be54-11ed-8f2b-db2dd9606cca_MWHQ Statement - November 2022 - Hayley Gibson.pdf",
+        "name": "MWHQ Statement - November 2022 - Hayley Gibson.pdf"
+      }
+    ],
+    "rowKey": "-NQ4Qgrw7DfcTO8huFJ6",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NQ4UzMmOx0WmNNpUtEf": {
+    "_id": 111,
+    "createdDate": 1678350743185,
+    "lastEditDate": 1678350743288,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "paid": "-NQ4Qgrw7DfcTO8huFJ6",
+    "rowKey": "-NQ4UzMmOx0WmNNpUtEf"
+  },
+  "-NQTpTCW_DyoaWqh0WqU": {
+    "_id": 112,
+    "amount": 698.7,
+    "createdDate": 1678775804558,
+    "datePaid": 1678233600000,
+    "group": "-NQTiCbhvJy7e93xT8Bq",
+    "lastEditDate": 1678779085946,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "384103b0-c23a-11ed-bc99-1fe614433e09_MWHQ Statement - Lee Tipley - January 2023.pdf",
+        "name": "MWHQ Statement - Lee Tipley - January 2023.pdf"
+      }
+    ],
+    "rowKey": "-NQTpTCW_DyoaWqh0WqU",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NQTsbqbmDqv2d8jCs1F": {
+    "_id": 113,
+    "amount": 74.92,
+    "createdDate": 1678776630424,
+    "datePaid": 1678233600000,
+    "group": "-NQTiCbhvJy7e93xT8Bq",
+    "lastEditDate": 1678778959234,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "b0a85660-c239-11ed-bc99-1fe614433e09_MWHQ Statement - Lee Tipley - December 2022.pdf",
+        "name": "MWHQ Statement - Lee Tipley - December 2022.pdf"
+      }
+    ],
+    "rowKey": "-NQTsbqbmDqv2d8jCs1F",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NQU0F6c35Kk1iYdsZpM": {
+    "_id": 114,
+    "amount": 138,
+    "createdDate": 1678778892486,
+    "datePaid": 1678233600000,
+    "group": "-NQTiCbhvJy7e93xT8Bq",
+    "lastEditDate": 1678778927833,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NQU0F6c35Kk1iYdsZpM",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NQWLNfuq0cMJqXh2Wyi": {
+    "_id": 115,
+    "amount": 148.8,
+    "createdDate": 1678817986595,
+    "lastEditDate": 1678818025270,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "d59a9720-c294-11ed-8d98-8722efa392ea_MWHQ Statement - Loan The Look - January 2023.pdf",
+        "name": "MWHQ Statement - Loan The Look - January 2023.pdf"
+      }
+    ],
+    "rowKey": "-NQWLNfuq0cMJqXh2Wyi",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NQWL_RNW-hNodHkJEwA": {
+    "_id": 116,
+    "createdDate": 1678818038848,
+    "lastEditDate": 1678818038849,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NQWL_RNW-hNodHkJEwA"
+  },
+  "-NRJJm249IKq3XDxjIK8": {
+    "_id": 117,
+    "createdDate": 1679673204977,
+    "lastEditDate": 1679673204978,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NRJJm249IKq3XDxjIK8"
+  },
+  "-NRJK-sA7aPP3UqPbrNU": {
+    "_id": 118,
+    "amount": 148,
+    "createdDate": 1679673265719,
+    "datePaid": 1677283200000,
+    "group": "-NOsVHVfLX_V2iCEFnVT",
+    "lastEditDate": 1679673915989,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "LoanTheLook",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a8f1edb0-ca5d-11ed-a6d3-99d8d26d2693_MWHQ Statement - Loan The Look - January 2023.pdf",
+        "name": "MWHQ Statement - Loan The Look - January 2023.pdf"
+      }
+    ],
+    "rowKey": "-NRJK-sA7aPP3UqPbrNU",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NRasEjI6jxqYWF0CVAr": {
+    "_id": 119,
+    "amount": 78,
+    "createdDate": 1679984491497,
+    "datePaid": 1679961600000,
+    "group": "-NOsVHVfLX_V2iCEFnVT",
+    "lastEditDate": 1679984535711,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "e08f85e0-cd30-11ed-bd57-d5c4b0d9b676_LOAN THE LOOK - FEBRUARY 2023.pdf",
+        "name": "LOAN THE LOOK - FEBRUARY 2023.pdf"
+      }
+    ],
+    "rowKey": "-NRasEjI6jxqYWF0CVAr",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NS61Jp-cPz0scn0Dtv0": {
+    "_id": 120,
+    "amount": 90,
+    "createdDate": 1680524004859,
+    "datePaid": 1680390000000,
+    "group": "-NMFGbPpsBMpUnhkKYmG",
+    "lastEditDate": 1680524043244,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "Q1 Subscription Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "fb22bfc0-d218-11ed-a78e-dbb0be0c70da_MWHQ Vendor Statement - Amanda Wakeley - Q1 2023 - Q1 2023.pdf",
+        "name": "MWHQ Vendor Statement - Amanda Wakeley - Q1 2023 - Q1 2023.pdf"
+      }
+    ],
+    "rowKey": "-NS61Jp-cPz0scn0Dtv0",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NS6JdsV4Dqd4MVknW5w": {
+    "_id": 121,
+    "amount": 2685.27,
+    "createdDate": 1680528809451,
+    "datePaid": 1680390000000,
+    "group": "-NMFGU6RmlaBc3x8ql-i",
+    "lastEditDate": 1680580987345,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Apr 22 - Mar 23",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "353736e0-d224-11ed-a78e-dbb0be0c70da_MWHQ Vendor Statement - Freed April 22 - 23.pdf",
+        "name": "MWHQ Vendor Statement - Freed April 22 - 23.pdf"
+      }
+    ],
+    "rowKey": "-NS6JdsV4Dqd4MVknW5w"
+  },
+  "-NS75imjTpbdEVBUHFRE": {
+    "_id": 122,
+    "amount": 277.2,
+    "createdDate": 1680541937462,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680542071579,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ Monthly Statement -July 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "c6b09850-d242-11ed-9170-5b1c1f4a87ac_PORTS1961 - JULY 2022.pdf",
+        "name": "PORTS1961 - JULY 2022.pdf"
+      }
+    ],
+    "rowKey": "-NS75imjTpbdEVBUHFRE",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS76MHWqgbOSG4we67-": {
+    "_id": 123,
+    "amount": 936,
+    "createdDate": 1680542103335,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680542177284,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ Monthly Statement - October 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "31391620-d243-11ed-9170-5b1c1f4a87ac_PORTS1961 - OCTOBER 2022.pdf",
+        "name": "PORTS1961 - OCTOBER 2022.pdf"
+      }
+    ],
+    "rowKey": "-NS76MHWqgbOSG4we67-",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS76ghehAfzux_fhffn": {
+    "_id": 124,
+    "amount": 24.6,
+    "createdDate": 1680542191089,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680542235714,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement - February 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "579ecc60-d243-11ed-9170-5b1c1f4a87ac_PORTS1961 - FEB 2023.pdf",
+        "name": "PORTS1961 - FEB 2023.pdf"
+      }
+    ],
+    "rowKey": "-NS76ghehAfzux_fhffn",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NS9uyx-lUui420JJLDt": {
+    "_id": 125,
+    "createdDate": 1680589188943,
+    "lastEditDate": 1680589188945,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9uyx-lUui420JJLDt"
+  },
+  "-NS9v-uvYUEhGvnkhAm1": {
+    "_id": 126,
+    "amount": 0,
+    "createdDate": 1680589197001,
+    "group": "-NMFGT80iSeRuiX7A3FP",
+    "lastEditDate": 1680589225274,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ae_sQ-HBDA4-8A9",
+    "name": "MWHQ STATEMENT - APRIL 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9v-uvYUEhGvnkhAm1",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS9v8dpxpOdca9Ask0u": {
+    "_id": 127,
+    "createdDate": 1680589232771,
+    "lastEditDate": 1680589232774,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9v8dpxpOdca9Ask0u"
+  },
+  "-NS9v9Lf8w6ofo-vcvwe": {
+    "_id": 128,
+    "amount": 0,
+    "createdDate": 1680589235640,
+    "group": "-NMFGT80iSeRuiX7A3FP",
+    "lastEditDate": 1680589259651,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2astc4dC33Bhy76b",
+    "name": "MWHQ STATEMENT - MAY 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9v9Lf8w6ofo-vcvwe",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS9vGUJGVhyLQKF8QPx": {
+    "_id": 129,
+    "createdDate": 1680589264866,
+    "group": "-NMFGT80iSeRuiX7A3FP",
+    "lastEditDate": 1680589283644,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ STATEMENT - OCTOBER 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9vGUJGVhyLQKF8QPx",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS9vN02UV0hDC01yK7A": {
+    "_id": 130,
+    "createdDate": 1680589291601,
+    "group": "-NMFGT80iSeRuiX7A3FP",
+    "lastEditDate": 1680589304421,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hY4TJTf6dDyfjUS",
+    "name": "MWHQ - NOVEMBER 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9vN02UV0hDC01yK7A",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NS9vRYYIN2uazmFB11K": {
+    "_id": 131,
+    "createdDate": 1680589310192,
+    "group": "-NMFGT80iSeRuiX7A3FP",
+    "lastEditDate": 1680589335979,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ STATEMENT - FEB 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NS9vRYYIN2uazmFB11K",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NS9vYb1f7IS3pRcs7rB": {
+    "_id": 132,
+    "createdDate": 1680589339087,
+    "lastEditDate": 1680589339707,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "paid": "-NS9vRYYIN2uazmFB11K",
+    "rowKey": "-NS9vYb1f7IS3pRcs7rB"
+  },
+  "-NSA6ILAKCipxPR35VtX": {
+    "_id": 133,
+    "amount": 30,
+    "createdDate": 1680592418089,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680592479366,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "SUBSCRIPTION - JAN 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "5ba440e0-d2b8-11ed-988e-6b25e561a309_MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - JAN 2023.pdf",
+        "name": "MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NSA6ILAKCipxPR35VtX",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NSA6YtnZRIVkxOwchGr": {
+    "_id": 134,
+    "createdDate": 1680592485906,
+    "lastEditDate": 1680592485907,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NSA6YtnZRIVkxOwchGr"
+  },
+  "-NSA6bDiP5IzN0jMQ4Q5": {
+    "_id": 135,
+    "amount": 50,
+    "createdDate": 1680592499532,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680592539248,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "SUBSCRIPTION - FEB 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "7914b8d0-d2b8-11ed-988e-6b25e561a309_MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - FEB 2023.pdf",
+        "name": "MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - FEB 2023.pdf"
+      }
+    ],
+    "rowKey": "-NSA6bDiP5IzN0jMQ4Q5",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NSA6m_rg_NRIwlf3y1l": {
+    "_id": 136,
+    "amount": 40,
+    "createdDate": 1680592546070,
+    "datePaid": 1680390000000,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1680592572766,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "name": "SUBSCRIPTION - MAR 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "8d5b9c00-d2b8-11ed-988e-6b25e561a309_MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - MAR 2023.pdf",
+        "name": "MWHQ Vendor Statement - PORTS 1961 SUBSCRIPTION - MAR 2023.pdf"
+      }
+    ],
+    "rowKey": "-NSA6m_rg_NRIwlf3y1l",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NSztlM5y-8krFGSqGy5": {
+    "_id": 137,
+    "createdDate": 1681478063614,
+    "lastEditDate": 1681478063615,
+    "lastEditedBy": "wuSxrPulFtdmCxwGDyovleK9kTL2",
+    "owner": "wuSxrPulFtdmCxwGDyovleK9kTL2",
+    "rowKey": "-NSztlM5y-8krFGSqGy5"
+  },
+  "-NTZD8vIiWrQ2Tsv5myW": {
+    "_id": 138,
+    "amount": 24,
+    "createdDate": 1682087386244,
+    "datePaid": 1681945200000,
+    "group": "-NOsWCIYt6Ke24E2aOMW",
+    "lastEditDate": 1682087477612,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "name": "KM ROTATES - DEC 2022",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "2cd6c980-e051-11ed-a60d-99ec5ce7a295_Karen Millen Rotates - White Label - DEC 2022.pdf",
+        "name": "Karen Millen Rotates - White Label - DEC 2022.pdf"
+      }
+    ],
+    "rowKey": "-NTZD8vIiWrQ2Tsv5myW",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NTZDi7uSvwJhYTldUk3": {
+    "_id": 139,
+    "amount": 10.8,
+    "createdDate": 1682087534570,
+    "datePaid": 1681945200000,
+    "group": "-NOsWCIYt6Ke24E2aOMW",
+    "lastEditDate": 1682087634013,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "name": "KM ROTATES - JAN 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "7d5ec8d0-e051-11ed-a60d-99ec5ce7a295_Karen Millen Rotates - White Label - JAN 2023.pdf",
+        "name": "Karen Millen Rotates - White Label - JAN 2023.pdf"
+      }
+    ],
+    "rowKey": "-NTZDi7uSvwJhYTldUk3",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NTZEIiFPuwDMCj-QDxH": {
+    "_id": 140,
+    "amount": 436.2,
+    "createdDate": 1682087688513,
+    "datePaid": 1681945200000,
+    "group": "-NOsWCIYt6Ke24E2aOMW",
+    "lastEditDate": 1682087780328,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "name": "KM ROTATES - MARCH 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "d90ec4f0-e051-11ed-a60d-99ec5ce7a295_Karen Millen Rotates - White Label - MARCH 2023.pdf",
+        "name": "Karen Millen Rotates - White Label - MARCH 2023.pdf"
+      }
+    ],
+    "rowKey": "-NTZEIiFPuwDMCj-QDxH",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  }
+}

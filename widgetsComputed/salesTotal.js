@@ -12,6 +12,10 @@ let netBalance = 0
 let comRate= 0
 let grp = 0
 
+  let perRental = this.homeReportPercentage(email).perSale
+  let commissionRate = 100 - perRental
+
+
 let users = $getGrid('users')
 
 // console.log(email)
@@ -20,7 +24,7 @@ let vendorName
 
 users.forEach(user => {
     if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
-        console.log('user is, ', user)
+        // console.log('user is, ', user)
         vendorName = user.$group$display
     }
 })
@@ -33,30 +37,60 @@ items.filter(item=>{
     
     if(item.vendorName === vendorName && item.invoiceMonth===recentInv
 ){
-    console.log('found item', vendorName)
-    console.log(item.grossSalesPrice)
-    comRate = (item.mWHQCommissionRate*100) ? (item.mWHQCommissionRate*100).toFixed(2) : ''
-if(item.vATonMWHQCommission){
-    vatRental += item.vATonMWHQCommission
+    // console.log('found item', vendorName)
+    // console.log(item.grossSalesPrice)
+//     comRate = (item.mWHQCommissionRate*100) ? (item.mWHQCommissionRate*100).toFixed(2) : ''
+// if(item.vATonMWHQCommission){
+//     vatRental += item.vATonMWHQCommission
+// }
+// if(item.totalMWHQDeductionsfromGrossSalesPrice
+// ){
+//     grossRental += item.totalMWHQDeductionsfromGrossSalesPrice
+// }
+// if(item.netBalanceDueToVendor
+// ){
+//     netBalance += item.netBalanceDueToVendor
+
+// }
+// if(item.grossSalesPrice
+// ){
+//     grp +=item.grossSalesPrice
+
+// }
+
+//         rental.push(item)
+//         rentalNet += item.netSalesPrice
+//         MWHQcom += item.mWHQCommission
+
+      let mWRent15 = item.grossSalesPrice 
+            let net = parseFloat(mWRent15) ? parseFloat((parseFloat(mWRent15)/6)*5).toFixed(2) : ''
+            let mwRent = parseFloat(mWRent15) ? parseFloat(mWRent15).toFixed(2) : ''
+            let commission = parseFloat(mWRent15) ? parseFloat(((parseFloat(mWRent15)/6)*5)*(commissionRate/100)).toFixed(2) : ''
+            let comVat = parseFloat(mWRent15) ? parseFloat((((parseFloat(mWRent15)/6)*5)*(commissionRate/100))*0.2).toFixed(2) : ''
+            let total = parseFloat(commission)+parseFloat(comVat)
+    comRate = commissionRate ? parseFloat(commissionRate).toFixed(2) : ''
+    // console.log(comRate)
+if(comVat){
+    vatRental += parseFloat(comVat)
 }
-if(item.totalMWHQDeductionsfromGrossSalesPrice
+if(total
 ){
-    grossRental += item.totalMWHQDeductionsfromGrossSalesPrice
+    grossRental += parseFloat(total)
 }
-if(item.netBalanceDueToVendor
+if(mwRent && total
 ){
-    netBalance += item.netBalanceDueToVendor
+    netBalance += parseFloat(mwRent)-parseFloat(total)
 
 }
-if(item.grossSalesPrice
+if(mwRent
 ){
-    grp +=item.grossSalesPrice
+    grp += parseFloat(mwRent)
 
 }
 
         rental.push(item)
-        rentalNet += item.netSalesPrice
-        MWHQcom += item.mWHQCommission
+        rentalNet += parseFloat(net)
+        MWHQcom += parseFloat(commission)
 
 
 

@@ -1,16 +1,23 @@
+
 return async function(item){
+// console.log(item.email)
  try {
      let payPeriod=this.paymentPeriod(item.email)
+    //  let payPeriod='22/22/22'
      let mthI = this.recInv(item.email)
-let paydate = this.paymentDate(item.email)
-     console.log(item)
-
+     let paydate = this.paymentDate(item.email)
+    // let paydate = 'February 2023'
+    let perRental = this.homeReportPercentage(item.email).perRent
+    let commissionRate = 100 - perRental
+    let perRentalS = this.homeReportPercentage(item.email).perSale
+    let commissionRateS = 100 - perRentalS
+// console.log('here')
      $setGlobalModel('sendingEmail', true)
- let items = await $getGrid('rentalsInvoices')
- let itemsS = await $getGrid('salesInvoices')
+     let items = await $getGrid('rentalsInvoices')
+     let itemsS = await $getGrid('salesInvoices')
  let users = $getGrid('users')
- let ts = []
- let totalItemsR = 0
+     let ts = []
+     let totalItemsR = 0
  let netTotalR = 0
  let commissionTotalR = 0
  let commissionRateTotalR = 0
@@ -21,25 +28,26 @@ let paydate = this.paymentDate(item.email)
  let earnRent = 0
  let earnSale = 0
  let grpR = 0
-
-
-let vendorNameInv
+let vendorNameInv 
 
 users.forEach(user => {
     if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === item.email) {
-        console.log('user is, ', user)
+        // console.log('user is, ', user)
         vendorNameInv = user.$group$display
     }
 })
-
-
-
-console.log('Mthi', mthI)
-
-
+ let ss=[]
+ let totalItemsS=0
+ let netTotalS=0
+ let commissionRateTotalS=0
+ let commissionTotalS=0
+ let comVatTotalS=0
+ let totalTotalS=0
+ let netbalTotalS=0
+ let gspSaleS=0
  items.filter(elem=>{
-    if(elem.vendorName === vendorNameInv && elem.invoiceMonth ===mthI ) {
-console.log(elem.mWRent15)
+    if(elem.vendorName === vendorNameInv && elem.invoiceMonth ===mthI && elem.pointofSale==="MEMBERSHIP_SUBSCRIPTION" ) {
+// console.log(elem.mWRent15)
     // item.mWHQCommission=item.netRentalPrice*item.mWHQCommissionRate
         elem.$transactionDate$display=new Date(elem.transactionDate).toLocaleDateString("en-GB")
       
@@ -48,29 +56,107 @@ console.log(elem.mWRent15)
             id: elem.transactionID ? elem.transactionID : '',
             name: elem.itemName,
             sku: elem.itemSKU,
-            ssku: "",
             period: elem.rentalPeriod,
-            gross: parseFloat(elem.mWRent15).toFixed(2),
-            net: parseFloat(elem.netRentalPrice).toFixed(2),
-            comRate: (parseFloat(elem.mWHQCommissionRate)*100).toFixed(2),
-            commission: parseFloat(elem.mWHQCommission)?parseFloat(elem.mWHQCommission).toFixed(2):0,
-            comVat: parseFloat(elem.vATonMWHQCommission).toFixed(2),
-            total: parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
-            netbal: parseFloat(elem.netBalanceDueToVendor).toFixed(2),
+            gross: parseFloat(elem.grossRentalPrice).toFixed(2),
+            net: '0.00',
+            comRate:'0.00',
+            commission:'0.00',
+            comVat: '0.00',
+            total: '0.00',
+            netbal: parseFloat(elem.grossRentalPrice).toFixed(2),
             
         }
-        ts.push(rentalData)
-        netTotalR +=parseFloat(elem.netRentalPrice)
-        commissionTotalR += parseFloat(elem.mWHQCommission)
-        comVatTotalR += parseFloat(elem.vATonMWHQCommission)
-        totalTotalR += parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice)
-        netbalTotalR += parseFloat(elem.netBalanceDueToVendor)
-        grpR += parseFloat(elem.mWRent15)
-        commissionRateTotalR = (parseFloat(elem.mWHQCommissionRate)?parseFloat(elem.mWHQCommissionRate)*100:0*100)
-        earnRent=(100-commissionRateTotalR)
+        ss.push(rentalData)
+        // netTotalS +=parseFloat(elem.netRentalPrice)
+        // commissionTotalS += parseFloat(elem.mWHQCommission)
+        // comVatTotalS += parseFloat(elem.vATonMWHQCommission)
+        // totalTotalS += parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice)
+        // netbalTotalS += parseFloat(elem.grossRentalPrice)
+        // gspSaleS += parseFloat(elem.grossRentalPrice)
+        // commissionRateTotalS = (parseFloat(elem.mWHQCommissionRate)?parseFloat(elem.mWHQCommissionRate)*100:0*100)
+        netTotalS +=0
+        commissionTotalS += 0
+        comVatTotalS += 0
+        totalTotalS += 0
+        netbalTotalS += parseFloat(elem.grossRentalPrice)
+        gspSaleS += parseFloat(elem.grossRentalPrice)
+        commissionRateTotalS += 0
     }
-    console.log(grpR)
+   
 })
+totalItemsS=ss.length
+
+
+ items.filter(elem=>{
+    if(elem.vendorName === vendorNameInv && elem.invoiceMonth ===mthI && elem.pointofSale!=="MEMBERSHIP_SUBSCRIPTION") {
+// console.log(elem.mWRent15)
+    // item.mWHQCommission=item.netRentalPrice*item.mWHQCommissionRate
+        elem.$transactionDate$display=new Date(elem.transactionDate).toLocaleDateString("en-GB")
+        // console.log(elem)
+        let mWRent15
+            if(elem.grossRentalPrice>0){
+// console.log('here', elem.grossRentalPrice)
+            mWRent15 = elem.grossRentalPrice - 15
+            }
+            else{
+               mWRent15=elem.mWRent15
+            }
+            // if(parseFloat(mWRent15)<0){
+            //     mwRent = item.mWRent15
+            // }
+            
+// console.log('here', mWRent15)
+
+            let net = parseFloat(mWRent15) ? parseFloat((parseFloat(mWRent15)/6)*5).toFixed(2) : ''
+            let mwRent = parseFloat(mWRent15) ? parseFloat(mWRent15).toFixed(2) : ''
+            let commission = parseFloat(mWRent15) ? parseFloat(((parseFloat(mWRent15)/6)*5)*(commissionRate/100)).toFixed(2) : ''
+            let comVat = parseFloat(mWRent15) ? parseFloat((((parseFloat(mWRent15)/6)*5)*(commissionRate/100))*0.2).toFixed(2) : ''
+            let total = parseFloat(commission)+parseFloat(comVat)
+        let rentalData = {
+            date: new Date(elem.transactionDate).toLocaleDateString("en-GB"),
+            id: elem.transactionID ? elem.transactionID : '',
+            name: elem.itemName,
+            sku: elem.itemSKU,
+            ssku: "",
+            period: elem.rentalPeriod,
+            gross: parseFloat(mwRent).toFixed(2),
+            net: parseFloat(net).toFixed(2),
+            comRate: parseFloat(commissionRate).toFixed(2),
+            commission: parseFloat(commission).toFixed(2),
+            comVat: parseFloat(comVat).toFixed(2),
+            total: (parseFloat(commission)+parseFloat(comVat)).toFixed(2),
+            netbal: (parseFloat(mwRent)-parseFloat(total)).toFixed(2),
+            
+        }
+        // let rentalData = {
+        //     date: new Date(elem.transactionDate).toLocaleDateString("en-GB"),
+        //     id: elem.transactionID ? elem.transactionID : '',
+        //     name: elem.itemName,
+        //     sku: elem.itemSKU,
+        //     ssku: "",
+        //     period: elem.rentalPeriod,
+        //     gross: parseFloat(elem.mWRent15).toFixed(2),
+        //     net: parseFloat(elem.netRentalPrice).toFixed(2),
+        //     comRate: (parseFloat(elem.mWHQCommissionRate)*100).toFixed(2),
+        //     commission: parseFloat(elem.mWHQCommission)?parseFloat(elem.mWHQCommission).toFixed(2):0,
+        //     comVat: parseFloat(elem.vATonMWHQCommission).toFixed(2),
+        //     total: parseFloat(elem.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
+        //     netbal: parseFloat(elem.netBalanceDueToVendor).toFixed(2),
+            
+        // }
+        ts.push(rentalData)
+        netTotalR +=parseFloat(net)
+        commissionTotalR += parseFloat(commission)
+        comVatTotalR += parseFloat(comVat)
+        totalTotalR += parseFloat(commission)+parseFloat(comVat)
+        netbalTotalR += parseFloat(mwRent)-parseFloat(total)
+        grpR += parseFloat(mwRent)
+        commissionRateTotalR = parseFloat(commissionRate)
+        earnRent=(100-commissionRate)
+    }
+    // console.log(grpR)
+})
+
 totalItemsR=ts.length
 let ps = []
 let totalItems=0
@@ -85,50 +171,71 @@ itemsS.filter(element=>{
    
     if(element.vendorName === vendorNameInv && element.invoiceMonth===mthI) {
        element.$transactionDate$display=new Date(element.transactionDate).toLocaleDateString("en-GB")
-       console.log(element)
+    //    console.log(element)
+            let mWRent15 = element.grossSalesPrice
+            let net = parseFloat(mWRent15) ? parseFloat((parseFloat(mWRent15)/6)*5).toFixed(2) : ''
+            let mwRent = parseFloat(mWRent15) ? parseFloat(mWRent15).toFixed(2) : ''
+            let commission = parseFloat(mWRent15) ? parseFloat(((parseFloat(mWRent15)/6)*5)*(commissionRateS/100)).toFixed(2) : ''
+            let comVat = parseFloat(mWRent15) ? parseFloat((((parseFloat(mWRent15)/6)*5)*(commissionRateS/100))*0.2).toFixed(2) : ''
+            let total = parseFloat(commission)+parseFloat(comVat)
             let salesData = {
             date: new Date(element.transactionDate).toLocaleDateString("en-GB"),
             id: element.transactionID,
             name: element.itemName,
             sku: element.itemSKU,
             ssku: "",
-            gross: parseFloat(element.grossSalesPrice).toFixed(2),
-            net: parseFloat(element.netSalesPrice).toFixed(2),
-            comRate: (parseFloat(element.mWHQCommissionRate)*100).toFixed(2),
-            commission: parseFloat(element.mWHQCommission).toFixed(2),
-            comVat: parseFloat(element.vATonMWHQCommission).toFixed(2),
-            total: parseFloat(element.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
-            netbal: parseFloat(element.netBalanceDueToVendor).toFixed(2)
+            gross: parseFloat(mwRent).toFixed(2),
+            net: parseFloat(net).toFixed(2),
+            comRate: parseFloat(commissionRateS).toFixed(2),
+            commission: parseFloat(commission).toFixed(2),
+            comVat: parseFloat(comVat).toFixed(2),
+            total: (parseFloat(commission)+parseFloat(comVat)).toFixed(2),
+            netbal: (parseFloat(mwRent)-parseFloat(total)).toFixed(2)
         }
+        //     let salesData = {
+        //     date: new Date(element.transactionDate).toLocaleDateString("en-GB"),
+        //     id: element.transactionID,
+        //     name: element.itemName,
+        //     sku: element.itemSKU,
+        //     ssku: "",
+        //     gross: parseFloat(element.grossSalesPrice).toFixed(2),
+        //     net: parseFloat(element.netSalesPrice).toFixed(2),
+        //     comRate: (parseFloat(element.mWHQCommissionRate)*100).toFixed(2),
+        //     commission: parseFloat(element.mWHQCommission).toFixed(2),
+        //     comVat: parseFloat(element.vATonMWHQCommission).toFixed(2),
+        //     total: parseFloat(element.totalMWHQDeductionsfromGrossSalesPrice).toFixed(2),
+        //     netbal: parseFloat(element.netBalanceDueToVendor).toFixed(2)
+        // }
         ps.push(salesData)
-        netTotal +=parseFloat(element.netSalesPrice)
-        commissionTotal += parseFloat(element.mWHQCommission)
-        comVatTotal += parseFloat(element.vATonMWHQCommission)
-        totalTotal += parseFloat(element.totalMWHQDeductionsfromGrossSalesPrice)
-        netbalTotal += parseFloat(element.netBalanceDueToVendor)
-        gspS += parseFloat(element.grossSalesPrice)
-        commissionRateTotal = (parseFloat(element.mWHQCommissionRate)?parseFloat(element.mWHQCommissionRate)*100:0*100)
-        earnSale=(100-commissionRateTotal)
+        netTotal += parseFloat(net)
+        commissionTotal += parseFloat(commission)
+        comVatTotal += parseFloat(comVat)
+        totalTotal += parseFloat(commission)+parseFloat(comVat)
+        netbalTotal += parseFloat(mwRent)-parseFloat(total)
+        gspS += parseFloat(mwRent)
+        commissionRateTotal = parseFloat(commissionRate)
+        earnSale=(100-commissionRateS)
     }
 })
-
+// console.log(vendorName)
 totalItems=ps.length
-
+let mwSub= commissionTotalS.toFixed(2)
+let vendorSub = netbalTotalS
 let mwRental = commissionTotalR
 let vendorRental = netbalTotalR 
 let mwSale = commissionTotal
 let vendorSale = netbalTotal
-let mwSubTotal = parseFloat(mwRental)+parseFloat(mwSale)
-let vendorSubTotal = parseFloat(vendorSale) + parseFloat(vendorRental)   
+let mwSubTotal = parseFloat(mwRental)+parseFloat(mwSale) + parseFloat(mwSub)
+let vendorSubTotal = parseFloat(vendorSale) + parseFloat(vendorRental) + parseFloat(vendorSub)  
 let mwVat = parseFloat(comVatTotal) + parseFloat(comVatTotalR)
-let mwTotal = parseFloat(mwRental) + parseFloat(mwSale) + parseFloat(mwVat)
-let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
+let mwTotal = parseFloat(mwRental) + parseFloat(mwSale) + parseFloat(mwVat) + parseFloat(mwSub)
+let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental) + parseFloat(vendorSub)  
     let payload = {
         mth:mthI,
         vendorName: vendorName,
         paymentDate: paydate,
-        earnRent:item.rentalcommissionstructure*100 + "%",
-        earnSale:item.salesCommissionStructure*100 + "%",
+        earnRent:perRental + "%",
+        earnSale:perRentalS + "%",
         invoiceNum:1,
         paymentPeriod:payPeriod,
         email: item.email,//'nat@mywardrobehq.com', // put item.email here for live *** not in quotes, just item.email
@@ -163,16 +270,16 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         grpRental:grpR.toFixed(2),
         gspSale:gspS.toFixed(2),
     }
-    if($getUser('showSub')){
+    if(ss.length>0){
         payload = {
         mth:mthI,
         vendorName: vendorName,
         paymentDate: paydate,
-        earnRent:item.rentalcommissionstructure*100 + "%",
-        earnSale:item.salesCommissionStructure*100 + "%",
+        earnRent:perRental + "%",
+        earnSale:perRentalS + "%",
         invoiceNum:1,
         paymentPeriod:payPeriod,
-        email: 'NPAWLAK11@GMAIL.COM', // put item.email here for live *** not in quotes, just item.email
+        email: item.email, // put item.email here for live *** not in quotes, just item.email
         total: parseFloat(vendorTotal).toFixed(2),
         month:mthI,
         mwRental:mwRental.toFixed(2),
@@ -200,18 +307,20 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         comVatTotalR:comVatTotalR.toFixed(2),
         totalTotalR:totalTotalR.toFixed(2),
         netbalTotalR:netbalTotalR.toFixed(2),
-        ss:[],
-        totalItemsRs:0,
-        netTotalRs:0.00,
-        commissionRateTotalRs:0.00,
-        commissionTotalRs:0.00,
-        comVatTotalRs:0.00,
-        totalTotalRs:0.00,
-        netbalTotalRs:0.00,
-        template:"-NNlLOWmA-HAgjbxy4pO",
+        ss:ss,
+        totalItemsS:totalItemsS,
+        netTotalS:netTotalS.toFixed(2),
+        commissionRateTotalS:commissionRateTotalS.toFixed(2),
+        commissionTotalS:commissionTotalS.toFixed(2),
+        comVatTotalS:comVatTotalS.toFixed(2),
+        totalTotalS:totalTotalS.toFixed(2),
+        netbalTotalS:netbalTotalS.toFixed(2),
+        template:"-NTZ6UknbVSbsR5CmiBe",
         grpRental:grpR.toFixed(2),
         gspSale:gspS.toFixed(2),
-        grpSub:0.00
+        gspSaleS:gspSaleS.toFixed(2),
+        mwSub:mwSub,
+        vendorSub:vendorSub
     }
     }
    console.log(payload) 
@@ -225,7 +334,8 @@ let vendorTotal = parseFloat(vendorSale) + parseFloat(vendorRental)
         if(d.success && d.response) {
             await $dgSetRowVals('vendors', item.rowKey, {
                 emailSent: true,
-                lastEmailSentOn: new Date().toLocaleDateString("en-GB")
+                lastEmailSentOn: new Date().toLocaleDateString("en-GB"),
+                select:false
             })
 
             await $dgAddRow('emailsSent', {

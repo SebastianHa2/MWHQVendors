@@ -4,20 +4,20 @@ return function(email){
     let perSale
     let users = $getGrid('users')
 
-    console.log(email)
+    // console.log(email)
 
     let groupRowKey
 
     users.forEach(user => {
         if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
-            console.log('user is, ', user)
+            // console.log('user is, ', user)
             groupRowKey = user.group
         }
     })
     let found = false
     vendors.filter(item=>{
         if(item.email === email){
-            console.log (item.name + "Here")
+            // console.log (item.name + "Here")
             found = true
             perRent=item.rentalcommissionstructure*100
             perSale=item.salesCommissionStructure*100

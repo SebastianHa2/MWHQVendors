@@ -2,7 +2,7 @@
   "email": "nat@mywardrobehq.com",
   "navIsOn": true,
   "refresh": true,
-  "showNav": false,
+  "showNav": true,
   "showSub": false,
   "vendorsEmail": [
     "ms@amandawakeley.com",

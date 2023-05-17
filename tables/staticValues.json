@@ -1,0 +1,62 @@
+{
+  "-NNg2rBD_4sfzGmE0HSg": {
+    "_id": 1,
+    "createdDate": 1675776454805,
+    "lastEditDate": 1676306342448,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2hpPR4YEH4QfUloo",
+    "owner": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "paymentDate": "February 2023",
+    "rowKey": "-NNg2rBD_4sfzGmE0HSg"
+  },
+  "-NQ_paKOWtcldRXA5_av": {
+    "_id": 2,
+    "createdDate": 1678893277844,
+    "lastEditDate": 1678893288799,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "paymentDate": "March 2023",
+    "rowKey": "-NQ_paKOWtcldRXA5_av"
+  },
+  "-NQ_wOpJWi43zlX78_8r": {
+    "_id": 3,
+    "createdDate": 1678895061646,
+    "lastEditDate": 1678895077814,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2ZzCG9RbxsrLtmG0",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "paymentDate": "February 2023",
+    "rowKey": "-NQ_wOpJWi43zlX78_8r"
+  },
+  "-NSBXAKAwce8orNq6JMM": {
+    "_id": 4,
+    "createdDate": 1680616238674,
+    "lastEditDate": 1680616248032,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "paymentDate": "April 2023",
+    "rowKey": "-NSBXAKAwce8orNq6JMM"
+  },
+  "-NV_6DoxY9lclmsPZxz_": {
+    "_id": 5,
+    "createdDate": 1684249832487,
+    "lastEditDate": 1684249843558,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2ae_sQ-HBDA4-8A9",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "paymentDate": "May 2023",
+    "rowKey": "-NV_6DoxY9lclmsPZxz_"
+  },
+  "-NV_Ay3rDt-YVMTIGn3Y": {
+    "_id": 6,
+    "createdDate": 1684251074593,
+    "lastEditDate": 1684251082029,
+    "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "month": "-NNg2astc4dC33Bhy76b",
+    "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "paymentDate": "June 2023",
+    "rowKey": "-NV_Ay3rDt-YVMTIGn3Y"
+  }
+}

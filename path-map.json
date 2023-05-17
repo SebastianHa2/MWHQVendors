@@ -66,6 +66,14 @@
     "savePath": "customCode/css/-NNH3H0YqAsI-kXANf6O/condition"
   },
   {
+    "filePath": "customCode/css/TableMoveTop.css",
+    "savePath": "customCode/css/-NTtOOuP_9dcGVno65OU/code",
+    "customCodeName": "TableMoveTop",
+    "customCodeScope": {
+      "-NNb_xHhnIvh0v1Za58q": true
+    }
+  },
+  {
     "filePath": "customCode/html/main.html",
     "savePath": "customCode/html/-NNHbhYGRNad0rn_zeZw/code",
     "customCodeName": "main",
@@ -131,6 +139,132 @@
       "login": true
     },
     "customCodeLifecycle": "beforeMount"
+  },
+  {
+    "filePath": "tables/calculatedFieldRules.json",
+    "savePath": "models/calculatedFieldRules",
+    "isModel": true,
+    "modelKey": "calculatedFieldRules"
+  },
+  {
+    "filePath": "tables/coreSettings.json",
+    "savePath": "models/coreSettings",
+    "isModel": true,
+    "modelKey": "coreSettings"
+  },
+  {
+    "filePath": "tables/datesandAmountsPaid.json",
+    "savePath": "models/datesandAmountsPaid",
+    "isModel": true,
+    "modelKey": "datesandAmountsPaid"
+  },
+  {
+    "filePath": "tables/emailsSent.json",
+    "savePath": "models/emailsSent",
+    "isModel": true,
+    "modelKey": "emailsSent"
+  },
+  {
+    "filePath": "tables/extensions.json",
+    "savePath": "models/extensions",
+    "isModel": true,
+    "modelKey": "extensions"
+  },
+  {
+    "filePath": "tables/grid1.json",
+    "savePath": "models/grid1",
+    "isModel": true,
+    "modelKey": "grid1"
+  },
+  {
+    "filePath": "tables/groups.json",
+    "savePath": "models/groups",
+    "isModel": true,
+    "modelKey": "groups"
+  },
+  {
+    "filePath": "tables/historicalReports.json",
+    "savePath": "models/historicalReports",
+    "isModel": true,
+    "modelKey": "historicalReports"
+  },
+  {
+    "filePath": "tables/months.json",
+    "savePath": "models/months",
+    "isModel": true,
+    "modelKey": "months"
+  },
+  {
+    "filePath": "tables/newUsers.json",
+    "savePath": "models/newUsers",
+    "isModel": true,
+    "modelKey": "newUsers"
+  },
+  {
+    "filePath": "tables/pages.json",
+    "savePath": "models/pages",
+    "isModel": true,
+    "modelKey": "pages"
+  },
+  {
+    "filePath": "tables/percentage.json",
+    "savePath": "models/percentage",
+    "isModel": true,
+    "modelKey": "percentage"
+  },
+  {
+    "filePath": "tables/rentalsInvoices.json",
+    "savePath": "models/rentalsInvoices",
+    "isModel": true,
+    "modelKey": "rentalsInvoices"
+  },
+  {
+    "filePath": "tables/reportTemplates.json",
+    "savePath": "models/reportTemplates",
+    "isModel": true,
+    "modelKey": "reportTemplates"
+  },
+  {
+    "filePath": "tables/roles.json",
+    "savePath": "models/roles",
+    "isModel": true,
+    "modelKey": "roles"
+  },
+  {
+    "filePath": "tables/salesInvoices.json",
+    "savePath": "models/salesInvoices",
+    "isModel": true,
+    "modelKey": "salesInvoices"
+  },
+  {
+    "filePath": "tables/staticValues.json",
+    "savePath": "models/staticValues",
+    "isModel": true,
+    "modelKey": "staticValues"
+  },
+  {
+    "filePath": "tables/subscriptionInvoices.json",
+    "savePath": "models/subscriptionInvoices",
+    "isModel": true,
+    "modelKey": "subscriptionInvoices"
+  },
+  {
+    "filePath": "tables/vendors.json",
+    "savePath": "models/vendors",
+    "isModel": true,
+    "modelKey": "vendors"
+  },
+  {
+    "filePath": "tables/workflows.json",
+    "savePath": "models/workflows",
+    "isModel": true,
+    "modelKey": "workflows"
+  },
+  {
+    "filePath": "tables/years.json",
+    "savePath": "models/years",
+    "isModel": true,
+    "modelKey": "years"
   },
   {
     "filePath": "settings.json",
@@ -207,6 +341,14 @@
   {
     "filePath": "pages/-NS60w17upzHd4eo8tPF.json",
     "savePath": "tabs/-NS60w17upzHd4eo8tPF"
+  },
+  {
+    "filePath": "pages/-NTxlTlUuq9TSd8kjpfs.json",
+    "savePath": "tabs/-NTxlTlUuq9TSd8kjpfs"
+  },
+  {
+    "filePath": "pages/-NU1mFtkWm1eLduNWhYv.json",
+    "savePath": "tabs/-NU1mFtkWm1eLduNWhYv"
   },
   {
     "filePath": "themeSettings.json",
@@ -323,6 +465,10 @@
   {
     "filePath": "userWidgetsData/BdA1t45PCqV11cp1KWcWECJdGYN2.json",
     "savePath": "userWidgetsData/BdA1t45PCqV11cp1KWcWECJdGYN2"
+  },
+  {
+    "filePath": "userWidgetsData/Bhr3ke6e5kf1MGl8bnVP5OXDqLi2.json",
+    "savePath": "userWidgetsData/Bhr3ke6e5kf1MGl8bnVP5OXDqLi2"
   },
   {
     "filePath": "userWidgetsData/CaactKF5elWRyqXOyoEDJ7m1ofC2.json",
@@ -653,6 +799,10 @@
     "savePath": "userWidgetsData/fLKD7LmZ8VTTSD5Bk6voF1nb4u52"
   },
   {
+    "filePath": "userWidgetsData/fVZvspXOdQasQEjGRpQRosvolbr2.json",
+    "savePath": "userWidgetsData/fVZvspXOdQasQEjGRpQRosvolbr2"
+  },
+  {
     "filePath": "userWidgetsData/gzy5zxTysYd9X69ix9HO0mnUpzB3.json",
     "savePath": "userWidgetsData/gzy5zxTysYd9X69ix9HO0mnUpzB3"
   },
@@ -761,6 +911,10 @@
     "savePath": "userWidgetsData/tkgG1HADghNTikgbjn4Og7WHNQm1"
   },
   {
+    "filePath": "userWidgetsData/txRJ6mkjSvMwW0CfjCHQsmgtb5H2.json",
+    "savePath": "userWidgetsData/txRJ6mkjSvMwW0CfjCHQsmgtb5H2"
+  },
+  {
     "filePath": "userWidgetsData/u8nhPNudLxcXaZ0Hjv8Sl3C5s6x2.json",
     "savePath": "userWidgetsData/u8nhPNudLxcXaZ0Hjv8Sl3C5s6x2"
   },
@@ -771,6 +925,10 @@
   {
     "filePath": "userWidgetsData/uFJWtDbUG8Zrjek2ddIVmc0BtEC2.json",
     "savePath": "userWidgetsData/uFJWtDbUG8Zrjek2ddIVmc0BtEC2"
+  },
+  {
+    "filePath": "userWidgetsData/uHyrECNPY4UEQiPWYsTczAyuxm23.json",
+    "savePath": "userWidgetsData/uHyrECNPY4UEQiPWYsTczAyuxm23"
   },
   {
     "filePath": "userWidgetsData/uVQLMTM2DLhUoCZgZpOhaGGpKp02.json",
@@ -1009,6 +1167,46 @@
     "savePath": "widgets/-NS60w7Ad-1QVYloRTj_"
   },
   {
+    "filePath": "widgets/-NTt2FtV4-gUWVIfOqR_/widget.json",
+    "savePath": "widgets/-NTt2FtV4-gUWVIfOqR_"
+  },
+  {
+    "filePath": "widgets/-NTt2FtV4-gUWVIfOqR_/template.html",
+    "savePath": "widgets/-NTt2FtV4-gUWVIfOqR_/template"
+  },
+  {
+    "filePath": "widgets/-NTxlTsrUGrBISPf63h4/widget.json",
+    "savePath": "widgets/-NTxlTsrUGrBISPf63h4"
+  },
+  {
+    "filePath": "widgets/-NTxmZ45RTGnC0t6WESd/widget.json",
+    "savePath": "widgets/-NTxmZ45RTGnC0t6WESd"
+  },
+  {
+    "filePath": "widgets/-NTxmZ45RTGnC0t6WESd/template.html",
+    "savePath": "widgets/-NTxmZ45RTGnC0t6WESd/template"
+  },
+  {
+    "filePath": "widgets/-NTyXoUJKWQutJXPFlym/widget.json",
+    "savePath": "widgets/-NTyXoUJKWQutJXPFlym"
+  },
+  {
+    "filePath": "widgets/-NTyXoUJKWQutJXPFlym/template.html",
+    "savePath": "widgets/-NTyXoUJKWQutJXPFlym/template"
+  },
+  {
+    "filePath": "widgets/-NTytvNGrB6ZVLg14kdh/widget.json",
+    "savePath": "widgets/-NTytvNGrB6ZVLg14kdh"
+  },
+  {
+    "filePath": "widgets/-NTytvNGrB6ZVLg14kdh/template.html",
+    "savePath": "widgets/-NTytvNGrB6ZVLg14kdh/template"
+  },
+  {
+    "filePath": "widgets/-NU1mG3YjiLI6tMdNSqH/widget.json",
+    "savePath": "widgets/-NU1mG3YjiLI6tMdNSqH"
+  },
+  {
     "filePath": "widgetsComputed/New property.js",
     "savePath": "widgetsComputed/New property"
   },
@@ -1023,6 +1221,10 @@
   {
     "filePath": "widgetsComputed/addPercentage.js",
     "savePath": "widgetsComputed/addPercentage"
+  },
+  {
+    "filePath": "widgetsComputed/addVendorsToVendorsTable.js",
+    "savePath": "widgetsComputed/addVendorsToVendorsTable"
   },
   {
     "filePath": "widgetsComputed/backToReport.js",
@@ -1085,6 +1287,10 @@
     "savePath": "widgetsComputed/monthlySales"
   },
   {
+    "filePath": "widgetsComputed/monthlySubscription.js",
+    "savePath": "widgetsComputed/monthlySubscription"
+  },
+  {
     "filePath": "widgetsComputed/paymentDate.js",
     "savePath": "widgetsComputed/paymentDate"
   },
@@ -1109,12 +1315,24 @@
     "savePath": "widgetsComputed/salesTotal"
   },
   {
+    "filePath": "widgetsComputed/selectAllForCurrentInvoice.js",
+    "savePath": "widgetsComputed/selectAllForCurrentInvoice"
+  },
+  {
     "filePath": "widgetsComputed/selectedMonth.js",
     "savePath": "widgetsComputed/selectedMonth"
   },
   {
     "filePath": "widgetsComputed/sendEmail.js",
     "savePath": "widgetsComputed/sendEmail"
+  },
+  {
+    "filePath": "widgetsComputed/sendEmails.js",
+    "savePath": "widgetsComputed/sendEmails"
+  },
+  {
+    "filePath": "widgetsComputed/sendEmailsToVendors.js",
+    "savePath": "widgetsComputed/sendEmailsToVendors"
   },
   {
     "filePath": "widgetsComputed/setMonth.js",
@@ -1133,12 +1351,28 @@
     "savePath": "widgetsComputed/showVendors"
   },
   {
+    "filePath": "widgetsComputed/subscriptionTotal.js",
+    "savePath": "widgetsComputed/subscriptionTotal"
+  },
+  {
     "filePath": "widgetsComputed/textSubBtn.js",
     "savePath": "widgetsComputed/textSubBtn"
   },
   {
     "filePath": "widgetsComputed/toggleNav.js",
     "savePath": "widgetsComputed/toggleNav"
+  },
+  {
+    "filePath": "widgetsComputed/unselectAll.js",
+    "savePath": "widgetsComputed/unselectAll"
+  },
+  {
+    "filePath": "widgetsComputed/updateValuesRentals.js",
+    "savePath": "widgetsComputed/updateValuesRentals"
+  },
+  {
+    "filePath": "widgetsComputed/updateValuesSales.js",
+    "savePath": "widgetsComputed/updateValuesSales"
   },
   {
     "filePath": "widgetsComputed/vendorName.js",
@@ -1159,6 +1393,11 @@
     "conversion": "dataGrid"
   },
   {
+    "filePath": "widgetsData/dataGrid/grid1.json",
+    "savePath": "widgetsData/dataGrid/grid1",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/groups.json",
     "savePath": "widgetsData/dataGrid/groups",
     "conversion": "dataGrid"
@@ -1171,6 +1410,11 @@
   {
     "filePath": "widgetsData/dataGrid/months.json",
     "savePath": "widgetsData/dataGrid/months",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/newUsers.json",
+    "savePath": "widgetsData/dataGrid/newUsers",
     "conversion": "dataGrid"
   },
   {

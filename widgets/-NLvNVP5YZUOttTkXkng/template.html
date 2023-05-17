@@ -81,7 +81,7 @@
             <td>{{rentalTotal($getUser('email')).total.totalItem}}</td>
             <td></td>
             <td>£{{rentalTotal($getUser('email')).total.totalGrossRentalPrice}}</td>
-            <td>£{{rentalTotal($getUser('email')).total.totalNet?rentalTotal($getUser('email')).total.totalNet.toFixed(2):0}}</td>
+            <td>£{{rentalTotal($getUser('email')).total.totalNet}}</td>
             <td>{{rentalTotal($getUser('email')).total.totalRate}}%</td>
             <td>£{{rentalTotal($getUser('email')).total.totalMWHQcom}}</td>
             <td>£{{rentalTotal($getUser('email')).total.totalVat}}</td>
@@ -90,7 +90,52 @@
           </tr>
         </tbody>
       </table>
-      <h2 v-if="$getUser('showSub')">Subscription</h2>
+            <h2 v-if="monthlySubscription($getUser('email')).sales.length>0">Subscription</h2>
+      <table class="tab-class" v-if="monthlySubscription($getUser('email')).sales.length>0">
+       <thead>
+          <tr>
+            <th>Transaction Date</th>
+            <th>Transaction ID</th>
+            <th>Item Name</th>
+            <th>Item SKU</th>
+            <!-- <th></th> -->
+            <th>Gross Rental Price</th>
+            <th>Net Rental Price</th>
+            <th>MWHQ Commission Rate</th>
+            <th>MWHQ Commission</th>
+            <th>Vat on MWHQ Commission</th>
+            <th>Total MWHQ Deductions from Gross Rental Price</th>
+            <th>Net Balance Due to Vendor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="item in monthlySubscription($getUser('email')).sales">
+            <td>{{item.$transactionDate$display}}</td>
+            <td>{{item.transactionID }}</td>
+            <td class="th-name">{{item.itemName}}</td>
+            <td>{{item.itemSKU}}</td>
+            <td>£{{parseFloat(item.grossRentalPrice) ? parseFloat(item.grossRentalPrice).toFixed(2):0.00}}</td>
+            <td>£{{item.netRentalPrice ? parseFloat(item.netRentalPrice).toFixed(2):'0.00'}}</td>
+            <td>{{(item.mWHQCommissionRate*100)?(item.mWHQCommissionRate*100).toFixed(2):'0.00' }}%</td>
+            <td>£{{item.mWHQCommission?item.mWHQCommission.toFixed(2):'0.00' }}</td>
+            <td>£{{item.vATonMWHQCommission?item.vATonMWHQCommission.toFixed(2):'0.00'}}</td>
+            <td>£{{item.totalMWHQDeductionsfromGrossSalesPrice?item.totalMWHQDeductionsfromGrossSalesPrice.toFixed(2):'0.00'}}</td>
+            <td>£{{parseFloat(item.grossRentalPrice) ? parseFloat(item.grossRentalPrice).toFixed(2):0.00}}</td>
+          </tr>
+          <tr class="bottom-row">
+            <th colspan="3">Total</th>
+            <td>{{subscriptionTotal($getUser('email')).total.totalItem}}</td>
+            <td colspan="1">£{{subscriptionTotal($getUser('email')).total.totalGrossRentalPrice}}</td>
+            <td>£{{subscriptionTotal($getUser('email')).total.totalNet}}</td>
+            <td>{{subscriptionTotal($getUser('email')).total.totalRate}}%</td>
+            <td>£{{subscriptionTotal($getUser('email')).total.totalMWHQcom}}</td>
+            <td>£{{subscriptionTotal($getUser('email')).total.totalVat}}</td>
+            <td>£{{subscriptionTotal($getUser('email')).total.totalGross}}</td>
+            <td>£{{subscriptionTotal($getUser('email')).total.totalBalance}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <h2 v-if="$getUser('showSub')">Subscription</h2>
       <table class="tab-class" v-if="$getUser('showSub')">
         <thead>
           <tr>
@@ -137,7 +182,7 @@
             <td>£</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
       <h2>Monthly Sales</h2>
       <table class="tab-class">
         <thead>
@@ -204,9 +249,44 @@
               <td>£{{salesTotal($getUser('email')).total.totalMWHQcom}}</td>
               <td>£{{salesTotal($getUser('email')).total.totalBalance}}</td>
             </tr>
-            <!-- <tr>
- <th>Return Commissions</th> <td>£0.00</td> <td>£0.00</td>
- </tr> -->
+            <tr v-if="monthlySubscription($getUser('email')).sales.length>0">
+              <th>Subscription Commissions</th>
+              <td>£{{subscriptionTotal($getUser('email')).total.totalMWHQcom}}</td>
+              <td>£{{subscriptionTotal($getUser('email')).total.totalBalance}}</td>
+            </tr>
+            <tr class="bottom-row">
+              <th>Sub-Total</th>
+              <td>£{{(parseFloat(rentalTotal($getUser('email')).total.totalMWHQcom) + parseFloat(salesTotal($getUser('email')).total.totalMWHQcom) + parseFloat(subscriptionTotal($getUser('email')).total.totalMWHQcom)).toFixed(2)}}</td>
+              <td>£{{(parseFloat(rentalTotal($getUser('email')).total.totalBalance) + parseFloat(salesTotal($getUser('email')).total.totalBalance)+ parseFloat(subscriptionTotal($getUser('email')).total.totalBalance)).toFixed(2)}}</td>
+            </tr>
+            <tr>
+              <th>MWHQ VAT</th>
+              <td>£{{(parseFloat(rentalTotal($getUser('email')).total.totalVat) + parseFloat(salesTotal($getUser('email')).total.totalVat)+ parseFloat(subscriptionTotal($getUser('email')).total.totalVat)).toFixed(2)}}</td>
+              <td></td>
+            </tr>
+            <tr class="bottom-row">
+              <th>Total Due To MWHQ</th>
+              <td>£{{(parseFloat(rentalTotal($getUser('email')).total.totalMWHQcom) + parseFloat(salesTotal($getUser('email')).total.totalMWHQcom) + parseFloat(rentalTotal($getUser('email')).total.totalVat) + parseFloat(salesTotal($getUser('email')).total.totalVat)+ parseFloat(subscriptionTotal($getUser('email')).total.totalVat)+ parseFloat(subscriptionTotal($getUser('email')).total.totalMWHQcom)).toFixed(2) }}</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Due To Vendor</th>
+              <td></td>
+              <td class="vendor-total">£{{(parseFloat(rentalTotal($getUser('email')).total.totalBalance) + parseFloat(salesTotal($getUser('email')).total.totalBalance)+ parseFloat(subscriptionTotal($getUser('email')).total.totalBalance)).toFixed(2) }}</td>
+            </tr>
+          </tbody>
+          <!-- <tbody>
+            <tr>
+              <th>Rental Commissions</th>
+              <td>£{{rentalTotal($getUser('email')).total.totalMWHQcom}}</td>
+              <td>£{{rentalTotal($getUser('email')).total.totalBalance}}</td>
+            </tr>
+            <tr>
+              <th>Sale Commissions</th>
+              <td>£{{salesTotal($getUser('email')).total.totalMWHQcom}}</td>
+              <td>£{{salesTotal($getUser('email')).total.totalBalance}}</td>
+            </tr>
+  
             <tr class="bottom-row">
               <th>Sub-Total</th>
               <td>£{{(parseFloat(rentalTotal($getUser('email')).total.totalMWHQcom) + parseFloat(salesTotal($getUser('email')).total.totalMWHQcom)).toFixed(2)}}</td>
@@ -227,7 +307,7 @@
               <td></td>
               <td class="vendor-total">£{{(parseFloat(rentalTotal($getUser('email')).total.totalBalance) + parseFloat(salesTotal($getUser('email')).total.totalBalance)).toFixed(2) }}</td>
             </tr>
-          </tbody>
+          </tbody> -->
         </table>
       </div>
     </div>

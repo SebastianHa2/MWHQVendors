@@ -48,6 +48,13 @@
       "invisible": true,
       "order": 4,
       "type": "string"
+    },
+    "users_instance": {
+      "dataGrid": "users",
+      "displayName": "Users",
+      "filterColumn": "rentcoms",
+      "order": 8,
+      "type": "datagrid"
     }
   },
   "rowEditorFieldsForm": {
@@ -106,6 +113,50 @@
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
                 "propName": "name"
+              },
+              {
+                "type": "datagrid",
+                "name": "control_39204370-e073-11ed-93de-c7c9bcd9894a",
+                "fieldName": "control_39204370-e073-11ed-93de-c7c9bcd9894a",
+                "label": "Users",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "users_instance"
               }
             ]
           }

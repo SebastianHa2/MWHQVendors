@@ -1,10 +1,12 @@
 let os = require('os')
 let fs = require('fs')
+
+let timestamp = Date.now()
 // Delete processed work order if it already exists
 // The ID of your GCS bucket
 const bucketName = 'tangle-157402-processed';
 // The ID of your GCS file
-const fileName = `${context.payload.vendorName}.pdf`;
+const fileName = `${context.payload.vendorName}-${timestamp}.pdf`;
 async function deleteFile() {
     const options = {
     };
@@ -32,9 +34,9 @@ const files = await getFilesDataFromRecord({
     cellKey: 'template',
 })
 let templateData = files[0].data[0]
-fs.writeFileSync(os.tmpdir()+'/empty-template.docx', templateData);
+fs.writeFileSync(os.tmpdir()+`/empty-template-${timestamp}.docx`, templateData);
 // Load the docx file as binary content
-const content = fs.readFileSync(os.tmpdir()+'/empty-template.docx');
+const content = fs.readFileSync(os.tmpdir()+`/empty-template-${timestamp}.docx`);
 const zip = new PizZip(content);
 const doc = new Docxtemplater(zip, {
     paragraphLoop: true,
@@ -48,23 +50,26 @@ doc.render({
     ...context.payload
 });
 $log.debug('doc rendered')
+
+
+
 const buf = doc.getZip().generate({
     type: "nodebuffer",
     // compression: DEFLATE adds a compression step.
     // For a 50MB output document, expect 500ms additional CPU time
     compression: "DEFLATE",
 });
-    fs.writeFileSync(os.tmpdir()+`/${context.payload.vendorName}.docx`, buf);
+    fs.writeFileSync(os.tmpdir()+`/${context.payload.vendorName}-${timestamp}.docx`, buf);
     let base64str = Buffer.from(buf).toString('base64')
     const bucket = admin.storage().bucket('tangle-157402-upload')
-    bucket.upload(os.tmpdir()+`/${context.payload.vendorName}.docx`).then(function(data) {
+    bucket.upload(os.tmpdir()+`/${context.payload.vendorName}-${timestamp}.docx`).then(function(data) {
         const file = data[0]
     })
     await new Promise(resolve => {
         setTimeout(async () => {
         
         // The path to which the file should be downloaded
-        const destFileName = os.tmpdir()+ '/' + context.payload.name;
+        const destFileName = os.tmpdir()+ '/' + context.payload.name + `-${timestamp}`;
         async function downloadFile() {
             const options = {
                 destination: destFileName,
@@ -73,7 +78,7 @@ const buf = doc.getZip().generate({
             await admin.storage().bucket(bucketName).file(fileName).download(options);
         }
         await downloadFile().catch(console.error);
-            let pdfFile = fs.readFileSync(os.tmpdir() + '/' + context.payload.name);
+            let pdfFile = fs.readFileSync(os.tmpdir() + '/' + context.payload.name + `-${timestamp}`);
           
            let pdfEmail = pdfFile.toString('base64')
          
@@ -81,5 +86,5 @@ const buf = doc.getZip().generate({
             $log.debug('file ready')
             context.data.success = 'file created'
             resolve()
-        }, 8000)
+        }, 10000)
 })

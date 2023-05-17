@@ -1,0 +1,31 @@
+{
+  "-NNG5Rxj9yl2W72FTHOh": {
+    "_id": 1,
+    "lastEditDate": 1675329022009,
+    "lastEditedBy": "61eubR3QBSPsZmv4G7pkmHPYhkU2",
+    "name": "Vendor",
+    "pages": "-NLvDXnO4j9agIwMcpQR,-NM8sXdfJ4GUWv6btA13",
+    "rowKey": "-NNG5Rxj9yl2W72FTHOh"
+  },
+  "-NO75dCvjxr9BD6WVKKn": {
+    "_id": 2,
+    "description": "Admin for MWHQ",
+    "lastEditDate": 1676808252741,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Super User",
+    "pages": "-NLvDXnO4j9agIwMcpQR,[object Object]",
+    "rowKey": "-NO75dCvjxr9BD6WVKKn"
+  },
+  "-NO769ZY_U7eRDkH-g1x": {
+    "_id": 3,
+    "rowKey": "-NO769ZY_U7eRDkH-g1x"
+  },
+  "-NU1m0q7XBbR1NRhhggx": {
+    "_id": 4,
+    "description": "Can edit, delete and add transaction and user data but cannot create new pages, tables etc",
+    "lastEditDate": 1682600177897,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "MWHQ Manager",
+    "rowKey": "-NU1m0q7XBbR1NRhhggx"
+  }
+}
