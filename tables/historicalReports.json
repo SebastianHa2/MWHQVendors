@@ -2193,5 +2193,64 @@
     ],
     "rowKey": "-NTZEIiFPuwDMCj-QDxH",
     "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NWsbExoihPVbhcqZCOn": {
+    "_id": 141,
+    "amount": 29.6,
+    "createdDate": 1685650733701,
+    "group": "-NTxyQ0CdvAiPT08ta5m",
+    "lastEditDate": 1685650806547,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aWkiHu_2q2kcGbA",
+    "name": "MWHQ Monthly Statement - March 2023",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "a59c7cb0-00b9-11ee-a2da-f51f9ee7c462_MWHQ Brand Statement - March 2023.pdf",
+        "name": "MWHQ Brand Statement - March 2023.pdf"
+      }
+    ],
+    "rowKey": "-NWsbExoihPVbhcqZCOn",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NXLiemhRSIOxoTYInB2": {
+    "_id": 142,
+    "amount": 145.6,
+    "createdDate": 1686155994976,
+    "datePaid": 1684969200000,
+    "group": "-NMFGL4TS531nMqr9i07",
+    "lastEditDate": 1686156061612,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2ae_sQ-HBDA4-8A9",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "fd8166b0-0551-11ee-b634-6f6e59513079_MWHQ Vendor Statement - April 2023 - BagButler.pdf",
+        "name": "MWHQ Vendor Statement - April 2023 - BagButler.pdf"
+      }
+    ],
+    "rowKey": "-NXLiemhRSIOxoTYInB2",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NXLj4MaQfiuHI6tuXci": {
+    "_id": 143,
+    "amount": 225.6,
+    "createdDate": 1686156103833,
+    "datePaid": 1679958000000,
+    "group": "-NMFGL4TS531nMqr9i07",
+    "lastEditDate": 1686156567132,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "month": "-NNg2aMcnUgdbUDVm0pK",
+    "name": "MWHQ Monthly Statement",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "reports": [
+      {
+        "id": "43937b20-0552-11ee-b634-6f6e59513079_BAG BUTLER - FEBRUARY2023.pdf",
+        "name": "BAG BUTLER - FEBRUARY2023.pdf"
+      }
+    ],
+    "rowKey": "-NXLj4MaQfiuHI6tuXci",
+    "year": "-NOPgrx725b5JwxUUZkr"
   }
 }

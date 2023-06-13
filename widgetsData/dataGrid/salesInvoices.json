@@ -11,66 +11,67 @@
     "acc": {
       "Width": "158px",
       "displayName": "acc",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "users",
       "order": 7,
       "type": "multi_lookup"
     },
     "action": {
       "displayName": "action",
-      "invisible": false,
+      "invisible": true,
       "order": 2,
       "type": "string"
     },
     "brand": {
       "displayName": "brand",
       "invisible": true,
-      "order": 36,
+      "order": 35,
       "type": "string"
     },
     "buyer": {
       "displayName": "buyer",
       "invisible": true,
-      "order": 37,
+      "order": 36,
       "type": "string"
     },
     "buyprice": {
       "displayName": "buyprice",
-      "invisible": false,
+      "invisible": true,
       "order": 10,
       "type": "number"
     },
     "colour": {
       "displayName": "colour",
       "invisible": true,
-      "order": 38,
+      "order": 37,
       "type": "string"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
-      "order": 31,
+      "order": 30,
       "type": "date"
     },
     "customerDueDate": {
       "displayName": "customerDueDate",
       "invisible": true,
-      "order": 15,
+      "order": 14,
       "type": "date"
     },
     "customerDueDateV": {
       "displayName": "customerDueDateV",
-      "invisible": false,
+      "invisible": true,
       "order": 5,
       "type": "date"
     },
     "email": {
       "displayName": "email",
       "invisible": true,
-      "order": 39,
+      "order": 38,
       "type": "email"
     },
     "grossSalesPrice": {
+      "Width": "116px",
       "displayName": "grossSalesPrice",
       "invisible": false,
       "order": 8,
@@ -79,73 +80,75 @@
     },
     "group": {
       "displayName": "group",
-      "invisible": false,
+      "invisible": true,
       "order": 12,
       "type": "string"
     },
     "invoiceMonth": {
+      "Width": "116px",
       "displayName": "Invoice Month",
       "invisible": false,
       "order": 3,
       "type": "string"
     },
     "itemName": {
+      "Width": "181px",
       "displayName": "itemName",
-      "order": 19,
+      "order": 18,
       "type": "string"
     },
     "itemSKU": {
       "displayName": "itemSKU",
-      "invisible": true,
-      "order": 14,
-      "type": "number"
+      "order": 52,
+      "type": "string"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 35,
+      "order": 34,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 34,
+      "order": 33,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
       "invisible": true,
-      "order": 29,
+      "order": 28,
       "type": "select"
     },
     "mWHQCommission": {
       "displayName": "mWHQCommission",
       "invisible": true,
-      "order": 20,
+      "order": 19,
       "type": "number"
     },
     "mWHQCommissionRate": {
       "Width": "227px",
       "displayName": "mWHQCommissionRate",
       "invisible": true,
-      "order": 16,
+      "order": 15,
       "priceFormat": true,
       "type": "number"
     },
     "mWRent15": {
       "displayName": "mWRent15",
       "invisible": true,
-      "order": 21,
+      "order": 20,
       "type": "number"
     },
     "name": {
-      "Width": "154px",
+      "Width": "128px",
       "displayName": "Name",
       "invisible": false,
       "order": 0,
       "type": "string"
     },
     "netAmount": {
+      "Width": "91px",
       "displayName": "netAmount",
       "invisible": false,
       "order": 13,
@@ -154,13 +157,13 @@
     "netBalanceDueToVendor": {
       "displayName": "netBalanceDueToVendor",
       "invisible": true,
-      "order": 17,
+      "order": 16,
       "priceFormat": true,
       "type": "number"
     },
     "netSalesPrice": {
       "displayName": "netSalesPrice",
-      "invisible": false,
+      "invisible": true,
       "order": 9,
       "priceFormat": true,
       "type": "number"
@@ -168,133 +171,134 @@
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": 33,
+      "order": 32,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": true,
-      "order": 30,
+      "order": 29,
       "type": "user"
     },
     "paymMethod": {
       "displayName": "paymMethod",
       "invisible": true,
-      "order": 22,
+      "order": 21,
       "type": "string"
     },
     "paymStatus": {
       "displayName": "paymStatus",
       "invisible": true,
-      "order": 23,
+      "order": 22,
       "type": "string"
     },
     "paymentID": {
       "displayName": "paymentID",
       "invisible": true,
-      "order": 24,
+      "order": 23,
       "type": "string"
     },
     "pointofSale": {
       "displayName": "pointofSale",
       "invisible": true,
-      "order": 25,
+      "order": 24,
       "type": "string"
     },
     "productCategory": {
       "displayName": "productCategory",
       "invisible": true,
-      "order": 26,
+      "order": 25,
       "type": "string"
     },
     "productURL": {
       "displayName": "productURL",
       "invisible": true,
-      "order": 27,
+      "order": 26,
       "type": "string"
     },
     "rRP": {
       "displayName": "rRP",
       "invisible": true,
-      "order": 28,
+      "order": 27,
       "type": "number"
     },
     "rentalprice": {
       "displayName": "rentalprice",
       "invisible": true,
-      "order": 40,
+      "order": 39,
       "type": "number"
     },
     "returnReceived": {
       "displayName": "returnReceived",
       "invisible": true,
-      "order": 41,
+      "order": 40,
       "type": "string"
     },
     "sKUStatus": {
       "displayName": "sKUStatus",
       "invisible": true,
-      "order": 42,
+      "order": 41,
       "type": "string"
     },
     "seller": {
+      "Width": "234px",
       "displayName": "seller",
-      "invisible": false,
+      "invisible": true,
       "order": 11,
       "type": "string"
     },
     "senttoACS": {
       "displayName": "senttoACS",
       "invisible": true,
-      "order": 43,
+      "order": 42,
       "type": "string"
     },
     "shippingAddress": {
       "displayName": "shippingAddress",
       "invisible": true,
-      "order": 44,
+      "order": 43,
       "type": "string"
     },
     "shippingFirstName": {
       "displayName": "shippingFirstName",
       "invisible": true,
-      "order": 45,
+      "order": 44,
       "type": "string"
     },
     "shippingLastName": {
       "displayName": "shippingLastName",
       "invisible": true,
-      "order": 46,
+      "order": 45,
       "type": "string"
     },
     "shippingMethod": {
       "displayName": "shippingMethod",
       "invisible": true,
-      "order": 47,
+      "order": 46,
       "type": "string"
     },
     "size": {
       "displayName": "size",
       "invisible": true,
-      "order": 48,
+      "order": 47,
       "type": "string"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": 32,
+      "order": 31,
       "type": "string"
     },
     "stockStatus": {
       "displayName": "stockStatus",
       "invisible": true,
-      "order": 49,
+      "order": 48,
       "type": "string"
     },
     "totalMWHQDeductionsfromGrossSalesPrice": {
       "displayName": "totalMWHQDeductionsfromGrossSalesPrice",
       "invisible": true,
-      "order": 50,
+      "order": 49,
       "type": "number"
     },
     "transactionDate": {
@@ -304,6 +308,7 @@
       "type": "date"
     },
     "transactionID": {
+      "Width": "113px",
       "displayName": "transactionID",
       "invisible": false,
       "order": 6,
@@ -312,19 +317,19 @@
     "vATonMWHQCommission": {
       "displayName": "vATonMWHQCommission",
       "invisible": true,
-      "order": 51,
+      "order": 50,
       "type": "number"
     },
     "vendorEmail": {
       "displayName": "vendorEmail",
       "invisible": true,
-      "order": 18,
+      "order": 17,
       "type": "email"
     },
     "vendorName": {
       "Width": "163px",
       "displayName": "Vendor Name",
-      "invisible": false,
+      "invisible": true,
       "order": 1,
       "type": "string"
     },
@@ -427,7 +432,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -518,7 +523,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -563,7 +568,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -705,6 +710,50 @@
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
                 "propName": "buyprice"
+              },
+              {
+                "type": "text",
+                "name": "control_e0de9560-f4f2-11ed-bf1b-154da60119b5",
+                "fieldName": "control_e0de9560-f4f2-11ed-bf1b-154da60119b5",
+                "label": "itemSKU",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "itemSKU"
               },
               {
                 "type": "text",
@@ -881,50 +930,6 @@
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
                 "propName": "itemName"
-              },
-              {
-                "type": "number",
-                "name": "control_a3535f50-abaf-11ed-a340-7546760a46ae",
-                "fieldName": "control_a3535f50-abaf-11ed-a340-7546760a46ae",
-                "label": "itemSKU",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "timezone": null,
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": true,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": false,
-                "editorMode": "javascript",
-                "propName": "itemSKU"
               },
               {
                 "type": "number",
@@ -1664,7 +1669,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2236,7 +2241,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2759,7 +2764,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.9611131899238894
+    "_uniqueId": 0.053971891509225545
   },
   "source": "salesInvoices",
   "storageType": "dashboard",

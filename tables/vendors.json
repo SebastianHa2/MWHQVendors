@@ -4074,7 +4074,7 @@
     "emailSent": true,
     "lastEditDate": 1682520846634,
     "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
-    "lastEmailSentOn": "27/04/2023",
+    "lastEmailSentOn": "13/06/2023",
     "name": "RaeVynn",
     "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
     "rentalcommissionstructure": "0.60",
@@ -4086,13 +4086,16 @@
     "_id": 321,
     "createdDate": 1682520847625,
     "email": "nursah@barruslondon.co.uk",
+    "emailSent": true,
     "lastEditDate": 1682520847626,
     "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "lastEmailSentOn": "13/06/2023",
     "name": "Barrus London",
     "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
     "rentalcommissionstructure": "0.60",
     "rowKey": "-NTy2ffmOLdV_b0ibHtT",
-    "salesCommissionStructure": "0.80"
+    "salesCommissionStructure": "0.80",
+    "select": false
   },
   "-NTy2fvOOSSKKjvggnCB": {
     "_id": 322,
@@ -4188,13 +4191,16 @@
     "_id": 330,
     "createdDate": 1682520856616,
     "email": "nikoleta@santinni.com",
+    "emailSent": true,
     "lastEditDate": 1682520856617,
     "lastEditedBy": "4NYasl858rYOcMI8PLX9uG5SR182",
+    "lastEmailSentOn": "22/05/2023",
     "name": "Santinni _",
     "owner": "4NYasl858rYOcMI8PLX9uG5SR182",
     "rentalcommissionstructure": "0.60",
     "rowKey": "-NTy2hsGmz2PmHwoUFNg",
-    "salesCommissionStructure": "0.80"
+    "salesCommissionStructure": "0.80",
+    "select": false
   },
   "-NTy2i6wNfbXJt1PA5Cx": {
     "_id": 331,
@@ -4316,5 +4322,17 @@
     "rowKey": "-NUP8U0-Gg8orpeHFcqk",
     "salesCommissionStructure": 0.6,
     "select": false
+  },
+  "-NWE0UueAqZC5fVOgiXp": {
+    "_id": 342,
+    "createdDate": 1684952970147,
+    "email": "hetal.dave@jigsawforever.com",
+    "lastEditDate": 1684952993986,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "Jigsaw Forever",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rentalcommissionstructure": 0.6,
+    "rowKey": "-NWE0UueAqZC5fVOgiXp",
+    "salesCommissionStructure": 0.6
   }
 }

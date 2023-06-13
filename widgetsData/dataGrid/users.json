@@ -3,7 +3,7 @@
   "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"rowKey\",\"operator\":\"contains\",\"value\":null,\"name\":\"UID\",\"expression\":false,\"hidden\":false},{\"key\":\"user\",\"operator\":\"=\",\"value\":null,\"name\":\"User\",\"expression\":false,\"hidden\":false}]}",
   "fromCore": true,
   "isReactive": true,
-  "itemsPerPage": 60,
+  "itemsPerPage": 10,
   "meta": {
     "acc": {
       "displayName": "acc",

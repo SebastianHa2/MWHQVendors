@@ -4,7 +4,7 @@ return async function(){
     let groups = $getGrid('groups')
 
     sales.forEach(async sale=>{
-        if(sale.invoiceMonth==="April" && sale.pointofSale!=="MEMBERSHIP_SUBSCRIPTION"){
+        if(sale.invoiceMonth==="May" && sale.pointofSale!=="MEMBERSHIP_SUBSCRIPTION"){
          let email
         //  console.log(sale.grossRentalPrice)
         //  if(sale.vendorName==="TheOpulentEdit"){
