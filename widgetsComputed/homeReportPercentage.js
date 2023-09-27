@@ -9,10 +9,15 @@ return function(email){
     let groupRowKey
 
     users.forEach(user => {
-        if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
-            // console.log('user is, ', user)
+        if(user.$group && user.$group.description && user.$group.description.length > 0 && user.$group.description === email) {
+            // console.log('user is here, ', user)
+            // vendorName = user.$group$display
             groupRowKey = user.group
         }
+        // if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
+        //     // console.log('user is, ', user)
+        //     groupRowKey = user.group
+        // }
     })
     let found = false
     vendors.filter(item=>{

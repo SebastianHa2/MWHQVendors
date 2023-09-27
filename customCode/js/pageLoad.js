@@ -1,11 +1,15 @@
 if(this.fbUser.email==='dawidhaczela@gmail.com' || this.fbUser.email === 'sebastian@tangle.io'){
-    $setUser('email', 'hetal.dave@insidejigsaw.com')
+    $setUser('email', 'ajw@amandawakeley.com')
 
-    // $setUser('email', this.fbUser.email )
+    //$setUser('email', this.fbUser.email )
 }
 else{
 $setUser('email', this.fbUser.email)}
 // $setUser('email', 'alexandra@allweare.com')
+
+$setUser('monthSelect', 'August')
+$setUser('vendorName', null)
+
 
 window.excelToJsDate =      function(date) {
         let dated = new Date(Math.round((date - 25569)*86400*1000));

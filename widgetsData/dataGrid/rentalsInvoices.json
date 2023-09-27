@@ -1,135 +1,183 @@
 {
+  "defaultSort": {
+    "column": "_id",
+    "direction": "desc"
+  },
   "displayColumn": "vendorName",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"invoiceMonth\",\"operator\":\"contains\",\"value\":null,\"name\":\"Invoice Month\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Vendor Name\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorEmail\",\"operator\":\"contains\",\"value\":null,\"name\":\"vendorEmail\",\"expression\":false,\"hidden\":false},{\"key\":\"transactionID\",\"operator\":\"contains\",\"value\":null,\"name\":\"transactionID\",\"expression\":false,\"hidden\":false},{\"key\":\"pointofSale\",\"operator\":\"contains\",\"value\":null,\"name\":\"pointofSale\",\"expression\":false,\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"invoiceMonth\",\"operator\":\"contains\",\"value\":null,\"name\":\"Invoice Month\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Vendor Name\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorEmail\",\"operator\":\"contains\",\"value\":null,\"name\":\"vendorEmail\",\"expression\":false,\"hidden\":false},{\"key\":\"transactionID\",\"operator\":\"contains\",\"value\":null,\"name\":\"transactionID\",\"expression\":false,\"hidden\":false},{\"key\":\"pointofSale\",\"operator\":\"contains\",\"value\":null,\"name\":\"pointofSale\",\"expression\":false,\"hidden\":false},{\"key\":\"action\",\"operator\":\"contains\",\"value\":null,\"name\":\"action\",\"expression\":false,\"hidden\":false}]}",
   "isReactive": true,
   "itemsPerPage": 10,
   "meta": {
     "action": {
       "displayName": "action",
-      "invisible": true,
-      "order": 16,
+      "invisible": false,
+      "order": 10,
       "type": "string"
     },
     "brand": {
       "displayName": "brand",
       "invisible": true,
-      "order": 31,
+      "order": 37,
       "type": "string"
     },
     "buyer": {
       "displayName": "buyer",
       "invisible": true,
-      "order": 9,
+      "order": 30,
       "type": "string"
     },
     "buyprice": {
       "displayName": "buy price",
       "invisible": true,
-      "order": 17,
+      "order": 35,
       "type": "number"
+    },
+    "canceled": {
+      "displayName": "Canceled",
+      "invisible": true,
+      "order": 45,
+      "type": "string"
     },
     "colour": {
       "displayName": "colour",
       "invisible": true,
-      "order": 32,
+      "order": 38,
       "type": "string"
     },
+    "comments": {
+      "Width": "121px",
+      "displayName": "Comments",
+      "invisible": true,
+      "order": 20,
+      "type": "multiline_text"
+    },
     "customerDueDate": {
-      "Width": "144px",
+      "Width": "145px",
       "displayName": "customerDueDate",
       "invisible": true,
-      "order": 7,
+      "order": 16,
       "type": "date"
+    },
+    "customerReturnDate": {
+      "Width": "85px",
+      "displayName": "Customer Return Date",
+      "invisible": true,
+      "order": 17,
+      "type": "date"
+    },
+    "deliveryTrackingNumber": {
+      "displayName": "Delivery Tracking Number",
+      "invisible": true,
+      "order": 47,
+      "type": "string"
+    },
+    "discountCode": {
+      "displayName": "Discount Code",
+      "invisible": true,
+      "order": 33,
+      "type": "string"
     },
     "email": {
       "displayName": "email",
       "invisible": true,
-      "order": 47,
+      "order": 27,
       "type": "email"
     },
     "grossRentalPrice": {
       "displayName": "grossRentalPrice",
-      "order": 18,
+      "invisible": false,
+      "order": 7,
       "type": "number"
     },
     "group": {
-      "Width": "84px",
+      "Width": "210px",
       "displayName": "group",
       "invisible": true,
-      "order": 46,
+      "order": 61,
       "type": "string"
     },
     "invoiceMonth": {
-      "Width": "149px",
+      "Width": "113px",
       "displayName": "Invoice Month",
       "invisible": false,
-      "order": 2,
+      "order": 5,
       "type": "string"
     },
     "itemName": {
       "displayName": "itemName",
-      "order": 19,
+      "invisible": true,
+      "order": 21,
       "type": "string"
     },
     "itemSKU": {
+      "Width": "151px",
       "displayName": "itemSKU",
-      "order": 50,
+      "invisible": true,
+      "order": 22,
       "type": "string"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 30,
+      "order": 57,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 29,
+      "order": 56,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
       "invisible": true,
-      "order": 25,
+      "order": 52,
       "type": "select"
     },
     "mWHQCommission": {
-      "Width": "113px",
+      "Width": "190px",
       "displayName": "mWHQCommission",
       "invisible": true,
-      "order": 20,
+      "order": 32,
       "type": "number"
     },
     "mWHQCommissionRate": {
-      "Width": "108px",
+      "Width": "117px",
       "displayName": "mWHQCommissionRate",
       "invisible": true,
-      "order": 21,
+      "order": 51,
       "type": "number"
     },
     "mWRent15": {
       "displayName": "mWRent15",
       "invisible": true,
-      "order": 8,
+      "order": 50,
       "priceFormat": true,
       "type": "number"
+    },
+    "markAsShipped": {
+      "Width": "121px",
+      "displayName": "Mark As Shipped",
+      "invisible": true,
+      "order": 14,
+      "type": "string"
     },
     "name": {
       "Width": "125px",
       "displayName": "Name",
-      "invisible": false,
-      "order": 0,
+      "invisible": true,
+      "order": 29,
       "type": "string"
     },
     "netAmount": {
+      "Width": "172px",
       "displayName": "netAmount",
-      "invisible": true,
-      "order": 22,
+      "invisible": false,
+      "order": 2,
       "type": "number"
     },
     "netBalanceDueToVendor": {
-      "Width": "215px",
+      "Width": "482px",
       "displayName": "netBalanceDueToVendor",
       "invisible": false,
       "order": 6,
@@ -138,140 +186,172 @@
     },
     "netRentalPrice": {
       "displayName": "Net Rental Price",
-      "order": 49,
+      "invisible": false,
+      "order": 8,
       "type": "number"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": 28,
+      "order": 55,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": true,
-      "order": 26,
+      "order": 53,
       "type": "user"
     },
     "paymMethod": {
       "displayName": "paymMethod",
       "invisible": true,
-      "order": 33,
+      "order": 39,
       "type": "string"
     },
     "paymStatus": {
       "displayName": "paymStatus",
       "invisible": true,
-      "order": 34,
+      "order": 40,
       "type": "string"
     },
     "paymentID": {
       "displayName": "paymentID",
       "invisible": true,
-      "order": 10,
+      "order": 44,
       "type": "string"
     },
     "pointofSale": {
+      "Width": "165px",
       "displayName": "pointofSale",
-      "invisible": true,
-      "order": 11,
+      "invisible": false,
+      "order": 9,
       "type": "string"
     },
     "productCategory": {
       "displayName": "productCategory",
       "invisible": true,
-      "order": 23,
+      "order": 31,
       "type": "string"
     },
     "productURL": {
+      "Width": "112px",
       "displayName": "productURL",
       "invisible": true,
-      "order": 24,
+      "order": 19,
       "type": "string"
     },
     "rRP": {
       "displayName": "rRP",
       "invisible": true,
-      "order": 12,
+      "order": 36,
       "type": "number"
     },
-    "rentalPeriod": {
-      "Width": "100px",
-      "displayName": "rentalPeriod",
+    "refunded": {
+      "Width": "126px",
+      "displayName": "Refunded",
       "invisible": true,
-      "order": 5,
+      "order": 12,
+      "type": "string"
+    },
+    "rentalPeriod": {
+      "Width": "118px",
+      "displayName": "rentalPeriod",
+      "invisible": false,
+      "order": 3,
       "type": "number"
     },
     "rentalprice": {
       "displayName": "rentalprice",
       "invisible": true,
-      "order": 13,
+      "order": 34,
       "type": "number"
+    },
+    "returnInitiated": {
+      "Width": "71px",
+      "displayName": "Return Initiated",
+      "invisible": true,
+      "order": 18,
+      "type": "string"
     },
     "returnReceived": {
       "displayName": "returnReceived",
       "invisible": true,
-      "order": 14,
+      "order": 49,
+      "type": "string"
+    },
+    "returnTrackingNumber": {
+      "Width": "194px",
+      "displayName": "Return Tracking Number",
+      "invisible": true,
+      "order": 48,
+      "type": "string"
+    },
+    "sKULocation": {
+      "Width": "211px",
+      "displayName": "SKU Location",
+      "invisible": true,
+      "order": 11,
       "type": "string"
     },
     "sKUStatus": {
       "displayName": "sKUStatus",
       "invisible": true,
-      "order": 15,
+      "order": 42,
       "type": "string"
     },
     "seller": {
       "displayName": "seller",
       "invisible": true,
-      "order": 35,
+      "order": 58,
       "type": "string"
     },
     "senttoACS": {
       "displayName": "senttoACS",
       "invisible": true,
-      "order": 36,
+      "order": 46,
       "type": "string"
     },
     "shippingAddress": {
+      "Width": "213px",
       "displayName": "shippingAddress",
       "invisible": true,
-      "order": 37,
+      "order": 25,
       "type": "string"
     },
     "shippingFirstName": {
       "displayName": "shippingFirstName",
       "invisible": true,
-      "order": 38,
+      "order": 24,
       "type": "string"
     },
     "shippingLastName": {
       "displayName": "shippingLastName",
       "invisible": true,
-      "order": 39,
+      "order": 26,
       "type": "string"
     },
     "shippingMethod": {
       "displayName": "shippingMethod",
       "invisible": true,
-      "order": 40,
+      "order": 41,
       "type": "string"
     },
     "shippingPhone": {
       "displayName": "shippingPhone",
       "invisible": true,
-      "order": 41,
+      "order": 28,
       "type": "phone"
     },
     "size": {
       "displayName": "size",
       "invisible": true,
-      "order": 42,
+      "order": 23,
       "type": "string"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": 27,
+      "order": 54,
       "type": "string"
     },
     "stockStatus": {
@@ -283,40 +363,54 @@
     "totalMWHQDeductionsfromGrossSalesPrice": {
       "displayName": "totalMWHQDeductionsfromGrossSalesPrice",
       "invisible": true,
-      "order": 44,
+      "order": 59,
       "type": "number"
     },
     "transactionDate": {
-      "Width": "166px",
+      "Width": "160px",
       "displayName": "Transaction Date",
       "invisible": false,
-      "order": 3,
+      "order": 1,
       "type": "date"
     },
     "transactionID": {
       "Width": "93px",
       "displayName": "transactionID",
       "invisible": false,
-      "order": 4,
+      "order": 0,
       "type": "number"
+    },
+    "transactionLineID": {
+      "Width": "122px",
+      "displayName": "Transaction Line ID",
+      "invisible": true,
+      "order": 13,
+      "type": "string"
+    },
+    "transactionTime": {
+      "Width": "226px",
+      "displayName": "Transaction Time",
+      "invisible": true,
+      "order": 15,
+      "type": "string"
     },
     "vATonMWHQCommission": {
       "displayName": "vATonMWHQCommission",
       "invisible": true,
-      "order": 45,
+      "order": 60,
       "type": "number"
     },
     "vendorEmail": {
       "displayName": "Vendor Email",
       "invisible": true,
-      "order": 48,
+      "order": 62,
       "type": "email"
     },
     "vendorName": {
       "Width": "162px",
       "displayName": "Vendor Name",
       "invisible": false,
-      "order": 1,
+      "order": 4,
       "type": "string"
     }
   },
@@ -412,7 +506,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -640,7 +734,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "grossRentalPrice"
+                "propName": "grossRentalPrice",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "text",
@@ -676,7 +771,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -720,7 +815,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -764,7 +859,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -772,7 +867,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "mWHQCommission"
+                "propName": "mWHQCommission",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "number",
@@ -808,7 +904,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -853,7 +949,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -861,7 +957,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "mWRent15"
+                "propName": "mWRent15",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "number",
@@ -897,7 +994,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -949,7 +1046,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "netBalanceDueToVendor"
+                "propName": "netBalanceDueToVendor",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "text",
@@ -1117,7 +1215,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1293,7 +1391,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1382,7 +1480,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1426,7 +1524,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1602,7 +1700,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1911,7 +2009,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1919,7 +2017,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "totalMWHQDeductionsfromGrossSalesPrice"
+                "propName": "totalMWHQDeductionsfromGrossSalesPrice",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "number",
@@ -1999,7 +2098,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2007,7 +2106,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "vATonMWHQCommission"
+                "propName": "vATonMWHQCommission",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "text",
@@ -2051,7 +2151,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "invoiceMonth"
+                "propName": "invoiceMonth",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "datepicker",
@@ -2123,7 +2224,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "group",
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "email",
@@ -2159,7 +2261,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2203,7 +2305,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -2211,7 +2313,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "vendorEmail"
+                "propName": "vendorEmail",
+                "gridId": "rentalsInvoices"
               },
               {
                 "type": "number",
@@ -2255,7 +2358,548 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "netRentalPrice"
+                "propName": "netRentalPrice",
+                "gridId": "rentalsInvoices"
+              },
+              {
+                "type": "text",
+                "name": "control_b09d5570-0c1d-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_b09d5570-0c1d-11ee-a8d9-7ffac83b9494",
+                "label": "SKU Location",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "sKULocation"
+              },
+              {
+                "type": "text",
+                "name": "control_bb04e870-0c1d-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_bb04e870-0c1d-11ee-a8d9-7ffac83b9494",
+                "label": "Refunded",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "refunded"
+              },
+              {
+                "type": "text",
+                "name": "control_d1f78ab0-0c1d-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_d1f78ab0-0c1d-11ee-a8d9-7ffac83b9494",
+                "label": "Transaction Line ID",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "transactionLineID"
+              },
+              {
+                "type": "text",
+                "name": "control_e2c17c20-0c1d-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_e2c17c20-0c1d-11ee-a8d9-7ffac83b9494",
+                "label": "Mark As Shipped",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "markAsShipped"
+              },
+              {
+                "type": "text",
+                "name": "control_08dedec0-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_08dedec0-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Transaction Time",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "transactionTime"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_37d2d420-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_37d2d420-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Customer Return Date",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "customerReturnDate"
+              },
+              {
+                "type": "text",
+                "name": "control_48af8a40-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_48af8a40-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Return Initiated",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "returnInitiated"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_60a544a0-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_60a544a0-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Comments",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "comments"
+              },
+              {
+                "type": "text",
+                "name": "control_d09916b0-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_d09916b0-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Return Tracking Number",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "returnTrackingNumber"
+              },
+              {
+                "type": "text",
+                "name": "control_dd80c4e0-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_dd80c4e0-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Delivery Tracking Number",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "deliveryTrackingNumber"
+              },
+              {
+                "type": "text",
+                "name": "control_f07efb70-0c1e-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_f07efb70-0c1e-11ee-a8d9-7ffac83b9494",
+                "label": "Canceled",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "canceled"
+              },
+              {
+                "type": "text",
+                "name": "control_62b14bd0-0c1f-11ee-a8d9-7ffac83b9494",
+                "fieldName": "control_62b14bd0-0c1f-11ee-a8d9-7ffac83b9494",
+                "label": "Discount Code",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "discountCode"
               }
             ]
           }
@@ -2593,9 +3237,270 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.16591965493007388
+    "_uniqueId": 0.48404601380563217
   },
   "source": "rentalsInvoices",
   "storageType": "dashboard",
-  "title": "Rentals Invoices"
+  "title": "Rentals Invoices",
+  "views": {
+    "tangleInformationView": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"invoiceMonth\",\"operator\":\"contains\",\"value\":null,\"name\":\"Invoice Month\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Vendor Name\",\"expression\":false,\"hidden\":false},{\"key\":\"vendorEmail\",\"operator\":\"contains\",\"value\":null,\"name\":\"vendorEmail\",\"expression\":false,\"hidden\":false},{\"key\":\"transactionID\",\"operator\":\"contains\",\"value\":null,\"name\":\"transactionID\",\"expression\":false,\"hidden\":false},{\"key\":\"pointofSale\",\"operator\":\"contains\",\"value\":null,\"name\":\"pointofSale\",\"expression\":false,\"hidden\":false}]}",
+      "meta": {
+        "action": {
+          "invisible": false,
+          "order": 26
+        },
+        "brand": {
+          "invisible": true,
+          "order": 37
+        },
+        "buyer": {
+          "invisible": true,
+          "order": 19
+        },
+        "buyprice": {
+          "invisible": true,
+          "order": 27
+        },
+        "canceled": {
+          "invisible": true,
+          "order": 61
+        },
+        "colour": {
+          "invisible": true,
+          "order": 38
+        },
+        "comments": {
+          "invisible": true,
+          "order": 58
+        },
+        "customerDueDate": {
+          "invisible": true,
+          "order": 8
+        },
+        "customerReturnDate": {
+          "invisible": true,
+          "order": 56
+        },
+        "deliveryTrackingNumber": {
+          "invisible": true,
+          "order": 60
+        },
+        "discountCode": {
+          "invisible": true,
+          "order": 62
+        },
+        "email": {
+          "invisible": true,
+          "order": 50
+        },
+        "grossRentalPrice": {
+          "invisible": false,
+          "order": 15
+        },
+        "group": {
+          "invisible": true,
+          "order": 6
+        },
+        "invoiceMonth": {
+          "invisible": false,
+          "order": 1
+        },
+        "itemName": {
+          "invisible": false,
+          "order": 16
+        },
+        "itemSKU": {
+          "invisible": false,
+          "order": 4
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 36
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 35
+        },
+        "layout": {
+          "invisible": true,
+          "order": 31
+        },
+        "mWHQCommission": {
+          "invisible": true,
+          "order": 12
+        },
+        "mWHQCommissionRate": {
+          "invisible": true,
+          "order": 9
+        },
+        "mWRent15": {
+          "invisible": true,
+          "order": 11
+        },
+        "markAsShipped": {
+          "invisible": true,
+          "order": 54
+        },
+        "name": {
+          "invisible": true,
+          "order": 17
+        },
+        "netAmount": {
+          "invisible": true,
+          "order": 28
+        },
+        "netBalanceDueToVendor": {
+          "invisible": false,
+          "order": 5
+        },
+        "netRentalPrice": {
+          "invisible": true,
+          "order": 10
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 34
+        },
+        "owner": {
+          "invisible": true,
+          "order": 32
+        },
+        "paymMethod": {
+          "invisible": true,
+          "order": 39
+        },
+        "paymStatus": {
+          "invisible": true,
+          "order": 40
+        },
+        "paymentID": {
+          "invisible": true,
+          "order": 20
+        },
+        "pointofSale": {
+          "invisible": false,
+          "order": 21
+        },
+        "productCategory": {
+          "invisible": true,
+          "order": 29
+        },
+        "productURL": {
+          "invisible": true,
+          "order": 30
+        },
+        "rRP": {
+          "invisible": true,
+          "order": 22
+        },
+        "refunded": {
+          "invisible": true,
+          "order": 52
+        },
+        "rentalPeriod": {
+          "invisible": true,
+          "order": 18
+        },
+        "rentalprice": {
+          "invisible": true,
+          "order": 23
+        },
+        "returnInitiated": {
+          "invisible": true,
+          "order": 57
+        },
+        "returnReceived": {
+          "invisible": true,
+          "order": 24
+        },
+        "returnTrackingNumber": {
+          "invisible": true,
+          "order": 59
+        },
+        "sKULocation": {
+          "invisible": true,
+          "order": 51
+        },
+        "sKUStatus": {
+          "invisible": true,
+          "order": 25
+        },
+        "seller": {
+          "invisible": true,
+          "order": 41
+        },
+        "senttoACS": {
+          "invisible": true,
+          "order": 42
+        },
+        "shippingAddress": {
+          "invisible": true,
+          "order": 43
+        },
+        "shippingFirstName": {
+          "invisible": true,
+          "order": 44
+        },
+        "shippingLastName": {
+          "invisible": true,
+          "order": 45
+        },
+        "shippingMethod": {
+          "invisible": true,
+          "order": 46
+        },
+        "shippingPhone": {
+          "invisible": true,
+          "order": 47
+        },
+        "size": {
+          "invisible": true,
+          "order": 48
+        },
+        "state": {
+          "invisible": true,
+          "order": 33
+        },
+        "stockStatus": {
+          "invisible": true,
+          "order": 49
+        },
+        "totalMWHQDeductionsfromGrossSalesPrice": {
+          "invisible": true,
+          "order": 13
+        },
+        "transactionDate": {
+          "invisible": false,
+          "order": 3
+        },
+        "transactionID": {
+          "invisible": true,
+          "order": 2
+        },
+        "transactionLineID": {
+          "invisible": true,
+          "order": 53
+        },
+        "transactionTime": {
+          "invisible": true,
+          "order": 55
+        },
+        "vATonMWHQCommission": {
+          "invisible": true,
+          "order": 14
+        },
+        "vendorEmail": {
+          "invisible": true,
+          "order": 7
+        },
+        "vendorName": {
+          "invisible": false,
+          "order": 0
+        }
+      },
+      "rowEditorFieldsForm": "{\"sections\":[{\"name\":\"section_830169\",\"label\":\"\",\"clientKey\":\"section_830169\",\"order\":0,\"rows\":[{\"name\":\"section_830169_row_207183\",\"label\":\"\",\"order\":0,\"controls\":[{\"type\":\"text\",\"name\":\"control_f973c480-b28d-11ed-87b6-7947fa86db65\",\"fieldName\":\"control_f973c480-b28d-11ed-87b6-7947fa86db65\",\"label\":\"Vendor Name\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"vendorName\",\"gridId\":\"rentalsInvoices\"},{\"type\":\"text\",\"name\":\"control_4f45ea20-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_4f45ea20-abac-11ed-a340-7546760a46ae\",\"label\":\"action\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"action\"},{\"type\":\"text\",\"name\":\"control_561e8a00-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_561e8a00-abac-11ed-a340-7546760a46ae\",\"label\":\"brand\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"brand\"},{\"type\":\"text\",\"name\":\"control_5c4713c0-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_5c4713c0-abac-11ed-a340-7546760a46ae\",\"label\":\"buyer\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"buyer\"},{\"type\":\"number\",\"name\":\"control_807a59a0-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_807a59a0-abac-11ed-a340-7546760a46ae\",\"label\":\"buy price\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"buyprice\"},{\"type\":\"text\",\"name\":\"control_8846a850-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_8846a850-abac-11ed-a340-7546760a46ae\",\"label\":\"colour\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"colour\"},{\"type\":\"number\",\"name\":\"control_fa476160-abac-11ed-a340-7546760a46ae\",\"fieldName\":\"control_fa476160-abac-11ed-a340-7546760a46ae\",\"label\":\"grossRentalPrice\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"grossRentalPrice\"},{\"type\":\"text\",\"name\":\"control_0f318970-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_0f318970-abad-11ed-a340-7546760a46ae\",\"label\":\"itemName\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"itemName\"},{\"type\":\"text\",\"name\":\"control_8581c250-f4f2-11ed-bf1b-154da60119b5\",\"fieldName\":\"control_8581c250-f4f2-11ed-bf1b-154da60119b5\",\"label\":\"itemSKU\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"itemSKU\"},{\"type\":\"number\",\"name\":\"control_513fa1d0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_513fa1d0-abad-11ed-a340-7546760a46ae\",\"label\":\"mWHQCommission\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"mWHQCommission\"},{\"type\":\"number\",\"name\":\"control_5a511ab0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_5a511ab0-abad-11ed-a340-7546760a46ae\",\"label\":\"mWHQCommissionRate\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"mWHQCommissionRate\",\"gridId\":\"rentalsInvoices\"},{\"type\":\"number\",\"name\":\"control_67a08b60-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_67a08b60-abad-11ed-a340-7546760a46ae\",\"label\":\"mWRent15\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"mWRent15\"},{\"type\":\"number\",\"name\":\"control_707b63e0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_707b63e0-abad-11ed-a340-7546760a46ae\",\"label\":\"netAmount\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"netAmount\"},{\"type\":\"number\",\"name\":\"control_79005430-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_79005430-abad-11ed-a340-7546760a46ae\",\"label\":\"netBalanceDueToVendor\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"netBalanceDueToVendor\"},{\"type\":\"text\",\"name\":\"control_946d5b00-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_946d5b00-abad-11ed-a340-7546760a46ae\",\"label\":\"paymMethod\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"paymMethod\"},{\"type\":\"text\",\"name\":\"control_9ea356b0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_9ea356b0-abad-11ed-a340-7546760a46ae\",\"label\":\"paymStatus\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"paymStatus\"},{\"type\":\"text\",\"name\":\"control_ad9294b0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_ad9294b0-abad-11ed-a340-7546760a46ae\",\"label\":\"paymentID\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"paymentID\"},{\"type\":\"text\",\"name\":\"control_b7c13d60-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_b7c13d60-abad-11ed-a340-7546760a46ae\",\"label\":\"pointofSale\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"pointofSale\"},{\"type\":\"text\",\"name\":\"control_c14ffc90-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_c14ffc90-abad-11ed-a340-7546760a46ae\",\"label\":\"productCategory\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"productCategory\"},{\"type\":\"text\",\"name\":\"control_d365f600-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_d365f600-abad-11ed-a340-7546760a46ae\",\"label\":\"productURL\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"productURL\"},{\"type\":\"number\",\"name\":\"control_de7ed7a0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_de7ed7a0-abad-11ed-a340-7546760a46ae\",\"label\":\"rRP\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"rRP\"},{\"type\":\"number\",\"name\":\"control_e8df65c0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_e8df65c0-abad-11ed-a340-7546760a46ae\",\"label\":\"rentalPeriod\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"rentalPeriod\"},{\"type\":\"number\",\"name\":\"control_f0ae7390-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_f0ae7390-abad-11ed-a340-7546760a46ae\",\"label\":\"rentalprice\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"rentalprice\",\"gridId\":\"rentalsInvoices\"},{\"type\":\"text\",\"name\":\"control_f7c072f0-abad-11ed-a340-7546760a46ae\",\"fieldName\":\"control_f7c072f0-abad-11ed-a340-7546760a46ae\",\"label\":\"returnReceived\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"returnReceived\"},{\"type\":\"text\",\"name\":\"control_02f42f90-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_02f42f90-abae-11ed-a340-7546760a46ae\",\"label\":\"sKUStatus\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"sKUStatus\"},{\"type\":\"text\",\"name\":\"control_0f1ad7b0-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_0f1ad7b0-abae-11ed-a340-7546760a46ae\",\"label\":\"seller\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"seller\"},{\"type\":\"text\",\"name\":\"control_1da81f90-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_1da81f90-abae-11ed-a340-7546760a46ae\",\"label\":\"senttoACS\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"senttoACS\"},{\"type\":\"text\",\"name\":\"control_26695590-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_26695590-abae-11ed-a340-7546760a46ae\",\"label\":\"shippingAddress\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"shippingAddress\"},{\"type\":\"text\",\"name\":\"control_2eb49840-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_2eb49840-abae-11ed-a340-7546760a46ae\",\"label\":\"shippingFirstName\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"shippingFirstName\"},{\"type\":\"datepicker\",\"name\":\"control_316daa80-ae2f-11ed-a4a5-433d20341e6f\",\"fieldName\":\"control_316daa80-ae2f-11ed-a4a5-433d20341e6f\",\"label\":\"Transaction Date\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"transactionDate\",\"gridId\":\"rentalsInvoices\"},{\"type\":\"text\",\"name\":\"control_38fd3190-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_38fd3190-abae-11ed-a340-7546760a46ae\",\"label\":\"shippingLastName\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"shippingLastName\"},{\"type\":\"text\",\"name\":\"control_48975590-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_48975590-abae-11ed-a340-7546760a46ae\",\"label\":\"shippingMethod\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"shippingMethod\"},{\"type\":\"phone\",\"name\":\"control_518715a0-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_518715a0-abae-11ed-a340-7546760a46ae\",\"label\":\"shippingPhone\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"shippingPhone\"},{\"type\":\"text\",\"name\":\"control_59392590-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_59392590-abae-11ed-a340-7546760a46ae\",\"label\":\"size\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"size\"},{\"type\":\"text\",\"name\":\"control_60c62150-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_60c62150-abae-11ed-a340-7546760a46ae\",\"label\":\"stockStatus\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"stockStatus\"},{\"type\":\"number\",\"name\":\"control_6b44bec0-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_6b44bec0-abae-11ed-a340-7546760a46ae\",\"label\":\"totalMWHQDeductionsfromGrossSalesPrice\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"totalMWHQDeductionsfromGrossSalesPrice\"},{\"type\":\"number\",\"name\":\"control_7d42ea70-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_7d42ea70-abae-11ed-a340-7546760a46ae\",\"label\":\"transactionID\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"transactionID\"},{\"type\":\"number\",\"name\":\"control_884c89d0-abae-11ed-a340-7546760a46ae\",\"fieldName\":\"control_884c89d0-abae-11ed-a340-7546760a46ae\",\"label\":\"vATonMWHQCommission\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"vATonMWHQCommission\"},{\"type\":\"text\",\"name\":\"control_c361b3a0-ae20-11ed-8405-51f175f732db\",\"fieldName\":\"control_c361b3a0-ae20-11ed-8405-51f175f732db\",\"label\":\"Invoice Month\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":false,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"invoiceMonth\"},{\"type\":\"datepicker\",\"name\":\"control_b922ee40-ae34-11ed-ae06-d5d5d8b92ed9\",\"fieldName\":\"control_b922ee40-ae34-11ed-ae06-d5d5d8b92ed9\",\"label\":\"customerDueDate\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"customerDueDate\"},{\"type\":\"text\",\"name\":\"control_73ea9f32-b2ee-11ed-ae93-3954ac984e1e_\",\"fieldName\":\"control_73ea9f32-b2ee-11ed-ae93-3954ac984e1e_\",\"label\":\"group\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"required\":false,\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"propName\":\"group\",\"invisibleInDataGrid\":false},{\"type\":\"email\",\"name\":\"control_62ac63c0-f4bb-11ed-b4e1-a7e31064b725\",\"fieldName\":\"control_62ac63c0-f4bb-11ed-b4e1-a7e31064b725\",\"label\":\"email\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"email\"},{\"type\":\"email\",\"name\":\"control_81f34960-f4bb-11ed-b4e1-a7e31064b725\",\"fieldName\":\"control_81f34960-f4bb-11ed-b4e1-a7e31064b725\",\"label\":\"Vendor Email\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"vendorEmail\"},{\"type\":\"number\",\"name\":\"control_62566240-f4c0-11ed-88e9-e758ed1d5b1e\",\"fieldName\":\"control_62566240-f4c0-11ed-88e9-e758ed1d5b1e\",\"label\":\"Net Rental Price\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"netRentalPrice\"},{\"type\":\"text\",\"name\":\"control_b09d5570-0c1d-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_b09d5570-0c1d-11ee-a8d9-7ffac83b9494\",\"label\":\"SKU Location\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"sKULocation\"},{\"type\":\"text\",\"name\":\"control_bb04e870-0c1d-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_bb04e870-0c1d-11ee-a8d9-7ffac83b9494\",\"label\":\"Refunded\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"refunded\"},{\"type\":\"text\",\"name\":\"control_d1f78ab0-0c1d-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_d1f78ab0-0c1d-11ee-a8d9-7ffac83b9494\",\"label\":\"Transaction Line ID\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"transactionLineID\"},{\"type\":\"text\",\"name\":\"control_e2c17c20-0c1d-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_e2c17c20-0c1d-11ee-a8d9-7ffac83b9494\",\"label\":\"Mark As Shipped\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"markAsShipped\"},{\"type\":\"text\",\"name\":\"control_08dedec0-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_08dedec0-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Transaction Time\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"transactionTime\"},{\"type\":\"datepicker\",\"name\":\"control_37d2d420-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_37d2d420-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Customer Return Date\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"customerReturnDate\"},{\"type\":\"text\",\"name\":\"control_48af8a40-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_48af8a40-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Return Initiated\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"returnInitiated\"},{\"type\":\"multiline_text\",\"name\":\"control_60a544a0-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_60a544a0-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Comments\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"comments\"},{\"type\":\"text\",\"name\":\"control_d09916b0-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_d09916b0-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Return Tracking Number\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"returnTrackingNumber\"},{\"type\":\"text\",\"name\":\"control_dd80c4e0-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_dd80c4e0-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Delivery Tracking Number\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"deliveryTrackingNumber\"},{\"type\":\"text\",\"name\":\"control_f07efb70-0c1e-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_f07efb70-0c1e-11ee-a8d9-7ffac83b9494\",\"label\":\"Canceled\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"canceled\"},{\"type\":\"text\",\"name\":\"control_62b14bd0-0c1f-11ee-a8d9-7ffac83b9494\",\"fieldName\":\"control_62b14bd0-0c1f-11ee-a8d9-7ffac83b9494\",\"label\":\"Discount Code\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"timeForCurrentDate\":false,\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":false,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"discountCode\"}]}],\"labelPosition\":\"top\",\"isDynamic\":false,\"minInstance\":1,\"maxInstance\":0,\"instances\":[]},{\"cleintKey\":\"hidden_section_d621d820-aba1-11ed-bedf-9dd1259a6f7e\",\"instances\":[],\"isDynamic\":false,\"label\":\"Hidden Section\",\"vif\":\"// false\",\"name\":\"hidden_section_d621d820-aba1-11ed-bedf-9dd1259a6f7e\",\"order\":1,\"rows\":[{\"name\":\"hidden_section_d621d820-aba1-11ed-bedf-9dd1259a6f7e_row_d621d821-aba1-11ed-bedf-9dd1259a6f7e\",\"controls\":[{\"type\":\"select\",\"name\":\"control_d63befd0-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d63befd0-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Layout\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"layout\"},{\"type\":\"user\",\"name\":\"control_d6540bb0-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d6540bb0-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Owner\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"owner\"},{\"type\":\"text\",\"name\":\"control_d621ff30-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d621ff30-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Name\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"name\",\"gridId\":\"rentalsInvoices\"},{\"type\":\"text\",\"name\":\"control_d68aac10-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d68aac10-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"State\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"state\"},{\"type\":\"text\",\"name\":\"control_d6a538f0-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d6a538f0-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Next Events\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":false,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"nextEvents\"},{\"type\":\"user\",\"name\":\"control_d6c14c70-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d6c14c70-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Last edited by\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":true,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"lastEditedBy\"},{\"type\":\"datepicker\",\"name\":\"control_d6e35360-aba1-11ed-bedf-9dd1259a6f7e\",\"fieldName\":\"control_d6e35360-aba1-11ed-bedf-9dd1259a6f7e\",\"label\":\"Last edit date\",\"order\":0,\"defaultValue\":\"\",\"value\":\"\",\"className\":\"col-md-6\",\"readonly\":true,\"readonlyCondition\":\"\",\"placeholder\":\"\",\"required\":false,\"requiredCondition\":\"\",\"isMultiLine\":false,\"isInteger\":false,\"decimalPlace\":0,\"isTodayValue\":false,\"isTodayValueCreated\":true,\"dateFormat\":\"mm/dd/yy hh:mm p\",\"timezone\":null,\"isCurrentUser\":false,\"isCurrentUserOwner\":true,\"isNowTimeValue\":false,\"timeFormat\":\"HH:mm\",\"isMultiple\":false,\"isAjax\":false,\"dataOptions\":[],\"ajaxDataUrl\":\"\",\"isChecked\":false,\"vif\":\"\",\"customCode\":\"\",\"invisible\":true,\"invisibleCondition\":\"\",\"invisibleInDataGrid\":true,\"invisibleLabel\":false,\"enableCustomValidation\":false,\"customValidationRule\":\"\",\"customValidationErrorMessage\":\"\",\"mask\":\"\",\"lookupOpenInModalDisabled\":false,\"editorMode\":\"javascript\",\"propName\":\"lastEditDate\"}]}]}],\"layout\":\"collapse\",\"_uniqueId\":0.28696753587402}",
+      "title": "Tangle Information View"
+    }
+  }
 }

@@ -3,7 +3,7 @@ return async function() {
  
 
     vendors.forEach(async (vendor, idx) => {
-        if(!vendor.addedToVendors){
+        if(!vendor.addedtoVendors){
             let rowKey = vendor.rowKey
             console.log(vendor)
         setTimeout(async () => {
@@ -15,7 +15,7 @@ return async function() {
             })
         }, idx*1000)
                let updated = await $dgSetRowVals('newUsers', rowKey, {
-          addedToGroups:true
+          addedtoVendors:true
     })  
         }
         

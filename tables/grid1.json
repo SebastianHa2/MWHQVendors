@@ -4,10 +4,81 @@
     "acc": "-NMF_okhkL6UT-io6WjO",
     "createdDate": 1676248143880,
     "groups": "-NMFGNIffYT6g48SiI6d",
-    "lastEditDate": 1676885634244,
+    "lastEditDate": 1695043422159,
     "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
-    "name": "",
+    "name": "Amanda Wa2eley",
     "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
-    "rowKey": "-NO7AAL4JVzl1sHCG5Uc"
+    "rowKey": "-NO7AAL4JVzl1sHCG5Uc",
+    "subFee": 5
+  },
+  "-NecPu8jnMukZuMiPS-G": {
+    "_id": 2,
+    "createdDate": 1695042740534,
+    "lastEditDate": 1695043477099,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "Cynthia Rowley",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecPu8jnMukZuMiPS-G",
+    "subFee": 5
+  },
+  "-NecSiVN_lwgtKHrrX6b": {
+    "_id": 3,
+    "createdDate": 1695043479264,
+    "lastEditDate": 1695043540975,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "fanfare",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecSiVN_lwgtKHrrX6b",
+    "subFee": 5
+  },
+  "-NecSiym2_LtTFF3fgAP": {
+    "_id": 4,
+    "createdDate": 1695043481209,
+    "lastEditDate": 1695043544522,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "femponiq",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecSiym2_LtTFF3fgAP",
+    "subFee": 5
+  },
+  "-NecSydoMWPDSHrrGk9P": {
+    "_id": 5,
+    "createdDate": 1695043545403,
+    "lastEditDate": 1695043551673,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "fillyboo",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecSydoMWPDSHrrGk9P",
+    "subFee": 5
+  },
+  "-NecTNoLK5llax4xqXYO": {
+    "_id": 6,
+    "createdDate": 1695043652574,
+    "lastEditDate": 1695043660817,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "freed tommy ports das2a lage",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecTNoLK5llax4xqXYO",
+    "subFee": 10
+  },
+  "-NecTQCUuj6SHZWJx8Rc": {
+    "_id": 7,
+    "createdDate": 1695043662375,
+    "lastEditDate": 1695043688444,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "2aren serena raevynn cnicol",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecTQCUuj6SHZWJx8Rc",
+    "subFee": 10
+  },
+  "-NecTWvyaPHEuRiFOAZ2": {
+    "_id": 8,
+    "createdDate": 1695043689925,
+    "lastEditDate": 1695043705377,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "name": "barrus nale santinni joanna a",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NecTWvyaPHEuRiFOAZ2",
+    "subFee": 5
   }
 }

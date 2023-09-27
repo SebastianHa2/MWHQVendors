@@ -2252,5 +2252,102 @@
     ],
     "rowKey": "-NXLj4MaQfiuHI6tuXci",
     "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NbmqviOF9LhYz4sS45-": {
+    "_id": 144,
+    "createdDate": 1691996634066,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1691996634067,
+    "lastEditedBy": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "owner": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "rowKey": "-NbmqviOF9LhYz4sS45-"
+  },
+  "-Nbmv_gj9yJjpJfh5NCQ": {
+    "_id": 145,
+    "createdDate": 1691997854569,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1691997854569,
+    "lastEditedBy": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "owner": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "rowKey": "-Nbmv_gj9yJjpJfh5NCQ"
+  },
+  "-Nbmvdwn654CNgWRP9ck": {
+    "_id": 146,
+    "createdDate": 1691997871982,
+    "group": "-NS6nS5rThNbcDQFFeae",
+    "lastEditDate": 1691998325835,
+    "lastEditedBy": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "month": "-NbmxNjlBUPN8Lw_vf4-",
+    "owner": "fVZvspXOdQasQEjGRpQRosvolbr2",
+    "paid": "-Nbmv_gj9yJjpJfh5NCQ",
+    "rowKey": "-Nbmvdwn654CNgWRP9ck"
+  },
+  "-NcgSkkFtdVbb7Qrzs1r": {
+    "_id": 147,
+    "amount": 144,
+    "createdDate": 1692963113059,
+    "datePaid": 1669766400000,
+    "group": "-NTxyKdMSzg5UZvAXcR7",
+    "lastEditDate": 1692963647532,
+    "lastEditedBy": "tcOZqNbP04ZxB2nd9ReJgG5qbHG2",
+    "month": "-NNg2bAs9k7moLMZGKSY",
+    "name": "MWHQ STATEMENT",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NcgSkkFtdVbb7Qrzs1r",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-NcgT5lVhM-n5QlBxr1C": {
+    "_id": 148,
+    "amount": 19.8,
+    "createdDate": 1692963203205,
+    "datePaid": 1656543600000,
+    "group": "-NTxyKdMSzg5UZvAXcR7",
+    "lastEditDate": 1692963567276,
+    "lastEditedBy": "tcOZqNbP04ZxB2nd9ReJgG5qbHG2",
+    "month": "-NNg2astc4dC33Bhy76b",
+    "name": "MWHQ STATEMENT",
+    "owner": "tcOZqNbP04ZxB2nd9ReJgG5qbHG2",
+    "rowKey": "-NcgT5lVhM-n5QlBxr1C",
+    "year": "-NOPgrx725b5JwxUUZkr"
+  },
+  "-NcgTGaFiDKDaNOM6gFI": {
+    "_id": 149,
+    "createdDate": 1692963247586,
+    "lastEditDate": 1692963247587,
+    "lastEditedBy": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "owner": "4mV4RCld15Y7XJnrO1too6cQXGy2",
+    "rowKey": "-NcgTGaFiDKDaNOM6gFI"
+  },
+  "-NcgUVv3EgYiMqPbvZZM": {
+    "_id": 150,
+    "amount": 145.8,
+    "createdDate": 1692963572462,
+    "datePaid": 1692918000000,
+    "group": "-NTxyKdMSzg5UZvAXcR7",
+    "lastEditDate": 1692963633019,
+    "lastEditedBy": "tcOZqNbP04ZxB2nd9ReJgG5qbHG2",
+    "month": "-NNg2hG3yHbE_4Vc8UP8",
+    "name": "MWHQ STATEMENT - 8536 + 8354",
+    "owner": "tcOZqNbP04ZxB2nd9ReJgG5qbHG2",
+    "rowKey": "-NcgUVv3EgYiMqPbvZZM",
+    "year": "-NOPTISaE6rDg-Wca8mq"
+  },
+  "-Ndeb3G_aGFdjsW8FPUr": {
+    "_id": 151,
+    "createdDate": 1694005740694,
+    "group": "-NOsJLl7NirI55K3DB8s",
+    "lastEditDate": 1694005740694,
+    "lastEditedBy": "PWsJPMc9gHPHoGewOjFciPhAoBo1",
+    "owner": "PWsJPMc9gHPHoGewOjFciPhAoBo1",
+    "rowKey": "-Ndeb3G_aGFdjsW8FPUr"
+  },
+  "-NfGEJs6TY0jJz348Osd": {
+    "_id": 152,
+    "createdDate": 1695727569713,
+    "group": "-NOsJeL6lhwrX1z2kbGa",
+    "lastEditDate": 1695727569713,
+    "lastEditedBy": "Zg4gOlS3ohUndisQimhVvo9rktx1",
+    "owner": "Zg4gOlS3ohUndisQimhVvo9rktx1",
+    "rowKey": "-NfGEJs6TY0jJz348Osd"
   }
 }

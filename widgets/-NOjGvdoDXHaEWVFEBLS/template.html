@@ -12,3 +12,24 @@
     </div>
   </div>
 </div>
+<div v-if="this.fbUser.email==='nat@mywardrobehq.com' || this.fbUser.email==='dawidhaczela@gmail.com' || this.fbUser.email==='sebastian@tangle.io'">
+   <v-select
+    v-model="$userData('vendorName').bind"
+    :options="$getUser('nameForSearch')"
+    :dropdown-should-open="valueSearch"
+    @input="dataVendors($event)"
+    placeholder="search member"
+  
+  />
+</div>
+<div style="display:flex; width:100%; justify-content:space-around; padding:1em 0;">
+  <p style="font-weight:600; margin:0;">Select a month if you want to see a report from a different month than the current one:</p>
+   <v-select
+   v-model="$userData('monthSelect').bind"
+    :options="monthsForSelect().months"
+    @input="monthForShow($event)"
+    placeholder="Select Different Month"
+    style="width:30%;"
+  />
+
+</div>

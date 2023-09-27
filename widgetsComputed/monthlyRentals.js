@@ -26,7 +26,7 @@ console.log(email)
         if(user.rowKey==="gRbVbgXeqEea9mJDOYa0HEfwwaq1"){
             console.log(user)
         }
-        if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
+        if(user.$group && user.$group.description && user.$group.description.length > 0 && user.$group.description === email) {
             console.log('user is here, ', user)
             vendorName = user.$group$display
         }
@@ -40,7 +40,7 @@ console.log(email)
 
 
     items.filter(item=>{
-        if(item.vendorName === vendorName && item.invoiceMonth===recInv && item.pointofSale!=="MEMBERSHIP_SUBSCRIPTION"){
+        if(item.vendorName === vendorName && item.invoiceMonth===recInv && item.pointofSale!=="MEMBERSHIP_SUBSCRIPTION" && item.action==="RENT"){
     //   console.log('item', item)
     console.log(new Date(item.transactionDate?item.transactionDate:'').toLocaleDateString("en-GB"))
         // item.mWHQCommission=item.netRentalPrice*item.mWHQCommissionRate

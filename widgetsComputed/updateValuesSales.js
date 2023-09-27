@@ -1,10 +1,13 @@
 return async function(){
+    // first update vendorNames
+    this.fillVendorNames('sales')
+
     let sales = $getGrid('salesInvoices')
     let vendors = $getGrid('vendors')
     let groups = $getGrid('groups')
 
     sales.forEach(async sale=>{
-        if(sale.invoiceMonth==="May"){
+        if(sale.invoiceMonth==="August"){
          let email
         //  if(sale.vendorName==="TheOpulentEdit"){
         //      console.log(sale.name)

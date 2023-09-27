@@ -1,1 +1,2 @@
 <b-button @click="updateValuesSales()">Update Sales Values</b-button>
+<b-button v-if="this.fbUser.email === 'sebastian@tangle.io'" @click="fillVendorNames('sales')">Copy Vendor Names</b-button>

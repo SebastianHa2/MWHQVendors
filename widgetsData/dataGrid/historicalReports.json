@@ -401,10 +401,10 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
@@ -412,7 +412,7 @@
                 "lookupOpenInModalDisabled": true,
                 "editorMode": "javascript",
                 "propName": "group",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "historicalReports"
               },
               {

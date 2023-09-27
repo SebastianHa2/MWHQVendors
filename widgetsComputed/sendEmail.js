@@ -31,10 +31,14 @@ return async function(item){
 let vendorNameInv 
 
 users.forEach(user => {
-    if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === item.email) {
-        // console.log('user is, ', user)
-        vendorNameInv = user.$group$display
-    }
+    // if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === item.email) {
+    //     // console.log('user is, ', user)
+    //     vendorNameInv = user.$group$display
+    // }
+    if(user.$group && user.$group.description && user.$group.description.length > 0 && user.$group.description === item.email) {
+            console.log('user is here, ', user)
+            vendorNameInv = user.$group$display
+        }
 })
  let ss=[]
  let totalItemsS=0

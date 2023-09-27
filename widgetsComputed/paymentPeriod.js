@@ -102,6 +102,24 @@ else if(recentInv==="April"){
 else if(recentInv==="May"){
   period = '1-31 May 2023'
 }
+else if(recentInv==="June"){
+  period = '1-30 Jun 2023'
+}
+else if(recentInv==="July"){
+  period = '1-31 July 2023'
+}
+else if(recentInv==="August"){
+  period = '1-31 Aug 2023'
+}
+else if(recentInv==="September"){
+  period = '1-30 Sep 2023'
+}
+else if(recentInv==="October"){
+  period = '1-31 Oct 2023'
+}
+else if(recentInv==="November"){
+  period = '1-30 Nov 2023'
+}
 else{
     period = '1-31 Dec 2022'
 }

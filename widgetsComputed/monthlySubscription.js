@@ -25,10 +25,14 @@ let users = $getGrid('users')
 let vendorName 
 
 users.forEach(user => {
-    if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
+    if(user.$group && user.$group.description && user.$group.description.length > 0 && user.$group.description === email) {
+            // console.log('user is here, ', user)
+            vendorName = user.$group$display
+        }
+    // if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
 
-        vendorName = user.$group$display
-    }
+    //     vendorName = user.$group$display
+    // }
 })
 
 

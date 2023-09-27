@@ -22,10 +22,14 @@ let users = $getGrid('users')
 let vendorName
 
 users.forEach(user => {
-    if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
-        // console.log('user is, ', user)
-        vendorName = user.$group$display
-    }
+    // if(user.$user$display && user.$user$display.length > 0 && user.$user$display[0] === email) {
+    //     // console.log('user is, ', user)
+    //     vendorName = user.$group$display
+    // }
+    if(user.$group && user.$group.description && user.$group.description.length > 0 && user.$group.description === email) {
+            // console.log('user is here, ', user)
+            vendorName = user.$group$display
+        }
 })
 
 if(!vendorName) {
@@ -37,7 +41,7 @@ if(!vendorName) {
 rentalNet=0
 
 items.filter(item=>{
-    if(item.vendorName ===vendorName && item.invoiceMonth===recentInv && item.pointofSale!=="MEMBERSHIP_SUBSCRIPTION"){
+    if(item.vendorName ===vendorName && item.invoiceMonth===recentInv && item.pointofSale!=="MEMBERSHIP_SUBSCRIPTION" && item.action==="RENT"){
 //     comRate = (parseFloat(item.mWHQCommissionRate)*100) ? (parseFloat(item.mWHQCommissionRate)*100).toFixed(2) : ''
 //     // console.log(comRate)
 // if(item.vATonMWHQCommission){

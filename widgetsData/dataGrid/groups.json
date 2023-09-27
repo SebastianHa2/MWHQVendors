@@ -1,4 +1,8 @@
 {
+  "defaultSort": {
+    "column": "name",
+    "direction": "desc"
+  },
   "displayColumn": "name",
   "fromCore": true,
   "isReactive": true,
@@ -18,6 +22,7 @@
       "type": "email"
     },
     "group": {
+      "Width": "178px",
       "displayName": "Group",
       "invisible": false,
       "lookUpTable": "vendors",
@@ -39,6 +44,7 @@
       "type": "select"
     },
     "name": {
+      "Width": "192px",
       "displayName": "Name",
       "inherited": true,
       "invisible": false,
@@ -54,6 +60,7 @@
     },
     "rentalcommissionstructure": {
       "displayName": "rentalcommissionstructure",
+      "invisible": true,
       "lookUpTable": "vendors",
       "order": 11,
       "type": "lookup"
@@ -66,9 +73,9 @@
       "type": "datagrid"
     },
     "salesCommissionStructure": {
-      "Width": "259px",
+      "Width": "136px",
       "displayName": "salesCommissionStructure",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "users",
       "order": 5,
       "type": "multi_lookup"
@@ -81,7 +88,7 @@
       "type": "string"
     },
     "user": {
-      "Width": "137px",
+      "Width": "202px",
       "displayName": "user",
       "invisible": false,
       "lookUpTable": "groups",
@@ -297,7 +304,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -342,7 +349,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",

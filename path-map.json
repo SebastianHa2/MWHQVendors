@@ -141,6 +141,14 @@
     "customCodeLifecycle": "beforeMount"
   },
   {
+    "filePath": "customCode/js/vendorsForSearch.js",
+    "savePath": "customCode/js/-NZ152pY41gRJQZ8Mzwy/code",
+    "customCodeName": "vendorsForSearch",
+    "customCodeScope": {
+      "-NLvDXkKXu-iz360AhQp": true
+    }
+  },
+  {
     "filePath": "tables/calculatedFieldRules.json",
     "savePath": "models/calculatedFieldRules",
     "isModel": true,
@@ -351,12 +359,28 @@
     "savePath": "tabs/-NU1mFtkWm1eLduNWhYv"
   },
   {
+    "filePath": "pages/-NfLa8eUX7eYGr-0IZMG.json",
+    "savePath": "tabs/-NfLa8eUX7eYGr-0IZMG"
+  },
+  {
+    "filePath": "pages/-NfLaBlli-8Gw0pTDzDQ.json",
+    "savePath": "tabs/-NfLaBlli-8Gw0pTDzDQ"
+  },
+  {
     "filePath": "themeSettings.json",
     "savePath": "themeSettings"
   },
   {
     "filePath": "userWidgetsData/0FtQvVsZBgaLoHyaHBaCFf67ZrC3.json",
     "savePath": "userWidgetsData/0FtQvVsZBgaLoHyaHBaCFf67ZrC3"
+  },
+  {
+    "filePath": "userWidgetsData/0MS2nBzgvINZL9PiPPKpOf5Oo192.json",
+    "savePath": "userWidgetsData/0MS2nBzgvINZL9PiPPKpOf5Oo192"
+  },
+  {
+    "filePath": "userWidgetsData/0e8XuiZQhmdtjvCyf8eH47eEtTz1.json",
+    "savePath": "userWidgetsData/0e8XuiZQhmdtjvCyf8eH47eEtTz1"
   },
   {
     "filePath": "userWidgetsData/0jBiaTcaJDdgKowViqNMkSog6OC3.json",
@@ -407,6 +431,10 @@
     "savePath": "userWidgetsData/5JXDIWNAS7UkrA3AMFYSKcthGiq2"
   },
   {
+    "filePath": "userWidgetsData/5PQSGfjalUR0dWcNPWzG7fTQIzb2.json",
+    "savePath": "userWidgetsData/5PQSGfjalUR0dWcNPWzG7fTQIzb2"
+  },
+  {
     "filePath": "userWidgetsData/5jKvW6egg3dJ5LtRB6jEkcHm8YL2.json",
     "savePath": "userWidgetsData/5jKvW6egg3dJ5LtRB6jEkcHm8YL2"
   },
@@ -417,6 +445,10 @@
   {
     "filePath": "userWidgetsData/61eubR3QBSPsZmv4G7pkmHPYhkU2.json",
     "savePath": "userWidgetsData/61eubR3QBSPsZmv4G7pkmHPYhkU2"
+  },
+  {
+    "filePath": "userWidgetsData/6MYPnGSxdOTLJsvPkF7ujirINK43.json",
+    "savePath": "userWidgetsData/6MYPnGSxdOTLJsvPkF7ujirINK43"
   },
   {
     "filePath": "userWidgetsData/6n5lGyxXA9S2DWFUshqIrIkjOJw2.json",
@@ -459,8 +491,16 @@
     "savePath": "userWidgetsData/AI1I3qPLXOSYWuGdyEsZYXTMkHy2"
   },
   {
+    "filePath": "userWidgetsData/AJJ0UOFMN4OaWapbII97w1v8Kg22.json",
+    "savePath": "userWidgetsData/AJJ0UOFMN4OaWapbII97w1v8Kg22"
+  },
+  {
     "filePath": "userWidgetsData/AQHxsOvaSIfuiIQWyYxm0sIha1y1.json",
     "savePath": "userWidgetsData/AQHxsOvaSIfuiIQWyYxm0sIha1y1"
+  },
+  {
+    "filePath": "userWidgetsData/AtDY8D0yXARXvgiS16vcTTOnKDz2.json",
+    "savePath": "userWidgetsData/AtDY8D0yXARXvgiS16vcTTOnKDz2"
   },
   {
     "filePath": "userWidgetsData/BCwwGJQQW6hdFRJX3j98Fn671CJ2.json",
@@ -475,12 +515,28 @@
     "savePath": "userWidgetsData/Bhr3ke6e5kf1MGl8bnVP5OXDqLi2"
   },
   {
+    "filePath": "userWidgetsData/Bw4s7jV3SFdUdeUlz5svGXftNa02.json",
+    "savePath": "userWidgetsData/Bw4s7jV3SFdUdeUlz5svGXftNa02"
+  },
+  {
+    "filePath": "userWidgetsData/COvGsGEYDOTl4YszsPZLMKOvarw1.json",
+    "savePath": "userWidgetsData/COvGsGEYDOTl4YszsPZLMKOvarw1"
+  },
+  {
+    "filePath": "userWidgetsData/CWbwj9MGMFO6WmECfmwWeN7KlHs1.json",
+    "savePath": "userWidgetsData/CWbwj9MGMFO6WmECfmwWeN7KlHs1"
+  },
+  {
     "filePath": "userWidgetsData/CaactKF5elWRyqXOyoEDJ7m1ofC2.json",
     "savePath": "userWidgetsData/CaactKF5elWRyqXOyoEDJ7m1ofC2"
   },
   {
     "filePath": "userWidgetsData/D4YQDYzJoQMcVy50PofvJoHsK8Q2.json",
     "savePath": "userWidgetsData/D4YQDYzJoQMcVy50PofvJoHsK8Q2"
+  },
+  {
+    "filePath": "userWidgetsData/DTAfw8HmLlX3flpXalhV0S8OwNA3.json",
+    "savePath": "userWidgetsData/DTAfw8HmLlX3flpXalhV0S8OwNA3"
   },
   {
     "filePath": "userWidgetsData/DWTRVRmdbSfjsmt4cyG1tKeB8nt1.json",
@@ -493,6 +549,10 @@
   {
     "filePath": "userWidgetsData/DlLAEvXuqXMM3wWpvOlCKSiX7k03.json",
     "savePath": "userWidgetsData/DlLAEvXuqXMM3wWpvOlCKSiX7k03"
+  },
+  {
+    "filePath": "userWidgetsData/EDwFuFZhzoPopaJF5mc5XpDmAlX2.json",
+    "savePath": "userWidgetsData/EDwFuFZhzoPopaJF5mc5XpDmAlX2"
   },
   {
     "filePath": "userWidgetsData/EfSICGyhupUReH74sYQRPBA9jIl1.json",
@@ -515,6 +575,10 @@
     "savePath": "userWidgetsData/FEq1gxizUgZdtZaa7ktwkQo25V02"
   },
   {
+    "filePath": "userWidgetsData/FHe8mSPI9GhPlJz62GcHOhFwCLg2.json",
+    "savePath": "userWidgetsData/FHe8mSPI9GhPlJz62GcHOhFwCLg2"
+  },
+  {
     "filePath": "userWidgetsData/FiMlXaivgnSoKVdMhRWAhr4lKuh1.json",
     "savePath": "userWidgetsData/FiMlXaivgnSoKVdMhRWAhr4lKuh1"
   },
@@ -527,8 +591,16 @@
     "savePath": "userWidgetsData/FqMbwPEJw8Nmaqqaby9ShXzxOKH3"
   },
   {
+    "filePath": "userWidgetsData/Fzt6cQSl7TVnyPbu9dwVvRbDp902.json",
+    "savePath": "userWidgetsData/Fzt6cQSl7TVnyPbu9dwVvRbDp902"
+  },
+  {
     "filePath": "userWidgetsData/GlHq8kmjSkQ8mejNM7SHVZNZyGz1.json",
     "savePath": "userWidgetsData/GlHq8kmjSkQ8mejNM7SHVZNZyGz1"
+  },
+  {
+    "filePath": "userWidgetsData/GmvAfIRZqMfIroEYsZq14Qjaxmv2.json",
+    "savePath": "userWidgetsData/GmvAfIRZqMfIroEYsZq14Qjaxmv2"
   },
   {
     "filePath": "userWidgetsData/Gw2XFUcS26aryGz7WdIYpG4jS803.json",
@@ -635,6 +707,10 @@
     "savePath": "userWidgetsData/PWsJPMc9gHPHoGewOjFciPhAoBo1"
   },
   {
+    "filePath": "userWidgetsData/QQFiZsHLJvRScXzRIC0pmUlMP5T2.json",
+    "savePath": "userWidgetsData/QQFiZsHLJvRScXzRIC0pmUlMP5T2"
+  },
+  {
     "filePath": "userWidgetsData/QhkN9j67SuML7YxvOBhO5RYlEDr1.json",
     "savePath": "userWidgetsData/QhkN9j67SuML7YxvOBhO5RYlEDr1"
   },
@@ -643,12 +719,20 @@
     "savePath": "userWidgetsData/R7scMVPJY0RyasJHONJ3LLDGPKm2"
   },
   {
+    "filePath": "userWidgetsData/RMLXdpMU4EaoYAEDsLuaXgVwbLY2.json",
+    "savePath": "userWidgetsData/RMLXdpMU4EaoYAEDsLuaXgVwbLY2"
+  },
+  {
     "filePath": "userWidgetsData/Ry60jR1VoMcaGefZydLrJTPDPQr2.json",
     "savePath": "userWidgetsData/Ry60jR1VoMcaGefZydLrJTPDPQr2"
   },
   {
     "filePath": "userWidgetsData/S885HVqpzQWGtR5D2cTokczkR0y1.json",
     "savePath": "userWidgetsData/S885HVqpzQWGtR5D2cTokczkR0y1"
+  },
+  {
+    "filePath": "userWidgetsData/SAL5Zt2FIVWo8vGSUaKPxzflBNw2.json",
+    "savePath": "userWidgetsData/SAL5Zt2FIVWo8vGSUaKPxzflBNw2"
   },
   {
     "filePath": "userWidgetsData/Sm9pULY15SYxO2AtNYUhHP7wlyg1.json",
@@ -683,6 +767,14 @@
     "savePath": "userWidgetsData/TNlupqWoR8VGImx60S3TZtUpzKA3"
   },
   {
+    "filePath": "userWidgetsData/TQ1Ofzd11YVXKbSBFQQ4BumDfUr1.json",
+    "savePath": "userWidgetsData/TQ1Ofzd11YVXKbSBFQQ4BumDfUr1"
+  },
+  {
+    "filePath": "userWidgetsData/TQXb7i9xVsWgh25Zbx7Pc5C0Y0i2.json",
+    "savePath": "userWidgetsData/TQXb7i9xVsWgh25Zbx7Pc5C0Y0i2"
+  },
+  {
     "filePath": "userWidgetsData/Thsq2qLonFdqQ8smTFRzJSDhvT02.json",
     "savePath": "userWidgetsData/Thsq2qLonFdqQ8smTFRzJSDhvT02"
   },
@@ -703,12 +795,20 @@
     "savePath": "userWidgetsData/VLMSAwKlMYNGjV8LW3fQ43JYX5M2"
   },
   {
+    "filePath": "userWidgetsData/VgUpOLoXj2ZOlS3dzxILHEoQ4g93.json",
+    "savePath": "userWidgetsData/VgUpOLoXj2ZOlS3dzxILHEoQ4g93"
+  },
+  {
     "filePath": "userWidgetsData/VwFffDuqNgTnD2UsUOx5HTpRFBp2.json",
     "savePath": "userWidgetsData/VwFffDuqNgTnD2UsUOx5HTpRFBp2"
   },
   {
     "filePath": "userWidgetsData/Wvkn1hOmgsgJ4MlNbGiHRlvt08c2.json",
     "savePath": "userWidgetsData/Wvkn1hOmgsgJ4MlNbGiHRlvt08c2"
+  },
+  {
+    "filePath": "userWidgetsData/XDIGchPqeqOVddnAQT2gVGvuEge2.json",
+    "savePath": "userWidgetsData/XDIGchPqeqOVddnAQT2gVGvuEge2"
   },
   {
     "filePath": "userWidgetsData/Y45C8djAxJhdUyJZlMafdtHyYHp2.json",
@@ -727,12 +827,20 @@
     "savePath": "userWidgetsData/ZPyoHy0PJNdlhsFoqyYLCGb9wKP2"
   },
   {
+    "filePath": "userWidgetsData/ZdSeYasXDWTZB7MpNxcbnB1MCkl1.json",
+    "savePath": "userWidgetsData/ZdSeYasXDWTZB7MpNxcbnB1MCkl1"
+  },
+  {
     "filePath": "userWidgetsData/Zg4gOlS3ohUndisQimhVvo9rktx1.json",
     "savePath": "userWidgetsData/Zg4gOlS3ohUndisQimhVvo9rktx1"
   },
   {
     "filePath": "userWidgetsData/ZisFzrTKtocQ1CGBNA4WWxgzcTw2.json",
     "savePath": "userWidgetsData/ZisFzrTKtocQ1CGBNA4WWxgzcTw2"
+  },
+  {
+    "filePath": "userWidgetsData/ZvIS5gtZwcU5IV7ZLFd8d9pbYy53.json",
+    "savePath": "userWidgetsData/ZvIS5gtZwcU5IV7ZLFd8d9pbYy53"
   },
   {
     "filePath": "userWidgetsData/a4yfjlIIuOVLufzRaAZilwx9vzD2.json",
@@ -791,6 +899,18 @@
     "savePath": "userWidgetsData/d0WkeUqZxxOXU5YxVDftPGNdvU52"
   },
   {
+    "filePath": "userWidgetsData/d2K1CVF7YOUKgsKQL2DhjjFVtsp1.json",
+    "savePath": "userWidgetsData/d2K1CVF7YOUKgsKQL2DhjjFVtsp1"
+  },
+  {
+    "filePath": "userWidgetsData/d30tKM1eRBWVZSEB2IEev82Pm7d2.json",
+    "savePath": "userWidgetsData/d30tKM1eRBWVZSEB2IEev82Pm7d2"
+  },
+  {
+    "filePath": "userWidgetsData/dUbpllrMfqOCCuDWgi3EpfO2QBF3.json",
+    "savePath": "userWidgetsData/dUbpllrMfqOCCuDWgi3EpfO2QBF3"
+  },
+  {
     "filePath": "userWidgetsData/dbmm7lKUM9QooUpNh6rmsxurE8a2.json",
     "savePath": "userWidgetsData/dbmm7lKUM9QooUpNh6rmsxurE8a2"
   },
@@ -821,6 +941,14 @@
   {
     "filePath": "userWidgetsData/fVZvspXOdQasQEjGRpQRosvolbr2.json",
     "savePath": "userWidgetsData/fVZvspXOdQasQEjGRpQRosvolbr2"
+  },
+  {
+    "filePath": "userWidgetsData/fikagZiDlUb4liaqsRiBaEojiDZ2.json",
+    "savePath": "userWidgetsData/fikagZiDlUb4liaqsRiBaEojiDZ2"
+  },
+  {
+    "filePath": "userWidgetsData/gRbVbgXeqEea9mJDOYa0HEfwwaq1.json",
+    "savePath": "userWidgetsData/gRbVbgXeqEea9mJDOYa0HEfwwaq1"
   },
   {
     "filePath": "userWidgetsData/gzy5zxTysYd9X69ix9HO0mnUpzB3.json",
@@ -911,8 +1039,20 @@
     "savePath": "userWidgetsData/r3luoP78v8XShJPG0jqwpLwWKOf1"
   },
   {
+    "filePath": "userWidgetsData/rGxiVTOS4Gak5LcToiKFEcGwoSB3.json",
+    "savePath": "userWidgetsData/rGxiVTOS4Gak5LcToiKFEcGwoSB3"
+  },
+  {
     "filePath": "userWidgetsData/s7fVdkZA46S9UhCULgBAmkBgTHy1.json",
     "savePath": "userWidgetsData/s7fVdkZA46S9UhCULgBAmkBgTHy1"
+  },
+  {
+    "filePath": "userWidgetsData/sEhwx2716xhLINUKnLyuReZHFCB2.json",
+    "savePath": "userWidgetsData/sEhwx2716xhLINUKnLyuReZHFCB2"
+  },
+  {
+    "filePath": "userWidgetsData/sbU8R5IwAbfqCChmYfFVziLjlU52.json",
+    "savePath": "userWidgetsData/sbU8R5IwAbfqCChmYfFVziLjlU52"
   },
   {
     "filePath": "userWidgetsData/sgpQXk2iEJUKyLNSKzpjsQw1LT53.json",
@@ -925,6 +1065,10 @@
   {
     "filePath": "userWidgetsData/tFejQuHlN0gPKjX4HeWV2Wp1TWY2.json",
     "savePath": "userWidgetsData/tFejQuHlN0gPKjX4HeWV2Wp1TWY2"
+  },
+  {
+    "filePath": "userWidgetsData/tcOZqNbP04ZxB2nd9ReJgG5qbHG2.json",
+    "savePath": "userWidgetsData/tcOZqNbP04ZxB2nd9ReJgG5qbHG2"
   },
   {
     "filePath": "userWidgetsData/tkgG1HADghNTikgbjn4Og7WHNQm1.json",
@@ -967,6 +1111,10 @@
     "savePath": "userWidgetsData/uf1rjSfb82OFbp8ZUYR4NqJMrbl2"
   },
   {
+    "filePath": "userWidgetsData/uz1tIIxTD6hAlUsvnOmGhe5q5zp2.json",
+    "savePath": "userWidgetsData/uz1tIIxTD6hAlUsvnOmGhe5q5zp2"
+  },
+  {
     "filePath": "userWidgetsData/v3rWyFxJjJZFHZa7vjZeuUOPx7A2.json",
     "savePath": "userWidgetsData/v3rWyFxJjJZFHZa7vjZeuUOPx7A2"
   },
@@ -993,6 +1141,10 @@
   {
     "filePath": "userWidgetsData/wfq9913DXfSXpBm2hbPba4Mdndi1.json",
     "savePath": "userWidgetsData/wfq9913DXfSXpBm2hbPba4Mdndi1"
+  },
+  {
+    "filePath": "userWidgetsData/wijLwBfKEOZLg7EZqM1egisC6g73.json",
+    "savePath": "userWidgetsData/wijLwBfKEOZLg7EZqM1egisC6g73"
   },
   {
     "filePath": "userWidgetsData/wtrWcMCJScW4I9IQuSbXaCn71Bx2.json",
@@ -1051,12 +1203,20 @@
     "savePath": "userWidgetsData/yMarMeeLegNuqrdWoqDZUtS4Zdw2"
   },
   {
+    "filePath": "userWidgetsData/ymrcBn4UbMb5xKlXZAfHKmnHkyv2.json",
+    "savePath": "userWidgetsData/ymrcBn4UbMb5xKlXZAfHKmnHkyv2"
+  },
+  {
     "filePath": "userWidgetsData/yxFPk8bfIgPAhyRHOsNVM152hOm2.json",
     "savePath": "userWidgetsData/yxFPk8bfIgPAhyRHOsNVM152hOm2"
   },
   {
     "filePath": "userWidgetsData/zAcXWFT0tnTSI0Ex903nWWrvx8k1.json",
     "savePath": "userWidgetsData/zAcXWFT0tnTSI0Ex903nWWrvx8k1"
+  },
+  {
+    "filePath": "userWidgetsData/zd99xVeI4qXnGHHzFBojgFXJGiq1.json",
+    "savePath": "userWidgetsData/zd99xVeI4qXnGHHzFBojgFXJGiq1"
   },
   {
     "filePath": "widgets/-MAC6IWSPWYyYNoHPHxf/widget.json",
@@ -1231,6 +1391,10 @@
     "savePath": "widgets/-NU1mG3YjiLI6tMdNSqH"
   },
   {
+    "filePath": "widgets/-NfLaEZxC4rLsaSEIqUr/widget.json",
+    "savePath": "widgets/-NfLaEZxC4rLsaSEIqUr"
+  },
+  {
     "filePath": "widgetsComputed/New property.js",
     "savePath": "widgetsComputed/New property"
   },
@@ -1267,12 +1431,20 @@
     "savePath": "widgetsComputed/dataForVendorsEmail"
   },
   {
+    "filePath": "widgetsComputed/dataVendors.js",
+    "savePath": "widgetsComputed/dataVendors"
+  },
+  {
     "filePath": "widgetsComputed/dateReport.js",
     "savePath": "widgetsComputed/dateReport"
   },
   {
     "filePath": "widgetsComputed/emailsTable.js",
     "savePath": "widgetsComputed/emailsTable"
+  },
+  {
+    "filePath": "widgetsComputed/fillVendorNames.js",
+    "savePath": "widgetsComputed/fillVendorNames"
   },
   {
     "filePath": "widgetsComputed/generateReportPDF.js",
@@ -1303,6 +1475,10 @@
     "savePath": "widgetsComputed/month"
   },
   {
+    "filePath": "widgetsComputed/monthForShow.js",
+    "savePath": "widgetsComputed/monthForShow"
+  },
+  {
     "filePath": "widgetsComputed/monthlyRentals.js",
     "savePath": "widgetsComputed/monthlyRentals"
   },
@@ -1313,6 +1489,10 @@
   {
     "filePath": "widgetsComputed/monthlySubscription.js",
     "savePath": "widgetsComputed/monthlySubscription"
+  },
+  {
+    "filePath": "widgetsComputed/monthsForSelect.js",
+    "savePath": "widgetsComputed/monthsForSelect"
   },
   {
     "filePath": "widgetsComputed/paymentDate.js",
@@ -1391,12 +1571,20 @@
     "savePath": "widgetsComputed/unselectAll"
   },
   {
+    "filePath": "widgetsComputed/updateSubscriptionValue.js",
+    "savePath": "widgetsComputed/updateSubscriptionValue"
+  },
+  {
     "filePath": "widgetsComputed/updateValuesRentals.js",
     "savePath": "widgetsComputed/updateValuesRentals"
   },
   {
     "filePath": "widgetsComputed/updateValuesSales.js",
     "savePath": "widgetsComputed/updateValuesSales"
+  },
+  {
+    "filePath": "widgetsComputed/valueSearch.js",
+    "savePath": "widgetsComputed/valueSearch"
   },
   {
     "filePath": "widgetsComputed/vendorName.js",

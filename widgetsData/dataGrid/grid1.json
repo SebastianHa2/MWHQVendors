@@ -48,6 +48,11 @@
       "invisible": true,
       "order": 4,
       "type": "string"
+    },
+    "subFee": {
+      "displayName": "Sub Fee",
+      "order": 8,
+      "type": "number"
     }
   },
   "rowEditorFieldsForm": {
@@ -106,6 +111,53 @@
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
                 "propName": "name"
+              },
+              {
+                "type": "number",
+                "name": "control_0f9473f0-5625-11ee-8516-c31d1776c593",
+                "fieldName": "control_0f9473f0-5625-11ee-8516-c31d1776c593",
+                "label": "Sub Fee",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "timeForCurrentDate": false,
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "skipCrop": false,
+                "disableRoundedStyle": false,
+                "propName": "subFee"
               }
             ]
           }
